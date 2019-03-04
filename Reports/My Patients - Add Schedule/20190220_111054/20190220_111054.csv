@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+My Patients - Add Schedule,Chrome 72.0.3626.109,,2019-02-20 11:11:01,2019-02-20 11:12:04,"1m - 2,866s",PASSED
+,,,,,,
+Test Cases/My Patients - AddSchedule/Create Schedule,Chrome 72.0.3626.109,,2019-02-20 11:11:02,2019-02-20 11:12:02,"1m - 0,714s",PASSED
+"callTestCase(findTestCase(""Login/Verify Successful Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 11:11:03,2019-02-20 11:11:22,"18,697s",PASSED
+waitForPageLoad(60),Chrome 72.0.3626.109,,2019-02-20 11:11:22,2019-02-20 11:11:22,"0,086s",PASSED
+maximizeWindow(),Chrome 72.0.3626.109,,2019-02-20 11:11:22,2019-02-20 11:11:22,"0,020s",PASSED
+waitForPageLoad(60),Chrome 72.0.3626.109,,2019-02-20 11:11:22,2019-02-20 11:11:22,"0,038s",PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-20 11:11:22,2019-02-20 11:11:25,"3,020s",PASSED
+"waitForElementPresent(findTestObject(""ClientPage/HomeLink""), 100)",Chrome 72.0.3626.109,,2019-02-20 11:11:25,2019-02-20 11:11:25,"0,048s",PASSED
+"click(findTestObject(""ClientPage/HomeLink""))",Chrome 72.0.3626.109,,2019-02-20 11:11:25,2019-02-20 11:11:26,"1,366s",PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 11:11:26,2019-02-20 11:11:28,"2,006s",PASSED
+waitForPageLoad(50),Chrome 72.0.3626.109,,2019-02-20 11:11:28,2019-02-20 11:11:28,"0,018s",PASSED
+"waitForElementPresent(findTestObject(""HomePage/RequestTab""), 50)",Chrome 72.0.3626.109,,2019-02-20 11:11:28,2019-02-20 11:11:28,"0,077s",PASSED
+"click(findTestObject(""HomePage/RequestTab""))",Chrome 72.0.3626.109,,2019-02-20 11:11:28,2019-02-20 11:11:29,"0,213s",PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 11:11:29,2019-02-20 11:11:31,"2,003s",PASSED
+"waitForElementPresent(findTestObject(""HomePage/SearchText""), 50)",Chrome 72.0.3626.109,,2019-02-20 11:11:31,2019-02-20 11:11:32,"1,222s",PASSED
+"setText(findTestObject(""HomePage/SearchText""), G_Patient)",Chrome 72.0.3626.109,,2019-02-20 11:11:32,2019-02-20 11:11:33,"0,822s",PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-20 11:11:33,2019-02-20 11:11:36,"3,003s",PASSED
+"waitForElementPresent(findTestObject(""HomePage/ClientLink""), 100)",Chrome 72.0.3626.109,,2019-02-20 11:11:36,2019-02-20 11:11:36,"0,089s",PASSED
+"click(findTestObject(""HomePage/ClientLink""))",Chrome 72.0.3626.109,,2019-02-20 11:11:36,2019-02-20 11:11:37,"1,697s",PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 11:11:37,2019-02-20 11:11:39,"2,002s",PASSED
+waitForPageLoad(50),Chrome 72.0.3626.109,,2019-02-20 11:11:39,2019-02-20 11:11:40,"0,042s",PASSED
+"waitForElementPresent(findTestObject(""My Patients - AddSchedule/button_Add Schedule""), 50)",Chrome 72.0.3626.109,,2019-02-20 11:11:40,2019-02-20 11:11:40,"0,056s",PASSED
+"click(findTestObject(""My Patients - AddSchedule/button_Add Schedule""))",Chrome 72.0.3626.109,,2019-02-20 11:11:40,2019-02-20 11:11:40,"0,249s",PASSED
+"waitForElementPresent(findTestObject(""My Patients - AddSchedule/FilterBySubServices""), 50)",Chrome 72.0.3626.109,,2019-02-20 11:11:40,2019-02-20 11:11:40,"0,078s",PASSED
+"click(findTestObject(""My Patients - AddSchedule/FilterBySubServices""))",Chrome 72.0.3626.109,,2019-02-20 11:11:40,2019-02-20 11:11:40,"0,223s",PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 11:11:40,2019-02-20 11:11:42,"2,003s",PASSED
+"waitForElementPresent(findTestObject(""My Patients - AddSchedule/ServiceTypeList""), 50)",Chrome 72.0.3626.109,,2019-02-20 11:11:42,2019-02-20 11:11:42,"0,062s",PASSED
+"click(findTestObject(""My Patients - AddSchedule/ServiceTypeList""))",Chrome 72.0.3626.109,,2019-02-20 11:11:42,2019-02-20 11:11:42,"0,309s",PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 11:11:42,2019-02-20 11:11:44,"2,003s",PASSED
+"focus(findTestObject(""My Patients - AddSchedule/ServiceTypeList""), STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-20 11:11:44,2019-02-20 11:11:45,"0,156s",PASSED
+"sendKeys(findTestObject(""My Patients - AddSchedule/ServiceTypeList""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 72.0.3626.109,,2019-02-20 11:11:45,2019-02-20 11:11:45,"0,199s",PASSED
+"waitForElementPresent(findTestObject(""My Patients - AddSchedule/StartTime""), 60)",Chrome 72.0.3626.109,,2019-02-20 11:11:45,2019-02-20 11:11:45,"0,058s",PASSED
+"clearText(findTestObject(""My Patients - AddSchedule/StartTime""))",Chrome 72.0.3626.109,,2019-02-20 11:11:45,2019-02-20 11:11:45,"0,142s",PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-20 11:11:45,2019-02-20 11:11:48,"3,005s",PASSED
+"click(findTestObject(""My Patients - AddSchedule/StartTime""))",Chrome 72.0.3626.109,,2019-02-20 11:11:48,2019-02-20 11:11:48,"0,193s",PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 11:11:48,2019-02-20 11:11:50,"2,008s",PASSED
+"sendKeys(findTestObject(""My Patients - AddSchedule/StartTime""), G_StartTime)",Chrome 72.0.3626.109,,2019-02-20 11:11:50,2019-02-20 11:11:50,"0,223s",PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-20 11:11:50,2019-02-20 11:11:53,"3,004s",PASSED
+"waitForElementPresent(findTestObject(""My Patients - AddSchedule/EndTime""), 60)",Chrome 72.0.3626.109,,2019-02-20 11:11:53,2019-02-20 11:11:54,"0,077s",PASSED
+"clearText(findTestObject(""My Patients - AddSchedule/EndTime""))",Chrome 72.0.3626.109,,2019-02-20 11:11:54,2019-02-20 11:11:54,"0,249s",PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 11:11:54,2019-02-20 11:11:56,"2,005s",PASSED
+"click(findTestObject(""My Patients - AddSchedule/EndTime""))",Chrome 72.0.3626.109,,2019-02-20 11:11:56,2019-02-20 11:11:56,"0,153s",PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 11:11:56,2019-02-20 11:11:58,"2,003s",PASSED
+"sendKeys(findTestObject(""My Patients - AddSchedule/EndTime""), G_EndTime)",Chrome 72.0.3626.109,,2019-02-20 11:11:58,2019-02-20 11:11:58,"0,128s",PASSED
+"waitForElementPresent(findTestObject(""My Patients - AddSchedule/SaveButton""), 100)",Chrome 72.0.3626.109,,2019-02-20 11:11:58,2019-02-20 11:11:58,"0,053s",PASSED
+"click(findTestObject(""My Patients - AddSchedule/SaveButton""))",Chrome 72.0.3626.109,,2019-02-20 11:11:58,2019-02-20 11:11:58,"0,231s",PASSED
+waitForPageLoad(100),Chrome 72.0.3626.109,,2019-02-20 11:11:58,2019-02-20 11:11:58,"0,019s",PASSED
+delay(4),Chrome 72.0.3626.109,,2019-02-20 11:11:58,2019-02-20 11:12:02,"4,004s",PASSED

@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression BackOffice,IE 11,,2019-02-28 14:09:18,2019-02-28 14:10:45,"1m - 26,128s",PASSED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-17788 - (Task A) New Clinical Manager Caregiver Property,IE 11,"Summary: 7 (Task A) New Clinical Manager Caregiver Property & 8  (Task B) Update Care Manager Control in Admission Details >>Phase 1<<
+Description: {color:#205081}_*Requirement Coverage*_{color}Â Â 
+
+h3. {color:#205081}7Â  Â (Task A) New Clinical Manager Caregiver Property{color}
+
+
+
+*ContinuLink > Caregiver / HR Block > Caregiver Demo. > Other Information*
+
+
+
+Under the Caregiver / HR Block Tab in the Caregiver Demographics page we should add a new Radio Button â€œIs Clinical Manger?â€� This will identify a user as a clinical manger.
+
+
+
+The radio button must be defaulted to â€œNoâ€� on release.
+
+h3. {color:#205081}8Â  Â  Â (Task B) Update Care Manager Control in Admission Details{color}
+
+
+
+*ContinuLink > Client / Intake Block > Admission Details > Care Manager Panel*
+
+
+
+We should modify the Care Manager panel to allow for both care manager and Clinical manager entries. We should do this by demoting the content of the panel to a tab labeled â€œCare Managerâ€�, this tab should be the default position of the control. We should also create a new tab labeled â€œClinical Managerâ€�.",2019-02-28 14:09:19,2019-02-28 14:10:44,"1m - 24,360s",PASSED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/Login/Verify Successful Login Backoffice""), [:], STOP_ON_FAILURE)",IE 11,,2019-02-28 14:09:20,2019-02-28 14:10:02,"41,344s",PASSED
+waitForPageLoad(60),IE 11,,2019-02-28 14:10:02,2019-02-28 14:10:02,"0,130s",PASSED
+delay(3),IE 11,,2019-02-28 14:10:02,2019-02-28 14:10:05,"3,007s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice (IE)/New Referral/FrameLeft""), 30)",IE 11,,2019-02-28 14:10:05,2019-02-28 14:10:05,"0,277s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice (IE)/CLINK-17788/CaregiverHRLink""), 100)",IE 11,,2019-02-28 14:10:05,2019-02-28 14:10:05,"0,093s",PASSED
+"click(findTestObject(""Regression BackOffice (IE)/CLINK-17788/CaregiverHRLink""))",IE 11,,2019-02-28 14:10:05,2019-02-28 14:10:07,"1,412s",PASSED
+delay(2),IE 11,,2019-02-28 14:10:07,2019-02-28 14:10:09,"2,003s",PASSED
+waitForPageLoad(50),IE 11,,2019-02-28 14:10:09,2019-02-28 14:10:09,"0,052s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice (IE)/CLINK-17788/CaregiverDemographics""), 50)",IE 11,,2019-02-28 14:10:09,2019-02-28 14:10:09,"0,088s",PASSED
+"click(findTestObject(""Regression BackOffice (IE)/CLINK-17788/CaregiverDemographics""))",IE 11,,2019-02-28 14:10:09,2019-02-28 14:10:11,"2,604s",PASSED
+delay(2),IE 11,,2019-02-28 14:10:11,2019-02-28 14:10:13,"2,005s",PASSED
+switchToDefaultContent(),IE 11,,2019-02-28 14:10:13,2019-02-28 14:10:14,"0,336s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice (IE)/New Referral/FrameMain""), 30)",IE 11,,2019-02-28 14:10:14,2019-02-28 14:10:14,"0,287s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice (IE)/CLINK-17788/LastNameSearch""), 50)",IE 11,,2019-02-28 14:10:14,2019-02-28 14:10:14,"0,106s",PASSED
+"setText(findTestObject(""Regression BackOffice (IE)/CLINK-17788/LastNameSearch""), G_LastNameSearch)",IE 11,,2019-02-28 14:10:14,2019-02-28 14:10:15,"0,639s",PASSED
+delay(2),IE 11,,2019-02-28 14:10:15,2019-02-28 14:10:17,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice (IE)/CLINK-17788/SearchButton""), 50)",IE 11,,2019-02-28 14:10:17,2019-02-28 14:10:17,"0,114s",PASSED
+"click(findTestObject(""Regression BackOffice (IE)/CLINK-17788/SearchButton""), STOP_ON_FAILURE)",IE 11,,2019-02-28 14:10:17,2019-02-28 14:10:20,"2,807s",PASSED
+delay(2),IE 11,,2019-02-28 14:10:20,2019-02-28 14:10:22,"2,003s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice (IE)/CLINK-17788/UserLink""), 50)",IE 11,,2019-02-28 14:10:22,2019-02-28 14:10:22,"0,161s",PASSED
+"click(findTestObject(""Regression BackOffice (IE)/CLINK-17788/UserLink""), STOP_ON_FAILURE)",IE 11,,2019-02-28 14:10:22,2019-02-28 14:10:27,"4,950s",PASSED
+delay(2),IE 11,,2019-02-28 14:10:27,2019-02-28 14:10:29,"2,004s",PASSED
+"scrollToElement(findTestObject(""Regression BackOffice (IE)/CLINK-17788/OtherInformationSection""), 20)",IE 11,,2019-02-28 14:10:29,2019-02-28 14:10:29,"0,223s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice (IE)/CLINK-17788/NoCareManager""), 50)",IE 11,,2019-02-28 14:10:29,2019-02-28 14:10:29,"0,114s",PASSED
+"click(findTestObject(""Regression BackOffice (IE)/CLINK-17788/NoCareManager""), STOP_ON_FAILURE)",IE 11,,2019-02-28 14:10:29,2019-02-28 14:10:31,"1,320s",PASSED
+delay(2),IE 11,,2019-02-28 14:10:31,2019-02-28 14:10:33,"2,003s",PASSED
+switchToDefaultContent(),IE 11,,2019-02-28 14:10:33,2019-02-28 14:10:33,"0,329s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice (IE)/CLINK-17788/BannerFrame""), 30)",IE 11,,2019-02-28 14:10:33,2019-02-28 14:10:33,"0,280s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice (IE)/CLINK-17788/SaveButton""), 50)",IE 11,,2019-02-28 14:10:33,2019-02-28 14:10:33,"0,087s",PASSED
+"click(findTestObject(""Regression BackOffice (IE)/CLINK-17788/SaveButton""), STOP_ON_FAILURE)",IE 11,,2019-02-28 14:10:33,2019-02-28 14:10:42,"8,452s",PASSED
+delay(2),IE 11,,2019-02-28 14:10:42,2019-02-28 14:10:44,"2,003s",PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Successful Login Backoffice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27a08f3c-ab3e-40a7-892b-36bf2015c61f</testCaseGuid>
+</TestCaseEntity>
