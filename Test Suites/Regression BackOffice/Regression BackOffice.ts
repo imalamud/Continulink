@@ -37,7 +37,13 @@
    <testCaseLink>
       <guid>26f2590c-15b7-4b0d-a31d-07f48834baef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-10235 - Enter a Need from Schedule Block</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2a432b1a-3f30-4c7b-94b1-e0325e331ca4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
