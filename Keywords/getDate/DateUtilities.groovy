@@ -50,4 +50,10 @@ public class DateUtilities {
 		String newDate = date.format( 'MMddyyyy' )
 		newDate
 	}
+	@Keyword
+	def getDateMonthDayYearNumberwithSlash(){
+		def date = new Date()
+		String newDate = date.format( 'MM/dd/yyyy' )
+		newDate
+	}
 }
