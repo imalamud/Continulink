@@ -49,7 +49,13 @@
    <testCaseLink>
       <guid>cdd6e921-276a-4bbf-9860-03e4befe866b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-17180 - Admission Authorization Changes Report</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49d7eb5d-c4dc-4227-87a6-2a7eb13c1fe3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-10620 - BackOffice Medication Profile - Patient Information</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

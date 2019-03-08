@@ -1,35 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Summary: Schedule : Test Case:  Enter a Need from Schedule Block.
-Description: Enter a Need for Client .
- # Creating Â a Schedule Need for Client.
-
-Â 
-
-Verify and Validate that Caregiver can Enter a Need for a client from :
-
-*1)Schedule Block*
-
-2)Enter a need through Â Calendar
-
-3) Enter a Need by Right Click on a date. Â 
-
-Â 
-
-Test Date:Â 
-
-Client : Dash Woods
-
-CLNK: creddy / qwerty
-
-CLINK: CG: Mike Abraham (Test data)Â 
-
-Build: 7.1.8.15
-
-Test Environment:Â 
-
-Clink and Point of CareÂ 
-
+Description: Enter a Need for Client .
+
+ # Creating Â a Schedule Need for Client.
+
+
+
+Â 
+
+
+
+Verify and Validate that Caregiver can Enter a Need for a client from :
+
+
+
+*1)Schedule Block*
+
+
+
+2)Enter a need through Â Calendar
+
+
+
+3) Enter a Need by Right Click on a date. Â 
+
+
+
+Â 
+
+
+
+Test Date:Â 
+
+
+
+Client : Dash Woods
+
+
+
+CLNK: creddy / qwerty
+
+
+
+CLINK: CG: Mike Abraham (Test data)Â 
+
+
+
+Build: 7.1.8.15
+
+
+
+Test Environment:Â 
+
+
+
+Clink and Point of CareÂ 
+
+
+
 Â </description>
    <name>CLNK-10235 - Enter a Need from Schedule Block</name>
    <tag></tag>
