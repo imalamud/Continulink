@@ -58,4 +58,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-10620 - BackOffice Medication Profile - Patient Information</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fc6f01c8-273b-45be-a1a1-79bae23eb961</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23441 - Back office Caregiver - Search criteria</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
