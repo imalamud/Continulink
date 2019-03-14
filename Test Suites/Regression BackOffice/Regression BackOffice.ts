@@ -55,13 +55,19 @@
    <testCaseLink>
       <guid>49d7eb5d-c4dc-4227-87a6-2a7eb13c1fe3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-10620 - BackOffice Medication Profile - Patient Information</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fc6f01c8-273b-45be-a1a1-79bae23eb961</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23441 - Back office Caregiver - Search criteria</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>08d0e039-4dde-4c0a-806f-0c28ce07ad21</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23442 - Back office Caregiver Demographics</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
