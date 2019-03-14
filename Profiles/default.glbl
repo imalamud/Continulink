@@ -94,4 +94,14 @@
       <initValue>'Mobin'</initValue>
       <name>G_SpecificUser</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'asima'</initValue>
+      <name>G_23444_CaregiverName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test'</initValue>
+      <name>G_23444_CaregiverLast</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

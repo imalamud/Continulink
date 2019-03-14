@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -29,9 +30,9 @@ WebUI.delay(2)
 
 WebUI.waitForPageLoad(50)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23444/Caregiver Attributes'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/CaregiverHRDetails'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-23444/Caregiver Attributes'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK-23445/CaregiverHRDetails'))
 
 WebUI.delay(2)
 
@@ -63,37 +64,51 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK-23442/ClientLink'), Fail
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23444/New Attribute'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/Middle Initial'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-23444/New Attribute'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23444/CheckedBy'), 50)
-
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23444/CheckedBy'), 'Isaac')
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-23445/Middle Initial'), 'M')
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23444/Checked Date'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/Mail Address'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23444/Checked Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-23445/Mail Address'), 'isaac@gmail.com')
 
-WebUI.delay(4)
+WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23444/a_Add To List'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/SameasAddress'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-23444/a_Add To List'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Regression BackOffice/CLINK-23445/SameasAddress'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('Regression BackOffice/CLINK-23445/Race'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-23445/Race'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23445/Race'), Keys.chord(Keys.ARROW_UP, Keys.ARROW_UP, Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/Sex'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-23445/Sex'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/Date Of Hire'), 50)
+
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-23445/Date Of Hire'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(4)
 
 WebUI.switchToDefaultContent()
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK-23444/BannerFrameAtt'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23444/Save'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/Save'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-23444/Save'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK-23445/Save'))
 
 WebUI.delay(2)
 
