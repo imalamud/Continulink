@@ -79,7 +79,13 @@
    <testCaseLink>
       <guid>e91e5587-e150-4637-ae99-52062e8ed8e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23445 - Back office Caregiver HR Details</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d403ca3c-44d2-41ab-b002-7f5515feb8c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

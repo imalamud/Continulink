@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression BackOffice" time="66" tests="0" failures="1" errors="0">
+   <testsuite name="Regression BackOffice" tests="0" failures="1" errors="0" time="66" timestamp="2019-03-16 11:50:22" hostname="isaac - DESKTOP-RO0FF5F" id="Test Suites/Regression BackOffice/Regression BackOffice">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\isaac\\Katalon Studio\\Continulink\\Reports\\Regression BackOffice\\Regression BackOffice\\20190316_115014"/>
+         <property name="logFiles" value="C:\\Users\\isaac\\Katalon Studio\\Continulink\\Reports\\Regression BackOffice\\Regression BackOffice\\20190316_115014\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\isaac\\Katalon Studio\\Continulink\\Reports\\Regression BackOffice\\Regression BackOffice\\20190316_115014\\1552747884840.png"/>
+         <property name="hostName" value="isaac - DESKTOP-RO0FF5F"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.0.113"/>
+         <property name="sessionId" value="6fdbce490f76aae513bcbed1fd284425"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations" classname="Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:343)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementPresent$5.call(Unknown Source)
+	at CLNK-23446 - Back office Caregiver Locations.run(CLNK-23446 - Back office Caregiver Locations:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552747814130.run(TempTestSuite1552747814130.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-16 11:50:22 - [TEST_CASE][FAILED] - Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations: Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:343)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementPresent$5.call(Unknown Source)
+	at CLNK-23446 - Back office Caregiver Locations.run(CLNK-23446 - Back office Caregiver Locations:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552747814130.run(TempTestSuite1552747814130.groovy:35)
+
+
+2019-03-16 11:50:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client' successfully
+
+2019-03-16 11:50:24 - [TEST_CASE][PASSED] - Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client: Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client
+
+2019-03-16 11:50:25 - [TEST_STEP][PASSED] - openBrowser(G_SiteBackOffice): Browser is opened with url: 'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'
+
+2019-03-16 11:50:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-16 11:50:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-16 11:50:38 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'
+
+2019-03-16 11:50:38 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-03-16 11:50:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-16 11:50:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-16 11:50:40 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-16 11:50:40 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice): Text 'demo' is set on object 'Object Repository/Regression BackOffice/Login/UserBackOffice'
+
+2019-03-16 11:50:40 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Regression BackOffice/Login/UserBackOffice'
+
+2019-03-16 11:50:40 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice): Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/Login/PasswordBackOffice'
+
+2019-03-16 11:50:41 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/Login/PasswordBackOffice'
+
+2019-03-16 11:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/Login/LoginBackOffice")): Object: 'Object Repository/Regression BackOffice/Login/LoginBackOffice' is clicked on
+
+2019-03-16 11:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/Login/LoginBackOffice' is clicked on
+
+2019-03-16 11:50:48 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-03-16 11:50:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-16 11:50:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-16 11:50:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-16 11:50:51 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 5): null
+
+2019-03-16 11:50:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 60): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-03-16 11:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-03-16 11:50:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-03-16 11:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-03-16 11:50:51 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-03-16 11:50:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client' successfully
+
+2019-03-16 11:50:51 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-03-16 11:50:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-16 11:50:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-16 11:50:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-16 11:50:54 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 30): null
+
+2019-03-16 11:50:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23441/Caregiver  HRLink"), 100): Object 'Object Repository/Regression BackOffice/CLNK-23441/Caregiver  HRLink' is present
+
+2019-03-16 11:50:55 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23441/Caregiver  HRLink' is present
+
+2019-03-16 11:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23441/Caregiver  HRLink")): Object: 'Object Repository/Regression BackOffice/CLNK-23441/Caregiver  HRLink' is clicked on
+
+2019-03-16 11:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23441/Caregiver  HRLink' is clicked on
+
+2019-03-16 11:50:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-16 11:50:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-16 11:50:57 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-03-16 11:50:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-16 11:50:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/Caregiver Locations"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23446/Caregiver Locations' is present
+
+2019-03-16 11:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23446/Caregiver Locations' is present
+
+2019-03-16 11:50:57 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-23446/Caregiver Locations")): Object: 'Object Repository/Regression BackOffice/CLINK-23446/Caregiver Locations' is clicked on
+
+2019-03-16 11:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23446/Caregiver Locations' is clicked on
+
+2019-03-16 11:50:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-16 11:51:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-16 11:51:00 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-03-16 11:51:00 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameMain"), 30): null
+
+2019-03-16 11:51:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/FirstNameSearch"), 50): Object 'Object Repository/Regression BackOffice/CLNK-10235/FirstNameSearch' is present
+
+2019-03-16 11:51:01 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/FirstNameSearch' is present
+
+2019-03-16 11:51:01 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-10235/FirstNameSearch"), G_23444_CaregiverName): Text 'asima' is set on object 'Object Repository/Regression BackOffice/CLNK-10235/FirstNameSearch'
+
+2019-03-16 11:51:01 - [MESSAGE][PASSED] - Text 'asima' is set on object 'Object Repository/Regression BackOffice/CLNK-10235/FirstNameSearch'
+
+2019-03-16 11:51:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-16 11:51:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-16 11:51:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23441/Last NameHR"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23441/Last NameHR' is present
+
+2019-03-16 11:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23441/Last NameHR' is present
+
+2019-03-16 11:51:03 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23441/Last NameHR"), G_23444_CaregiverLast): Text 'Test' is set on object 'Object Repository/Regression BackOffice/CLNK-23441/Last NameHR'
+
+2019-03-16 11:51:03 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Regression BackOffice/CLNK-23441/Last NameHR'
+
+2019-03-16 11:51:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-16 11:51:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-16 11:51:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23441/CaregiverSearchButton"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23441/CaregiverSearchButton' is present
+
+2019-03-16 11:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23441/CaregiverSearchButton' is present
+
+2019-03-16 11:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23441/CaregiverSearchButton"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23441/CaregiverSearchButton' is clicked on
+
+2019-03-16 11:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23441/CaregiverSearchButton' is clicked on
+
+2019-03-16 11:51:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-16 11:51:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-16 11:51:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23442/ClientLink"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23442/ClientLink' is present
+
+2019-03-16 11:51:08 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23442/ClientLink' is present
+
+2019-03-16 11:51:08 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-23442/ClientLink"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-23442/ClientLink' is clicked on
+
+2019-03-16 11:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23442/ClientLink' is clicked on
+
+2019-03-16 11:51:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-16 11:51:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-16 11:51:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/NewCaregiverLocation"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23446/NewCaregiverLocation' is present
+
+2019-03-16 11:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23446/NewCaregiverLocation' is present
+
+2019-03-16 11:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-23446/NewCaregiverLocation"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-23446/NewCaregiverLocation' is clicked on
+
+2019-03-16 11:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23446/NewCaregiverLocation' is clicked on
+
+2019-03-16 11:51:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-16 11:51:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-16 11:51:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/ZoneName"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23446/ZoneName' is present
+
+2019-03-16 11:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23446/ZoneName' is present
+
+2019-03-16 11:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-23446/ZoneName"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-23446/ZoneName' is clicked on
+
+2019-03-16 11:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23446/ZoneName' is clicked on
+
+2019-03-16 11:51:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLINK-23446/ZoneName"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-23446/ZoneName'
+
+2019-03-16 11:51:16 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-23446/ZoneName'
+
+2019-03-16 11:51:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-16 11:51:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-16 11:51:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/li_Location"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23446/li_Location' is present
+
+2019-03-16 11:51:18 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23446/li_Location' is present
+
+2019-03-16 11:51:18 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Regression BackOffice/CLINK-23446/li_Location")): Object: 'Object Repository/Regression BackOffice/CLINK-23446/li_Location' is double clicked on
+
+2019-03-16 11:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23446/li_Location' is double clicked on
+
+2019-03-16 11:51:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-16 11:51:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-16 11:51:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/a_Add To List"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23446/a_Add To List' is present
+
+2019-03-16 11:51:21 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23446/a_Add To List' is present
+
+2019-03-16 11:51:21 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-23446/a_Add To List"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-23446/a_Add To List' is clicked on
+
+2019-03-16 11:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23446/a_Add To List' is clicked on
+
+2019-03-16 11:51:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-16 11:51:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-16 11:51:24 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-03-16 11:51:24 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLINK-23444/BannerFrameAtt"), 30): null
+
+2019-03-16 11:51:24 - [TEST_STEP][FAILED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/Page_InterLink/Save"), 50): waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/Page_InterLink/Save"), 50) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:343)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementPresent$5.call(Unknown Source)
+	at CLNK-23446 - Back office Caregiver Locations.run(CLNK-23446 - Back office Caregiver Locations:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552747814130.run(TempTestSuite1552747814130.groovy:35)
+
+
+2019-03-16 11:51:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Regression BackOffice/CLINK-23446/Page_InterLink/Save' does not exist
+
+2019-03-16 11:51:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-03-16 11:51:25 - [MESSAGE][FAILED] - Unable to wait for object to be present
+[[ATTACHMENT|C:\\Users\\isaac\\Katalon Studio\\Continulink\\Reports\\Regression BackOffice\\Regression BackOffice\\20190316_115014\\1552747884840.png]]
+
+2019-03-16 11:51:25 - [MESSAGE][FAILED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/Page_InterLink/Save"), 50) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:343)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementPresent$5.call(Unknown Source)
+	at CLNK-23446 - Back office Caregiver Locations.run(CLNK-23446 - Back office Caregiver Locations:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552747814130.run(TempTestSuite1552747814130.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-16 11:50:22 - [TEST_CASE][FAILED] - Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations: Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:343)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementPresent$5.call(Unknown Source)
+	at CLNK-23446 - Back office Caregiver Locations.run(CLNK-23446 - Back office Caregiver Locations:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552747814130.run(TempTestSuite1552747814130.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-16 11:50:22 - [TEST_SUITE][FAILED] - Regression BackOffice: Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:343)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementPresent$5.call(Unknown Source)
+	at CLNK-23446 - Back office Caregiver Locations.run(CLNK-23446 - Back office Caregiver Locations:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552747814130.run(TempTestSuite1552747814130.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-16 11:50:22 - [TEST_SUITE][FAILED] - Regression BackOffice: Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:343)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementPresent$5.call(Unknown Source)
+	at CLNK-23446 - Back office Caregiver Locations.run(CLNK-23446 - Back office Caregiver Locations:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552747814130.run(TempTestSuite1552747814130.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
