@@ -1,0 +1,212 @@
+1
+00:00:01,205 --> 00:00:01,221
+1. callTestCase(findTestCase("Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client"), [:], STOP_ON_FAILURE)
+
+2
+00:00:02,183 --> 00:00:02,185
+1. openBrowser(G_SiteBackOffice)
+
+3
+00:00:14,208 --> 00:00:14,211
+5. waitForPageLoad(60)
+
+4
+00:00:14,400 --> 00:00:14,402
+9. maximizeWindow()
+
+5
+00:00:15,693 --> 00:00:15,693
+13. setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice)
+
+6
+00:00:16,172 --> 00:00:16,178
+17. setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice)
+
+7
+00:00:16,586 --> 00:00:16,587
+21. click(findTestObject("Regression BackOffice/Login/LoginBackOffice"))
+
+8
+00:00:22,921 --> 00:00:22,922
+25. waitForPageLoad(60)
+
+9
+00:00:22,964 --> 00:00:22,965
+29. delay(3)
+
+10
+00:00:25,989 --> 00:00:25,990
+33. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 5)
+
+11
+00:00:26,201 --> 00:00:26,202
+37. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 60)
+
+12
+00:00:26,304 --> 00:00:26,305
+41. verifyElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100)
+
+13
+00:00:26,379 --> 00:00:26,380
+45. switchToDefaultContent()
+
+14
+00:00:26,464 --> 00:00:26,468
+5. waitForPageLoad(60)
+
+15
+00:00:26,499 --> 00:00:26,500
+9. delay(3)
+
+16
+00:00:29,509 --> 00:00:29,520
+13. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 30)
+
+17
+00:00:29,617 --> 00:00:29,619
+17. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23441/Caregiver  HRLink"), 100)
+
+18
+00:00:29,684 --> 00:00:29,685
+21. click(findTestObject("Regression BackOffice/CLNK-23441/Caregiver  HRLink"))
+
+19
+00:00:29,953 --> 00:00:29,954
+25. delay(2)
+
+20
+00:00:31,960 --> 00:00:31,962
+29. waitForPageLoad(50)
+
+21
+00:00:31,986 --> 00:00:31,988
+33. waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/Caregiver Locations"), 50)
+
+22
+00:00:32,044 --> 00:00:32,045
+37. click(findTestObject("Regression BackOffice/CLINK-23446/Caregiver Locations"))
+
+23
+00:00:33,177 --> 00:00:33,179
+41. delay(2)
+
+24
+00:00:35,219 --> 00:00:35,219
+45. switchToDefaultContent()
+
+25
+00:00:35,265 --> 00:00:35,266
+49. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameMain"), 30)
+
+26
+00:00:35,382 --> 00:00:35,384
+53. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/FirstNameSearch"), 50)
+
+27
+00:00:35,436 --> 00:00:35,438
+57. setText(findTestObject("Regression BackOffice/CLNK-10235/FirstNameSearch"), G_23444_CaregiverName)
+
+28
+00:00:35,689 --> 00:00:35,692
+61. delay(2)
+
+29
+00:00:37,717 --> 00:00:37,718
+65. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23441/Last NameHR"), 50)
+
+30
+00:00:37,782 --> 00:00:37,784
+69. setText(findTestObject("Regression BackOffice/CLNK-23441/Last NameHR"), G_23444_CaregiverLast)
+
+31
+00:00:38,054 --> 00:00:38,055
+73. delay(2)
+
+32
+00:00:40,059 --> 00:00:40,060
+77. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23441/CaregiverSearchButton"), 50)
+
+33
+00:00:40,129 --> 00:00:40,131
+81. click(findTestObject("Regression BackOffice/CLNK-23441/CaregiverSearchButton"), STOP_ON_FAILURE)
+
+34
+00:00:41,441 --> 00:00:41,443
+85. delay(2)
+
+35
+00:00:43,449 --> 00:00:43,450
+89. waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23442/ClientLink"), 50)
+
+36
+00:00:43,506 --> 00:00:43,508
+93. click(findTestObject("Regression BackOffice/CLINK-23442/ClientLink"), STOP_ON_FAILURE)
+
+37
+00:00:47,149 --> 00:00:47,150
+97. delay(2)
+
+38
+00:00:49,156 --> 00:00:49,156
+101. waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/NewCaregiverLocation"), 50)
+
+39
+00:00:49,244 --> 00:00:49,245
+105. click(findTestObject("Regression BackOffice/CLINK-23446/NewCaregiverLocation"), STOP_ON_FAILURE)
+
+40
+00:00:49,483 --> 00:00:49,483
+109. delay(2)
+
+41
+00:00:51,490 --> 00:00:51,491
+113. waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/ZoneName"), 50)
+
+42
+00:00:51,537 --> 00:00:51,538
+117. click(findTestObject("Regression BackOffice/CLINK-23446/ZoneName"), STOP_ON_FAILURE)
+
+43
+00:00:51,790 --> 00:00:51,793
+121. sendKeys(findTestObject("Regression BackOffice/CLINK-23446/ZoneName"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))
+
+44
+00:00:52,017 --> 00:00:52,019
+125. delay(2)
+
+45
+00:00:54,024 --> 00:00:54,025
+129. waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/li_Location"), 50)
+
+46
+00:00:54,081 --> 00:00:54,082
+133. doubleClick(findTestObject("Regression BackOffice/CLINK-23446/li_Location"))
+
+47
+00:00:54,553 --> 00:00:54,553
+137. delay(2)
+
+48
+00:00:56,561 --> 00:00:56,561
+141. waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/a_Add To List"), 50)
+
+49
+00:00:56,629 --> 00:00:56,630
+145. click(findTestObject("Regression BackOffice/CLINK-23446/a_Add To List"), STOP_ON_FAILURE)
+
+50
+00:00:56,966 --> 00:00:56,967
+149. delay(3)
+
+51
+00:00:59,974 --> 00:00:59,975
+153. switchToDefaultContent()
+
+52
+00:01:00,031 --> 00:01:00,033
+157. switchToFrame(findTestObject("Regression BackOffice/CLINK-23444/BannerFrameAtt"), 30)
+
+53
+00:01:00,121 --> 00:01:00,123
+161. waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23446/Page_InterLink/Save"), 50)
+

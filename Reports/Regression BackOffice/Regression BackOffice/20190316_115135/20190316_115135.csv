@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression BackOffice,Chrome 72.0.3626.121,,2019-03-16 11:51:44,2019-03-16 11:53:07,"1m - 23,564s",FAILED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations,Chrome 72.0.3626.121,"Summary: Back office Caregiver Locations
+Description: ",2019-03-16 11:51:44,2019-03-16 11:53:06,"1m - 22,110s",FAILED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-16 11:51:49,2019-03-16 11:53:04,"1m - 14,796s",FAILED
