@@ -104,4 +104,9 @@
       <initValue>'Test'</initValue>
       <name>G_23444_CaregiverLast</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Active'</initValue>
+      <name>G_23448_Name</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
