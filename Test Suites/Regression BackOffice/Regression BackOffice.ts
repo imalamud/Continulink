@@ -91,7 +91,13 @@
    <testCaseLink>
       <guid>8acfc888-a44e-4b4c-8fbf-f6abeaaa02f2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23447 - Back office Caregiver Demographics</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa8f9cd1-c36d-44a1-88c3-097136ae8db3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23448 - Back office Setup Caregiver Remote Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
