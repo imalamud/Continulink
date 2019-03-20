@@ -109,4 +109,14 @@
       <initValue>'Active'</initValue>
       <name>G_23448_Name</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Auth'</initValue>
+      <name>G_23450Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test'</initValue>
+      <name>G_23450Last</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
