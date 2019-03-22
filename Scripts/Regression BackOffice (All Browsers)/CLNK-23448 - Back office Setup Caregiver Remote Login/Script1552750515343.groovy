@@ -80,3 +80,5 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK-23448/CreateUsrButton'),
 
 WebUI.delay(2)
 
+WebUI.closeBrowser()
+

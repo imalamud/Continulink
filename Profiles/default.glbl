@@ -96,17 +96,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'My'</initValue>
+      <initValue>'demo'</initValue>
       <name>G_23444_CaregiverName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test'</initValue>
+      <initValue>'tester'</initValue>
       <name>G_23444_CaregiverLast</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Active'</initValue>
+      <initValue>'Boat'</initValue>
       <name>G_23448_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -118,5 +118,10 @@
       <description></description>
       <initValue>'Test'</initValue>
       <name>G_23450Last</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5445899862'</initValue>
+      <name>G_23442Phone</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
