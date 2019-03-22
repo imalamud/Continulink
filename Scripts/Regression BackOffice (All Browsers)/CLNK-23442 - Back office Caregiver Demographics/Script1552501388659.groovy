@@ -89,7 +89,7 @@ WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23442/PhoneNumber'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23442/PhoneNumber'), '1233214857')
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-23442/PhoneNumber'), GlobalVariable.G_23442Phone)
 
 WebUI.delay(2)
 
@@ -99,9 +99,7 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK-23442/Add to List Button
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Regression BackOffice/CLINK-23442/Group'), 50)
-
-WebUI.delay(1)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23442/Group'), 50)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK-23442/Group'), FailureHandling.STOP_ON_FAILURE)
 
@@ -109,7 +107,7 @@ WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23442/Group'), Keys.c
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Regression BackOffice/CLINK-23442/SubGroup'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23442/SubGroup'), 50)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK-23442/SubGroup'), FailureHandling.STOP_ON_FAILURE)
 
@@ -128,6 +126,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23442/Di
 WebUI.click(findTestObject('Regression BackOffice/CLINK-23442/DisciplineList'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23442/DisciplineList'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
+        Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
         Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(2)

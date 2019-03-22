@@ -1,0 +1,124 @@
+1
+00:00:00,368 --> 00:00:00,369
+1. callTestCase(findTestCase("Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,450 --> 00:00:00,452
+1. openBrowser(G_SiteBackOffice)
+
+3
+00:00:06,978 --> 00:00:06,979
+5. waitForPageLoad(60)
+
+4
+00:00:07,008 --> 00:00:07,009
+9. maximizeWindow()
+
+5
+00:00:08,154 --> 00:00:08,155
+13. setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice)
+
+6
+00:00:08,414 --> 00:00:08,415
+17. setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice)
+
+7
+00:00:08,671 --> 00:00:08,672
+21. click(findTestObject("Regression BackOffice/Login/LoginBackOffice"))
+
+8
+00:00:15,009 --> 00:00:15,010
+25. waitForPageLoad(60)
+
+9
+00:00:15,272 --> 00:00:15,273
+29. delay(3)
+
+10
+00:00:18,276 --> 00:00:18,277
+33. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 5)
+
+11
+00:00:18,394 --> 00:00:18,395
+37. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 60)
+
+12
+00:00:18,472 --> 00:00:18,473
+41. verifyElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100)
+
+13
+00:00:18,544 --> 00:00:18,545
+45. switchToDefaultContent()
+
+14
+00:00:18,567 --> 00:00:18,568
+5. waitForPageLoad(60)
+
+15
+00:00:18,588 --> 00:00:18,589
+9. delay(3)
+
+16
+00:00:21,593 --> 00:00:21,594
+13. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 30)
+
+17
+00:00:21,652 --> 00:00:21,653
+17. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23441/Caregiver  HRLink"), 100)
+
+18
+00:00:21,691 --> 00:00:21,691
+21. click(findTestObject("Regression BackOffice/CLNK-23441/Caregiver  HRLink"))
+
+19
+00:00:21,966 --> 00:00:21,967
+25. delay(2)
+
+20
+00:00:23,972 --> 00:00:23,973
+29. waitForPageLoad(50)
+
+21
+00:00:23,993 --> 00:00:23,994
+33. waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23448/Setup Caregiver Remote Login"), 50)
+
+22
+00:00:24,075 --> 00:00:24,075
+37. click(findTestObject("Regression BackOffice/CLINK-23448/Setup Caregiver Remote Login"))
+
+23
+00:00:25,928 --> 00:00:25,929
+41. waitForPageLoad(60)
+
+24
+00:00:25,950 --> 00:00:25,951
+45. switchToDefaultContent()
+
+25
+00:00:25,971 --> 00:00:25,972
+49. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameMain"), 30)
+
+26
+00:00:26,065 --> 00:00:26,066
+53. waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23448/Caregiver Name II"), 50)
+
+27
+00:00:26,127 --> 00:00:26,128
+57. setText(findTestObject("Regression BackOffice/CLINK-23448/Caregiver Name II"), G_23448_Name)
+
+28
+00:00:26,714 --> 00:00:26,715
+61. delay(2)
+
+29
+00:00:28,720 --> 00:00:28,721
+65. sendKeys(findTestObject("Regression BackOffice/CLINK-23448/Caregiver Name II"), Keys.chord(ARROW_DOWN, ENTER))
+
+30
+00:00:28,828 --> 00:00:28,829
+69. delay(2)
+
+31
+00:00:30,834 --> 00:00:30,835
+73. waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23448/New Password"), 50)
+

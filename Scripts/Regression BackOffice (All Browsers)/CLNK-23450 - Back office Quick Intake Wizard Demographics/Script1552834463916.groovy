@@ -97,5 +97,3 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK-23450/btnSaveDemo'))
 
 WebUI.delay(2)
 
-WebUI.acceptAlert()
-
