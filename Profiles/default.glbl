@@ -124,4 +124,9 @@
       <initValue>'5445899862'</initValue>
       <name>G_23442Phone</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Khur'</initValue>
+      <name>G_Client</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

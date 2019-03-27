@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify Unsuccessful Login - Bad User</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b20ce3f7-ae74-4029-9755-acae6b22c785</testCaseGuid>
-</TestCaseEntity>

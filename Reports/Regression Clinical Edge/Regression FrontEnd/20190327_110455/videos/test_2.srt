@@ -1,0 +1,156 @@
+1
+00:00:01,530 --> 00:00:01,584
+1. callTestCase(findTestCase("Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,939 --> 00:00:01,943
+1. openBrowser(G_SiteURL)
+
+3
+00:00:14,065 --> 00:00:14,067
+5. waitForPageLoad(60)
+
+4
+00:00:14,158 --> 00:00:14,160
+9. maximizeWindow()
+
+5
+00:00:15,440 --> 00:00:15,442
+13. setText(findTestObject("Regression Clinical Edge/CLNK-23349/User"), G_User)
+
+6
+00:00:16,204 --> 00:00:16,206
+17. setText(findTestObject("Regression Clinical Edge/CLNK-23349/Password"), G_Password)
+
+7
+00:00:16,781 --> 00:00:16,788
+21. click(findTestObject("Regression Clinical Edge/CLNK-23349/Button_LogIn"))
+
+8
+00:00:19,533 --> 00:00:19,535
+25. waitForPageLoad(60)
+
+9
+00:00:19,695 --> 00:00:19,696
+29. waitForElementPresent(findTestObject("Regression Clinical Edge/ClientPage/button_Add Schedule"), 60)
+
+10
+00:00:19,910 --> 00:00:19,912
+33. verifyElementPresent(findTestObject("Regression Clinical Edge/ClientPage/button_Add Schedule"), 100)
+
+11
+00:00:20,031 --> 00:00:20,033
+5. waitForPageLoad(60)
+
+12
+00:00:20,139 --> 00:00:20,141
+9. maximizeWindow()
+
+13
+00:00:20,238 --> 00:00:20,240
+13. waitForPageLoad(60)
+
+14
+00:00:20,324 --> 00:00:20,327
+17. delay(8)
+
+15
+00:00:28,347 --> 00:00:28,350
+21. waitForElementPresent(findTestObject("Regression Clinical Edge/CLNK-23497/button_Close"), 100)
+
+16
+00:00:28,571 --> 00:00:28,574
+25. click(findTestObject("Regression Clinical Edge/CLNK-23497/button_Close"))
+
+17
+00:00:28,824 --> 00:00:28,827
+29. delay(2)
+
+18
+00:00:30,834 --> 00:00:30,836
+33. waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/ClientLink"), 100)
+
+19
+00:00:30,905 --> 00:00:30,906
+37. click(findTestObject("Regression Clinical Edge/HomePage/ClientLink"))
+
+20
+00:00:32,424 --> 00:00:32,430
+41. delay(2)
+
+21
+00:00:34,436 --> 00:00:34,438
+45. waitForPageLoad(50)
+
+22
+00:00:34,471 --> 00:00:34,472
+49. waitForElementPresent(findTestObject("Regression Clinical Edge/CLNK-23497/Client Search"), 50)
+
+23
+00:00:34,546 --> 00:00:34,548
+53. click(findTestObject("Regression Clinical Edge/CLNK-23497/Client Search"))
+
+24
+00:00:34,888 --> 00:00:34,889
+57. setText(findTestObject("Regression Clinical Edge/CLNK-23497/Client Search"), G_Client)
+
+25
+00:00:35,277 --> 00:00:35,279
+61. delay(2)
+
+26
+00:00:37,285 --> 00:00:37,287
+65. sendKeys(findTestObject("Regression Clinical Edge/CLNK-23497/Client Search"), Keys.chord(ARROW_RIGHT, ARROW_DOWN, ENTER))
+
+27
+00:00:39,566 --> 00:00:39,570
+69. delay(3)
+
+28
+00:00:42,576 --> 00:00:42,578
+73. scrollToElement(findTestObject("Regression Clinical Edge/CLNK-23497/AddAssessments"), 50)
+
+29
+00:00:42,683 --> 00:00:42,685
+77. waitForElementPresent(findTestObject("Regression Clinical Edge/CLNK-23497/AddAssessments"), 50)
+
+30
+00:00:42,746 --> 00:00:42,748
+81. click(findTestObject("Regression Clinical Edge/CLNK-23497/AddAssessments"))
+
+31
+00:00:43,057 --> 00:00:43,059
+85. waitForElementPresent(findTestObject("Regression Clinical Edge/CLNK-23497/AssessmentList"), 50)
+
+32
+00:00:43,142 --> 00:00:43,144
+89. click(findTestObject("Regression Clinical Edge/CLNK-23497/AssessmentList"))
+
+33
+00:00:43,551 --> 00:00:43,556
+93. selectOptionByLabel(findTestObject("Regression Clinical Edge/CLNK-23497/AssessmentList"), "Start of care - further visits planned (C2)", false)
+
+34
+00:00:45,599 --> 00:00:45,600
+97. waitForElementPresent(findTestObject("Regression Clinical Edge/CLNK-23497/DateAssessment"), 50)
+
+35
+00:00:45,736 --> 00:00:45,737
+101. setText(findTestObject("Regression Clinical Edge/CLNK-23497/DateAssessment"), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())
+
+36
+00:00:46,484 --> 00:00:46,486
+105. delay(2)
+
+37
+00:00:48,493 --> 00:00:48,496
+109. waitForElementPresent(findTestObject("Regression Clinical Edge/CLNK-23497/SaveAssessment"), 50)
+
+38
+00:00:48,561 --> 00:00:48,562
+113. click(findTestObject("Regression Clinical Edge/CLNK-23497/SaveAssessment"))
+
+39
+00:00:48,749 --> 00:00:48,750
+117. delay(3)
+
