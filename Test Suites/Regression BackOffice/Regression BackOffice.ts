@@ -115,7 +115,13 @@
    <testCaseLink>
       <guid>db7dd276-11d4-4374-af6a-4805a62233d3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23451 - Back office Quick Intake Wizard Payer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>197fe807-8ec4-43c2-a935-de585bb68777</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23455 - Back office Enter Needs</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

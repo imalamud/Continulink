@@ -22,66 +22,6 @@ WebUI.delay(3)
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/ClienIntakeICon'), 100)
-
-WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/ClienIntakeICon'))
-
-WebUI.delay(2)
-
-WebUI.waitForPageLoad(50)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/SearchforaClient'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/SearchforaClient'))
-
-WebUI.delay(2)
-
-WebUI.switchToDefaultContent()
-
-WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), 50)
-
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), 'Jacen')
-
-WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/LastNameSearch'), 50)
-
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/LastNameSearch'), 'Morris')
-
-WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 27906/SearchButton'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 27906/SearchButton'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 27906/ClientRollbackLink'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 27906/ClientRollbackLink'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.switchToDefaultContent()
-
-WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/Puntitos'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/Puntitos'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.waitForPageLoad(50)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/ClientIntakeClose'), 100)
-
-WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/ClientIntakeClose'))
-
-WebUI.delay(2)
-
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/ScheduleIcon'), 100)
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/ScheduleIcon'))

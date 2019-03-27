@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression FrontEnd,Chrome 73.0.3683.86,,2019-03-27 11:08:13,2019-03-27 11:09:10,"57,722s",PASSED
+,,,,,,
+Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23497 - CLINICAL EDGE - Start Of Care,Chrome 73.0.3683.86,"Summary: CLINICAL EDGE - Start Of Care
+Description: ",2019-03-27 11:08:13,2019-03-27 11:09:09,"56,026s",PASSED
+"callTestCase(findTestCase(""Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-27 11:08:15,2019-03-27 11:08:36,"20,913s",PASSED
+waitForPageLoad(60),Chrome 73.0.3683.86,,2019-03-27 11:08:36,2019-03-27 11:08:36,"0,114s",PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-03-27 11:08:36,2019-03-27 11:08:36,"0,058s",PASSED
+waitForPageLoad(60),Chrome 73.0.3683.86,,2019-03-27 11:08:36,2019-03-27 11:08:36,"0,061s",PASSED
+delay(8),Chrome 73.0.3683.86,,2019-03-27 11:08:36,2019-03-27 11:08:44,"8,028s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLNK-23497/button_Close""), 100)",Chrome 73.0.3683.86,,2019-03-27 11:08:44,2019-03-27 11:08:44,"0,376s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLNK-23497/button_Close""))",Chrome 73.0.3683.86,,2019-03-27 11:08:44,2019-03-27 11:08:45,"0,417s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-27 11:08:45,2019-03-27 11:08:47,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/HomePage/ClientLink""), 100)",Chrome 73.0.3683.86,,2019-03-27 11:08:47,2019-03-27 11:08:47,"0,113s",PASSED
+"click(findTestObject(""Regression Clinical Edge/HomePage/ClientLink""))",Chrome 73.0.3683.86,,2019-03-27 11:08:47,2019-03-27 11:08:49,"1,864s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-27 11:08:49,2019-03-27 11:08:51,"2,007s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.86,,2019-03-27 11:08:51,2019-03-27 11:08:51,"0,094s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLNK-23497/Client Search""), 50)",Chrome 73.0.3683.86,,2019-03-27 11:08:51,2019-03-27 11:08:51,"0,107s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLNK-23497/Client Search""))",Chrome 73.0.3683.86,,2019-03-27 11:08:51,2019-03-27 11:08:51,"0,260s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLNK-23497/Client Search""), G_Client)",Chrome 73.0.3683.86,,2019-03-27 11:08:51,2019-03-27 11:08:52,"0,376s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-27 11:08:52,2019-03-27 11:08:54,"2,008s",PASSED
+"sendKeys(findTestObject(""Regression Clinical Edge/CLNK-23497/Client Search""), Keys.chord(ARROW_RIGHT, ARROW_DOWN, ENTER))",Chrome 73.0.3683.86,,2019-03-27 11:08:54,2019-03-27 11:08:56,"2,262s",PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-27 11:08:56,2019-03-27 11:08:59,"3,008s",PASSED
+"scrollToElement(findTestObject(""Regression Clinical Edge/CLNK-23497/AddAssessments""), 50)",Chrome 73.0.3683.86,,2019-03-27 11:08:59,2019-03-27 11:08:59,"0,160s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLNK-23497/AddAssessments""), 50)",Chrome 73.0.3683.86,,2019-03-27 11:08:59,2019-03-27 11:08:59,"0,066s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLNK-23497/AddAssessments""))",Chrome 73.0.3683.86,,2019-03-27 11:08:59,2019-03-27 11:08:59,"0,310s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLNK-23497/AssessmentList""), 50)",Chrome 73.0.3683.86,,2019-03-27 11:08:59,2019-03-27 11:08:59,"0,112s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLNK-23497/AssessmentList""))",Chrome 73.0.3683.86,,2019-03-27 11:08:59,2019-03-27 11:09:00,"0,317s",PASSED
+"selectOptionByLabel(findTestObject(""Regression Clinical Edge/CLNK-23497/AssessmentList""), ""Start of care - further visits planned (C2)"", false)",Chrome 73.0.3683.86,,2019-03-27 11:09:00,2019-03-27 11:09:00,"0,439s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLNK-23497/DateAssessment""), 50)",Chrome 73.0.3683.86,,2019-03-27 11:09:00,2019-03-27 11:09:00,"0,090s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLNK-23497/DateAssessment""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 73.0.3683.86,,2019-03-27 11:09:00,2019-03-27 11:09:01,"0,598s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-27 11:09:01,2019-03-27 11:09:03,"2,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLNK-23497/SaveAssessment""), 50)",Chrome 73.0.3683.86,,2019-03-27 11:09:03,2019-03-27 11:09:03,"0,061s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLNK-23497/SaveAssessment""))",Chrome 73.0.3683.86,,2019-03-27 11:09:03,2019-03-27 11:09:04,"0,846s",PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-27 11:09:04,2019-03-27 11:09:07,"3,005s",PASSED
