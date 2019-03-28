@@ -28,4 +28,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23314 - Clinical Edge - Add Schedule</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6323c061-0dbb-466e-ac53-6c4746ec52d4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23504 - Clinical Edge - POC - Pick Assessment</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
