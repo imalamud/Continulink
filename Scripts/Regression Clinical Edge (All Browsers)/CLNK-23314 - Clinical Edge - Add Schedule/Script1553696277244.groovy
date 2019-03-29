@@ -24,11 +24,11 @@ WebUI.waitForPageLoad(60)
 
 WebUI.delay(8)
 
-WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'), 100)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'), 100)
 
-WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'))
+not_run: WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/ClientPage/HomeLink'), 100)
 
@@ -78,8 +78,8 @@ WebUI.delay(2)
 
 WebUI.focus(findTestObject('Regression Clinical Edge/CLINK-23314/ServiceTypeList'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLINK-23314/ServiceTypeList'), Keys.chord(Keys.ARROW_RIGHT, 
-        Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER))
+WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLINK-23314/ServiceTypeList'), Keys.chord(Keys.ARROW_RIGHT, Keys.ARROW_DOWN, 
+        Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23314/StartTime'), 60)
 

@@ -24,11 +24,11 @@ WebUI.waitForPageLoad(60)
 
 WebUI.delay(8)
 
-WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'), 100)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'), 100)
 
-WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'))
+not_run: WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/HomePage/ClientLink'), 100)
 

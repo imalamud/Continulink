@@ -104,9 +104,9 @@ WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23451/MedicareAdminLi
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23451/btnSave'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23451/btnSavePayer'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-23451/btnSave'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Regression BackOffice/CLINK-23451/btnSavePayer'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
