@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ServiceType</name>
+   <tag></tag>
+   <elementGuidId>03278694-f8ff-4f7f-bab8-f79e4102a8da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='VF_7762_26852_ServiceType']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>VF_7762_26852_ServiceType</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fc</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>---Select---*HHA Hour Test Again 120 HOUR TAR Approvedadd serviceALWP Tier 1ALWP Tier 2ALWP Tier 3ALWP Tier 4ALWP Tier 5Attendant HourlyBrain &amp; Spinal Cord ServicesCare Management ServicesCCA Initial EvalCCA On CensusCCT 100 HOURCCT 20 HOURCDC HourlyClinical FormCNA HourlyCNA Hourly W/DCNA hourly W/ECNA2 W/ECNA3 W/ECNA4 W/ECompanion HomeMakerDay Care I_TestDay Care IIDiamond_040119Doc Time Case ManagementDocumentation Time Service Code.1Flu ShotFlu ShotsHHA HourlyHHA Hourly (am)HHA Hourly (noon)HHA Hourly (pm)HHA Hourly (t-night)HHA VisitHHA visit 1Homemakerhour 1HV Est Comp 75 minHV New Mod-Hi 45 minHV Pro each 30hV Prolong 1st hrkanitestLog Documentation TimeLPCA HourlyLPN ComplexLPN HourlyLPN Hourly NightLPN Hourly PeriodLPN Hourly POSLPN HR #1LPN HR #2LPN RegularLPN School HourlyLPN Shared CareLPN T&amp;E VisitLPN VisitLVN HourlyMcaid RN Roll ExtraMCaid Rn RolloverMedication Setup VisitMental HealthMiscMSWOne Time VisitOT Eval*OT&quot; visitPCAPCA Bill Hour/Pay VisitPCA Family BrotherPCA GroupPCA HourlyPCA Hourly IIPCA OvernightPCA RespitePCA Second AddressPhone CallPhone Call ARPOC1705-2Prov Non PriorityProv PriorityPT +VisitPT EvalPT Eval Visit - MCBPT Maint VisitPT MT - Manual TherapyPT TA - Therapy ActivityPT TE - Therapy ExercisePT VisitPTA VisitRebizzoReceiptsRespite CareRespite ELARCRespite NLARCRN ComplexRn Fac HourlyRN High Tech VisitRN HourlyRN Hourly DayRn Hourly EveningRN Hourly PeriodRN Initial EvalRN O&amp;A VisitRN OvernightRN ReassessmentRN RecertRN Recert W VisitRN RegularRN Respite CareRN Routine Visit (Direct Care - 54) OTRN School HourlyRN School Hourly 2+RN School StaffingRN SOC OasisRN Special FacRn StaffingRN Supervisory VisitRN T&amp;E VisitRN TravelRN VisitRN_GroupHomesRN_OriginalRT visitRV VisitShow Up PaySleepOverSleepOver-12SN Bill Hour/Pay VisitSn HourlySN visit ExtendedSN visit&quot;SN_OriginalSRNAST EvalST VisitSupervisory VisitTest PTTolietingTravel Time BillableVERIFIED_TESTVisit OneVisit ThreeVisit TwoW/O WeeklyWeek On Call</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;VF_7762_26852_ServiceType&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//select[@id='VF_7762_26852_ServiceType']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//table[@id='VF_7762_26852_AddEditTable']/tbody/tr[2]/td[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Type:'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PRN'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Number of Visits:'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Range'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//tr[2]/td[2]/select</value>
+   </webElementXpaths>
+</WebElementEntity>
