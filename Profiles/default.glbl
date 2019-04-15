@@ -56,17 +56,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Barbara'</initValue>
+      <initValue>'Will'</initValue>
       <name>G_ClientFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'M'</initValue>
+      <initValue>'K'</initValue>
       <name>G_ClientMiddleName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Blackaller'</initValue>
+      <initValue>'Williams'</initValue>
       <name>G_ClientLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -86,7 +86,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sarvari'</initValue>
+      <initValue>'Nurse'</initValue>
       <name>G_ClinicalManager</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -106,7 +106,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Boat'</initValue>
+      <initValue>'dew'</initValue>
       <name>G_23448_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -121,12 +121,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'5445899862'</initValue>
+      <initValue>'2548785698'</initValue>
       <name>G_23442Phone</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Khur'</initValue>
       <name>G_Client</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Dimitra, Natasha'</initValue>
+      <name>G_CaregiverName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://qanewpoc.continulink.com:81/backoffice/Client/ClientSearch.aspx?search=true'</initValue>
+      <name>G_BackWindow</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

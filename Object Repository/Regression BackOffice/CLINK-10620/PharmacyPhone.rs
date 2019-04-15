@@ -47,13 +47,6 @@
       <type>Main</type>
       <value>id(&quot;tblPharmacies&quot;)/tbody[1]/tr[3]/td[3]/input[1]</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Regression BackOffice/CLINK-10620/Page_InterLink/frame_Capture object_FrameMain</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

@@ -1,0 +1,28 @@
+1
+00:00:01,011 --> 00:00:01,013
+1. callTestCase(findTestCase("Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,205 --> 00:00:01,207
+1. openBrowser(G_SiteBackOffice)
+
+3
+00:00:07,626 --> 00:00:07,627
+5. waitForPageLoad(60)
+
+4
+00:00:07,691 --> 00:00:07,694
+9. maximizeWindow()
+
+5
+00:00:08,971 --> 00:00:08,975
+13. setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice)
+
+6
+00:00:09,266 --> 00:00:09,268
+17. setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice)
+
+7
+00:00:09,544 --> 00:00:09,547
+21. click(findTestObject("Regression BackOffice/Login/LoginBackOffice"))
+

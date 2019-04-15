@@ -34,4 +34,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23504 - Clinical Edge - POC - Pick Assessment</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>77155458-7d41-4789-83a7-2c1a1bfe9a82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23505 - Clinical Edge - POC - Plan of Care</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

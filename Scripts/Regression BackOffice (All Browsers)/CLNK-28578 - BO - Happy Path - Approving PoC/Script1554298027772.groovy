@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -37,21 +38,18 @@ WebUI.switchToDefaultContent()
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/Client'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), 'Jacen')
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-28578/Client'), GlobalVariable.G_ClientLastName)
 
-WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/LastNameSearch'), 50)
-
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/LastNameSearch'), 'Morris')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-28578/Client'), Keys.chord(Keys.ARROW_RIGHT, Keys.ARROW_DOWN, 
+        Keys.ENTER))
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 27906/SearchButton'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/btnSearch'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 27906/SearchButton'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/btnSearch'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

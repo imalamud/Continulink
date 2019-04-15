@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Summary: 7 (Task A) New Clinical Manager Caregiver Property &amp; 8  (Task B) Update Care Manager Control in Admission Details >>Phase 1&lt;&lt;
-Description: {color:#205081}_*Requirement Coverage*_{color}Â Â 
-h3. {color:#205081}7Â  Â (Task A) New Clinical Manager Caregiver Property{color}
-
-*ContinuLink > Caregiver / HR Block > Caregiver Demo. > Other Information*
-
-Under the Caregiver / HR Block Tab in the Caregiver Demographics page we should add a new Radio Button â€œIs Clinical Manger?â€� This will identify a user as a clinical manger.
-
-The radio button must be defaulted to â€œNoâ€� on release.
-h3. {color:#205081}8Â  Â  Â (Task B) Update Care Manager Control in Admission Details{color}
-
-*ContinuLink > Client / Intake Block > Admission Details > Care Manager Panel*
-
+Description: {color:#205081}_*Requirement Coverage*_{color}Â Â 
+
+h3. {color:#205081}7Â  Â (Task A) New Clinical Manager Caregiver Property{color}
+
+
+
+*ContinuLink > Caregiver / HR Block > Caregiver Demo. > Other Information*
+
+
+
+Under the Caregiver / HR Block Tab in the Caregiver Demographics page we should add a new Radio Button â€œIs Clinical Manger?â€� This will identify a user as a clinical manger.
+
+
+
+The radio button must be defaulted to â€œNoâ€� on release.
+
+h3. {color:#205081}8Â  Â  Â (Task B) Update Care Manager Control in Admission Details{color}
+
+
+
+*ContinuLink > Client / Intake Block > Admission Details > Care Manager Panel*
+
+
+
 We should modify the Care Manager panel to allow for both care manager and Clinical manager entries. We should do this by demoting the content of the panel to a tab labeled â€œCare Managerâ€�, this tab should be the default position of the control. We should also create a new tab labeled â€œClinical Managerâ€�.</description>
    <name>CLNK-17788 - (Task A) New Clinical Manager Caregiver Property</name>
    <tag></tag>

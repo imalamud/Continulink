@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[@onclick=&quot;javascript:try{fnTrackRecordAccessReq(230,'Role Access Security Report',0,9,1773,287,150,'/backoffice/reports/reports.aspx');}catch(e){};fnOpenPage('Admin/UsersPageSecurityReport.aspx?mid=0&amp;ReportID=230&amp;ReportName=Role Access Security Report&amp;SpIndatabase=OU&amp;IsPortrait=False');&quot;]</value>
+         <value>//*[@id=&quot;REPORT230&quot;]/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -69,45 +69,9 @@
       <value>id(&quot;REPORT230&quot;)/td[@class=&quot;link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//td[@onclick=&quot;javascript:try{fnTrackRecordAccessReq(230,'Role Access Security Report',0,9,1773,287,150,'/backoffice/reports/reports.aspx');}catch(e){};fnOpenPage('Admin/UsersPageSecurityReport.aspx?mid=0&amp;ReportID=230&amp;ReportName=Role Access Security Report&amp;SpIndatabase=OU&amp;IsPortrait=False');&quot;]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//tr[@id='REPORT230']/td[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='List of Active Users'])[1]/following::td[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='HIPAA Audit Details Report'])[1]/following::td[8]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Type Details Report'])[1]/preceding::td[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='This report will show a list of all active service types with their associated attributes.'])[1]/preceding::td[5]</value>
-   </webElementXpaths>
-   <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//tr[5]/td[2]</value>
+      <value>//*[@id=&quot;REPORT230&quot;]/td[2]</value>
    </webElementXpaths>
 </WebElementEntity>

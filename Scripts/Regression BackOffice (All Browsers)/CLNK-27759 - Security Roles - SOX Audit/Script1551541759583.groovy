@@ -106,7 +106,7 @@ WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/Demo_DemoObject'), 50)
 
-WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK-27759/Demo_DemoObject'), 0)
+WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK-27759/Demo_DemoObject'), 30)
 
 WebUI.delay(2)
 
@@ -160,4 +160,6 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/Ex
 WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/ExportToFile'))
 
 WebUI.delay(2)
+
+WebUI.closeBrowser()
 

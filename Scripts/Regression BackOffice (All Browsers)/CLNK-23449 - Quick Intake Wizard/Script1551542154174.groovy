@@ -174,7 +174,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Demographics/Zone'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-23449/Demographics/Zone'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
-        Keys.ARROW_DOWN, Keys.ENTER))
+        Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -276,7 +276,8 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23451/Me
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK-23451/MedicareAdminList'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23451/MedicareAdminList'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23451/MedicareAdminList'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
+        Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(2)
 
@@ -364,4 +365,6 @@ WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Admit/btnAdmit'), F
 WebUI.delay(2)
 
 WebUI.switchToDefaultContent()
+
+WebUI.closeBrowser()
 

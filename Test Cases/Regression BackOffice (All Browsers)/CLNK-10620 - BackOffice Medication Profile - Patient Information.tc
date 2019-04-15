@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Summary: BackOffice Medication Profile: Patient Information
-Description: CLink - Clinical block:
-1. Search for a test client
+Description: CLink - Clinical block:
+
+1. Search for a test client
+
 2. Open Medication Profile</description>
    <name>CLNK-10620 - BackOffice Medication Profile - Patient Information</name>
    <tag></tag>

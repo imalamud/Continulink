@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[contains(text(),'Sarvari, Elina')]</value>
+         <value>//li[contains(text(),'Nurse, Nancy')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -58,6 +58,6 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//li[contains(text(),'Sarvari, Elina')]</value>
+      <value>//li[contains(text(),'Nurse, Nancy')]</value>
    </webElementXpaths>
 </WebElementEntity>
