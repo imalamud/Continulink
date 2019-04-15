@@ -81,3 +81,5 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK-17788/SaveButton'), Fail
 
 WebUI.delay(2)
 
+WebUI.closeBrowser()
+

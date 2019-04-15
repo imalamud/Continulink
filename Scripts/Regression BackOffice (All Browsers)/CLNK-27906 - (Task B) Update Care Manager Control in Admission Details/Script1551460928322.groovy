@@ -42,7 +42,7 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain')
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 27906/Last NameAdmission'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK - 27906/Last NameAdmission'), GlobalVariable.G_LastNameAdd)
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 27906/Last NameAdmission'), GlobalVariable.G_ClientLastName)
 
 WebUI.delay(2)
 
@@ -119,4 +119,8 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK - 27906/DeleteIcon'), Fa
 WebUI.delay(2)
 
 WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 

@@ -59,7 +59,7 @@ WebUI.delay(2)
 
 WebUI.switchToDefaultContent()
 
-WebUI.switchToWindowUrl('http://qanewpoc.continulink.com:81/backoffice/Client/ClientSearch.aspx?search=true')
+WebUI.switchToWindowUrl(GlobalVariable.G_BackWindow)
 
 WebUI.waitForPageLoad(60)
 
@@ -67,7 +67,7 @@ WebUI.maximizeWindow()
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17180/Last Name'), 50)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-17180/Last Name'), 'Rollback')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-17180/Last Name'), GlobalVariable.G_ClientLastName)
 
 WebUI.delay(2)
 
@@ -134,4 +134,6 @@ WebUI.delay(2)
 WebUI.waitForPageLoad(60)
 
 WebUI.delay(4)
+
+WebUI.closeBrowser()
 

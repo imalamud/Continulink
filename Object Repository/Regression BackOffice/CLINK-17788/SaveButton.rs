@@ -61,13 +61,6 @@
       <type>Main</type>
       <value>id(&quot;bttnSave&quot;)</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/CLINK-17788/Page_InterLink/frame_Capture object_BannerFra</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

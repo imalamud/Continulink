@@ -41,13 +41,13 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain')
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), 'Adam')
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), GlobalVariable.G_ClientFirstName)
 
 WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/LastNameSearch'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/LastNameSearch'), 'Cook')
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/LastNameSearch'), GlobalVariable.G_ClientLastName)
 
 WebUI.delay(2)
 
@@ -97,6 +97,8 @@ WebUI.switchToDefaultContent()
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
 
+WebUI.waitForPageLoad(50)
+
 WebUI.delay(3)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-10620/MedboxChk'), 100)
@@ -113,19 +115,21 @@ WebUI.delay(2)
 
 WebUI.waitForElementVisible(findTestObject('Regression BackOffice/CLINK-10620/PharmacyName'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-10620/PharmacyName'), 'New Pharmacy ')
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-10620/PharmacyName'), 'Lo encontre')
 
 WebUI.delay(2)
 
 WebUI.waitForElementVisible(findTestObject('Regression BackOffice/CLINK-10620/PharmacyPhone'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-10620/PharmacyPhone'), '1234567890')
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-10620/PharmacyPhone'), '4586957555')
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-10620/SaveButton'), 50)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK-10620/SaveButton'))
 
 WebUI.delay(2)
+
+WebUI.closeBrowser()
 

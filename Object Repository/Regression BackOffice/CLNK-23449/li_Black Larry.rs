@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[contains(text(),'Black, Larry')]</value>
+         <value>//li[contains(text(),'ABBOTT, CYNTHIA')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -58,6 +58,6 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[contains(text(),'Black, Larry')]</value>
+      <value>//li[contains(text(),'ABBOTT, CYNTHIA')]</value>
    </webElementXpaths>
 </WebElementEntity>
