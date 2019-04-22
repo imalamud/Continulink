@@ -233,3 +233,15 @@ WebUI.waitForPageLoad(50)
 
 WebUI.delay(3)
 
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23509/Signature'), 50)
+
+WebUI.setText(findTestObject('Regression Clinical Edge/CLINK-23509/Signature'), GlobalVariable.G_Password)
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23509/OkSignature'), 50)
+
+WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23509/OkSignature'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+

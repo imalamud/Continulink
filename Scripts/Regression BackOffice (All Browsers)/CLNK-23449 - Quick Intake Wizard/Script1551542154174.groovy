@@ -174,7 +174,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Demographics/Zone'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-23449/Demographics/Zone'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
-        Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER))
+        Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(3)
 

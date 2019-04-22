@@ -56,22 +56,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Will'</initValue>
+      <initValue>'Federico'</initValue>
       <name>G_ClientFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'K'</initValue>
+      <initValue>'M'</initValue>
       <name>G_ClientMiddleName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Williams'</initValue>
+      <initValue>'Kobrinsky'</initValue>
       <name>G_ClientLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Black'</initValue>
+      <initValue>'Abbott'</initValue>
       <name>G_PhisicanName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

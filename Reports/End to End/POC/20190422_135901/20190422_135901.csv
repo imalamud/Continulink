@@ -1,0 +1,405 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+POC,Chrome 73.0.3683.103,,2019-04-22 13:59:05,2019-04-22 14:07:21,"8m - 16,266s",PASSED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard,Chrome 73.0.3683.103,"Summary: Back office  Quick Intake Wizard (Automation MK)
+Description: ",2019-04-22 13:59:06,2019-04-22 14:02:29,"3m - 23,220s",PASSED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 13:59:08,2019-04-22 13:59:33,"24,651s",PASSED
+waitForPageLoad(60),Chrome 73.0.3683.103,,2019-04-22 13:59:33,2019-04-22 13:59:33,"0,031s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 13:59:33,2019-04-22 13:59:36,"3,017s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 73.0.3683.103,,2019-04-22 13:59:36,2019-04-22 13:59:36,"0,084s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/ClienIntakeICon""), 100)",Chrome 73.0.3683.103,,2019-04-22 13:59:36,2019-04-22 13:59:36,"0,050s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/ClienIntakeICon""))",Chrome 73.0.3683.103,,2019-04-22 13:59:36,2019-04-22 13:59:37,"0,240s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 13:59:37,2019-04-22 13:59:39,"2,005s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 13:59:39,2019-04-22 13:59:39,"0,038s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Quick Intake Wizard Link""), 50)",Chrome 73.0.3683.103,,2019-04-22 13:59:39,2019-04-22 13:59:39,"0,075s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Quick Intake Wizard Link""))",Chrome 73.0.3683.103,,2019-04-22 13:59:39,2019-04-22 13:59:41,"2,700s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 13:59:41,2019-04-22 13:59:43,"2,008s",PASSED
+switchToDefaultContent(),Chrome 73.0.3683.103,,2019-04-22 13:59:43,2019-04-22 13:59:43,"0,025s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 73.0.3683.103,,2019-04-22 13:59:43,2019-04-22 13:59:44,"0,125s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/New Referral Button""), 50)",Chrome 73.0.3683.103,,2019-04-22 13:59:44,2019-04-22 13:59:44,"0,063s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/New Referral Button""))",Chrome 73.0.3683.103,,2019-04-22 13:59:44,2019-04-22 13:59:44,"0,351s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 13:59:44,2019-04-22 13:59:44,"0,067s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 13:59:44,2019-04-22 13:59:46,"2,008s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/ReferralType""), 50)",Chrome 73.0.3683.103,,2019-04-22 13:59:46,2019-04-22 13:59:46,"0,075s",PASSED
+"focus(findTestObject(""Regression BackOffice/CLNK-23449/ReferralType""))",Chrome 73.0.3683.103,,2019-04-22 13:59:46,2019-04-22 13:59:46,"0,185s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/ReferralType""))",Chrome 73.0.3683.103,,2019-04-22 13:59:46,2019-04-22 13:59:47,"0,233s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 13:59:47,2019-04-22 13:59:49,"2,024s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/ReferralType""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 13:59:49,2019-04-22 13:59:49,"0,167s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 13:59:49,2019-04-22 13:59:52,"3,008s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/ReferralSourcePerson""), 50)",Chrome 73.0.3683.103,,2019-04-22 13:59:52,2019-04-22 13:59:52,"0,071s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/ReferralSourcePerson""), G_ReferralSourcePerson)",Chrome 73.0.3683.103,,2019-04-22 13:59:52,2019-04-22 13:59:53,"1,060s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 13:59:53,2019-04-22 13:59:55,"2,008s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/ClientFirstName""), 50)",Chrome 73.0.3683.103,,2019-04-22 13:59:55,2019-04-22 13:59:55,"0,091s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/ClientFirstName""), G_ClientFirstName)",Chrome 73.0.3683.103,,2019-04-22 13:59:55,2019-04-22 13:59:56,"0,640s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 13:59:56,2019-04-22 13:59:58,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/ClientMiddle""), 50)",Chrome 73.0.3683.103,,2019-04-22 13:59:58,2019-04-22 13:59:58,"0,054s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/ClientMiddle""), G_ClientMiddleName)",Chrome 73.0.3683.103,,2019-04-22 13:59:58,2019-04-22 13:59:58,"0,243s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 13:59:58,2019-04-22 14:00:00,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/ClientLastName""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:00:00,2019-04-22 14:00:00,"0,060s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/ClientLastName""), G_ClientLastName)",Chrome 73.0.3683.103,,2019-04-22 14:00:00,2019-04-22 14:00:01,"0,635s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:00:01,2019-04-22 14:00:03,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/FollowUpCallBack""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:00:03,2019-04-22 14:00:03,"0,050s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/FollowUpCallBack""), ""3"")",Chrome 73.0.3683.103,,2019-04-22 14:00:03,2019-04-22 14:00:03,"0,265s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:00:03,2019-04-22 14:00:05,"2,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/PhysicianName""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:00:05,2019-04-22 14:00:05,"0,066s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/PhysicianName""))",Chrome 73.0.3683.103,,2019-04-22 14:00:05,2019-04-22 14:00:05,"0,291s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:00:05,2019-04-22 14:00:07,"2,006s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/PhysicianName""), G_PhisicanName)",Chrome 73.0.3683.103,,2019-04-22 14:00:07,2019-04-22 14:00:08,"0,481s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:08,2019-04-22 14:00:11,"3,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/li_Black Larry""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:00:11,2019-04-22 14:00:11,"0,067s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/li_Black Larry""))",Chrome 73.0.3683.103,,2019-04-22 14:00:11,2019-04-22 14:00:11,"0,237s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:00:11,2019-04-22 14:00:13,"2,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/SaveButton""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:00:13,2019-04-22 14:00:13,"0,064s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/SaveButton""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:00:13,2019-04-22 14:00:14,"0,393s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:00:14,2019-04-22 14:00:16,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/btnNext""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:00:16,2019-04-22 14:00:16,"0,079s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/btnNext""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:00:16,2019-04-22 14:00:16,"0,293s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:00:16,2019-04-22 14:00:18,"2,006s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/DOB""), ""05/23/1970"")",Chrome 73.0.3683.103,,2019-04-22 14:00:18,2019-04-22 14:00:19,"0,829s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:19,2019-04-22 14:00:22,"3,005s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/SSN1""), ""436120560"")",Chrome 73.0.3683.103,,2019-04-22 14:00:22,2019-04-22 14:00:22,"0,702s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:22,2019-04-22 14:00:25,"3,006s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/Medicare ID""), ""123456789a"")",Chrome 73.0.3683.103,,2019-04-22 14:00:25,2019-04-22 14:00:26,"0,716s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:26,2019-04-22 14:00:29,"3,004s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/Address""), ""320 Interlocken Parkway"")",Chrome 73.0.3683.103,,2019-04-22 14:00:29,2019-04-22 14:00:31,"1,372s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:31,2019-04-22 14:00:34,"3,005s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/City""), ""Broomfield"")",Chrome 73.0.3683.103,,2019-04-22 14:00:34,2019-04-22 14:00:34,"0,744s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:34,2019-04-22 14:00:37,"3,006s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/County""), ""United States"")",Chrome 73.0.3683.103,,2019-04-22 14:00:37,2019-04-22 14:00:38,"0,833s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:38,2019-04-22 14:00:41,"3,006s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/State""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:00:41,2019-04-22 14:00:41,"0,322s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/State""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:00:41,2019-04-22 14:00:42,"0,201s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:42,2019-04-22 14:00:45,"3,006s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/btnVerify""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:00:45,2019-04-22 14:00:45,"0,261s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:45,2019-04-22 14:00:48,"3,006s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/btnVerify""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:00:48,2019-04-22 14:00:48,"0,161s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:48,2019-04-22 14:00:51,"3,007s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/UseVerifyAddress""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:00:51,2019-04-22 14:00:51,"0,318s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:51,2019-04-22 14:00:54,"3,006s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/PhoneType""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:00:54,2019-04-22 14:00:55,"0,368s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/PhoneType""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:00:55,2019-04-22 14:00:55,"0,173s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:55,2019-04-22 14:00:58,"3,006s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/PhoneNumber""), ""2345698789"")",Chrome 73.0.3683.103,,2019-04-22 14:00:58,2019-04-22 14:00:59,"0,886s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:00:59,2019-04-22 14:01:02,"3,005s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/Zone""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:02,2019-04-22 14:01:02,"0,283s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/Zone""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:02,2019-04-22 14:01:02,"0,167s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:01:02,2019-04-22 14:01:05,"3,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/ContactFName""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:05,2019-04-22 14:01:05,"0,052s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/ContactFName""), ""Scott"")",Chrome 73.0.3683.103,,2019-04-22 14:01:05,2019-04-22 14:01:06,"0,539s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:06,2019-04-22 14:01:08,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/ContactLName""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:08,2019-04-22 14:01:08,"0,059s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/ContactLName""), ""Ward"")",Chrome 73.0.3683.103,,2019-04-22 14:01:08,2019-04-22 14:01:08,"0,397s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:08,2019-04-22 14:01:10,"2,007s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/ContactType""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:10,2019-04-22 14:01:11,"0,293s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/ContactType""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:11,2019-04-22 14:01:11,"0,183s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:01:11,2019-04-22 14:01:14,"3,007s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/Relationship""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:14,2019-04-22 14:01:14,"0,253s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/Relationship""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:14,2019-04-22 14:01:14,"0,239s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:01:14,2019-04-22 14:01:17,"3,004s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/PhoneTypeContact""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:17,2019-04-22 14:01:18,"0,258s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/PhoneTypeContact""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:18,2019-04-22 14:01:18,"0,160s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:01:18,2019-04-22 14:01:21,"3,006s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/ContactPhone""), ""2345698789"")",Chrome 73.0.3683.103,,2019-04-22 14:01:21,2019-04-22 14:01:22,"0,958s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:01:22,2019-04-22 14:01:25,"3,004s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/EpisodeType""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:25,2019-04-22 14:01:25,"0,285s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/EpisodeType""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:25,2019-04-22 14:01:25,"0,172s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:01:25,2019-04-22 14:01:28,"3,004s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/PlaceOfServices""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:28,2019-04-22 14:01:28,"0,251s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/PlaceOfServices""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:28,2019-04-22 14:01:29,"0,191s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:01:29,2019-04-22 14:01:32,"3,004s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/ClientStatus""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:32,2019-04-22 14:01:32,"0,242s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/ClientStatus""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:32,2019-04-22 14:01:32,"0,168s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:01:32,2019-04-22 14:01:35,"3,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/btnSaveDemo""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:35,2019-04-22 14:01:35,"0,054s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/btnSaveDemo""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:35,2019-04-22 14:01:35,"0,228s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:35,2019-04-22 14:01:37,"2,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/btnNextDemo""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:37,2019-04-22 14:01:37,"0,065s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Demographics/btnNextDemo""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:37,2019-04-22 14:01:38,"0,226s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:38,2019-04-22 14:01:40,"2,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23451/PayerList""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:40,2019-04-22 14:01:40,"0,055s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23451/PayerList""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:40,2019-04-22 14:01:40,"0,283s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK-23451/PayerList""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:40,2019-04-22 14:01:40,"0,157s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:40,2019-04-22 14:01:42,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23451/PlanList""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:42,2019-04-22 14:01:42,"0,048s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23451/PlanList""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:42,2019-04-22 14:01:43,"0,285s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK-23451/PlanList""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:43,2019-04-22 14:01:43,"0,198s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:43,2019-04-22 14:01:45,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23451/GroupList""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:45,2019-04-22 14:01:45,"0,062s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23451/GroupList""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:45,2019-04-22 14:01:45,"0,244s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK-23451/GroupList""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:45,2019-04-22 14:01:45,"0,151s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:45,2019-04-22 14:01:47,"2,007s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23451/MedicareAdminList""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:47,2019-04-22 14:01:47,"0,046s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23451/MedicareAdminList""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:47,2019-04-22 14:01:47,"0,217s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK-23451/MedicareAdminList""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:01:47,2019-04-22 14:01:48,"0,160s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:48,2019-04-22 14:01:50,"2,007s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23451/btnSavePayer""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:50,2019-04-22 14:01:50,"0,043s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23451/btnSavePayer""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:50,2019-04-22 14:01:50,"0,170s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:50,2019-04-22 14:01:52,"2,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/btnNextPayer""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:52,2019-04-22 14:01:52,"0,046s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/btnNextPayer""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:52,2019-04-22 14:01:52,"0,192s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:52,2019-04-22 14:01:54,"2,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Reporting Groups""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:54,2019-04-22 14:01:54,"0,051s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Reporting Groups""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:54,2019-04-22 14:01:54,"0,193s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:54,2019-04-22 14:01:56,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/btnSaveServices""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:56,2019-04-22 14:01:56,"0,041s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/btnSaveServices""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:56,2019-04-22 14:01:57,"0,163s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:57,2019-04-22 14:01:59,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/btnNextServices""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:01:59,2019-04-22 14:01:59,"0,098s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/btnNextServices""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:01:59,2019-04-22 14:01:59,"0,203s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:01:59,2019-04-22 14:02:01,"2,003s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Admit/SOCDate""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 73.0.3683.103,,2019-04-22 14:02:01,2019-04-22 14:02:02,"0,964s",PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-22 14:02:02,2019-04-22 14:02:06,"4,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Admit/DisasterCode""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:02:06,2019-04-22 14:02:06,"0,122s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Admit/DisasterCode""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:02:06,2019-04-22 14:02:06,"0,400s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Admit/DisasterCode""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:02:06,2019-04-22 14:02:06,"0,144s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:02:06,2019-04-22 14:02:08,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Admit/ClasificationLevel""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:02:08,2019-04-22 14:02:09,"0,055s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Admit/ClasificationLevel""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:02:09,2019-04-22 14:02:09,"0,347s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Admit/ClasificationLevel""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:02:09,2019-04-22 14:02:09,"0,204s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:02:09,2019-04-22 14:02:11,"2,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Admit/HIPAA""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:02:11,2019-04-22 14:02:11,"0,058s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Admit/HIPAA""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:02:11,2019-04-22 14:02:11,"0,259s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Admit/HIPAA""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:02:11,2019-04-22 14:02:12,"0,146s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:02:12,2019-04-22 14:02:14,"2,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Admit/QCode""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:02:14,2019-04-22 14:02:14,"0,056s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Admit/QCode""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:02:14,2019-04-22 14:02:14,"0,226s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLNK-23449/Admit/QCode""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:02:14,2019-04-22 14:02:14,"0,160s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:02:14,2019-04-22 14:02:16,"2,008s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23449/Admit/Effective Begin Date""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 73.0.3683.103,,2019-04-22 14:02:16,2019-04-22 14:02:17,"0,776s",PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-22 14:02:17,2019-04-22 14:02:21,"4,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Admit/btnSaveAdmit""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:02:21,2019-04-22 14:02:21,"0,033s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Admit/btnSaveAdmit""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:02:21,2019-04-22 14:02:21,"0,183s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:02:21,2019-04-22 14:02:23,"2,003s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/Admit/btnAdmit""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:02:23,2019-04-22 14:02:23,"0,052s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23449/Admit/btnAdmit""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:02:23,2019-04-22 14:02:23,"0,174s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:02:23,2019-04-22 14:02:25,"2,006s",PASSED
+switchToDefaultContent(),Chrome 73.0.3683.103,,2019-04-22 14:02:25,2019-04-22 14:02:25,"0,029s",PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-22 14:02:25,2019-04-22 14:02:26,"1,148s",PASSED
+,,,,,,
+Test Cases/Regression Clinical Edge (All Browsers)/CLNK-28946 - CE - Add diagnosis,Chrome 73.0.3683.103,"Summary: CE - Add diagnosis
+Description: ",2019-04-22 14:02:29,2019-04-22 14:03:44,"1m - 15,459s",PASSED
+"callTestCase(findTestCase(""Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:02:30,2019-04-22 14:02:46,"15,896s",PASSED
+waitForPageLoad(60),Chrome 73.0.3683.103,,2019-04-22 14:02:46,2019-04-22 14:02:46,"0,021s",PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-22 14:02:46,2019-04-22 14:02:46,"0,018s",PASSED
+waitForPageLoad(60),Chrome 73.0.3683.103,,2019-04-22 14:02:46,2019-04-22 14:02:46,"0,036s",PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-22 14:02:46,2019-04-22 14:02:46,"0,004s",NOT_RUN
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLNK-23497/button_Close""), 100)",Chrome 73.0.3683.103,,2019-04-22 14:02:46,2019-04-22 14:02:46,"0,003s",NOT_RUN
+"click(findTestObject(""Regression Clinical Edge/CLNK-23497/button_Close""))",Chrome 73.0.3683.103,,2019-04-22 14:02:46,2019-04-22 14:02:46,"0,003s",NOT_RUN
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:02:46,2019-04-22 14:02:48,"2,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/ClientPage/HomeLink""), 100)",Chrome 73.0.3683.103,,2019-04-22 14:02:48,2019-04-22 14:02:48,"0,072s",PASSED
+"click(findTestObject(""Regression Clinical Edge/ClientPage/HomeLink""))",Chrome 73.0.3683.103,,2019-04-22 14:02:48,2019-04-22 14:02:49,"1,151s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:02:49,2019-04-22 14:02:51,"2,006s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:02:51,2019-04-22 14:02:51,"0,040s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/HomePage/RequestTab""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:02:51,2019-04-22 14:02:51,"0,113s",PASSED
+"click(findTestObject(""Regression Clinical Edge/HomePage/RequestTab""))",Chrome 73.0.3683.103,,2019-04-22 14:02:51,2019-04-22 14:02:51,"0,288s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:02:51,2019-04-22 14:02:53,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/HomePage/SearchText""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:02:53,2019-04-22 14:02:53,"0,050s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/HomePage/SearchText""), G_ClientLastName)",Chrome 73.0.3683.103,,2019-04-22 14:02:53,2019-04-22 14:02:54,"0,624s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:02:54,2019-04-22 14:02:57,"3,006s",PASSED
+"scrollToElement(findTestObject(""Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)""), 60)",Chrome 73.0.3683.103,,2019-04-22 14:02:57,2019-04-22 14:02:57,"0,087s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)""), 60)",Chrome 73.0.3683.103,,2019-04-22 14:02:57,2019-04-22 14:02:57,"0,050s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)""))",Chrome 73.0.3683.103,,2019-04-22 14:02:57,2019-04-22 14:02:59,"2,328s",PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-22 14:02:59,2019-04-22 14:03:04,"5,006s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:03:04,2019-04-22 14:03:04,"0,022s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/HomePage/ClientLink""), 100)",Chrome 73.0.3683.103,,2019-04-22 14:03:04,2019-04-22 14:03:05,"0,053s",PASSED
+"click(findTestObject(""Regression Clinical Edge/HomePage/ClientLink""))",Chrome 73.0.3683.103,,2019-04-22 14:03:05,2019-04-22 14:03:06,"1,770s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:03:06,2019-04-22 14:03:08,"2,005s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:03:08,2019-04-22 14:03:08,"0,022s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/AddDiagnosis""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:08,2019-04-22 14:03:08,"0,048s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/AddDiagnosis""))",Chrome 73.0.3683.103,,2019-04-22 14:03:08,2019-04-22 14:03:09,"0,141s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:03:09,2019-04-22 14:03:11,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/a_Diagnosis""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:11,2019-04-22 14:03:11,"0,074s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/a_Diagnosis""))",Chrome 73.0.3683.103,,2019-04-22 14:03:11,2019-04-22 14:03:11,"0,306s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:03:11,2019-04-22 14:03:13,"2,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/DiagnosisSearch""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:13,2019-04-22 14:03:13,"0,105s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/DiagnosisSearch""))",Chrome 73.0.3683.103,,2019-04-22 14:03:13,2019-04-22 14:03:13,"0,287s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:03:13,2019-04-22 14:03:15,"2,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_1""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:15,2019-04-22 14:03:15,"0,066s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_1""), ""A"")",Chrome 73.0.3683.103,,2019-04-22 14:03:15,2019-04-22 14:03:16,"0,186s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:03:16,2019-04-22 14:03:18,"2,007s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_2""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:18,2019-04-22 14:03:18,"0,060s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_2""), ""0"")",Chrome 73.0.3683.103,,2019-04-22 14:03:18,2019-04-22 14:03:18,"0,228s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:03:18,2019-04-22 14:03:20,"2,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_3""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:20,2019-04-22 14:03:20,"0,057s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_3""), ""0"")",Chrome 73.0.3683.103,,2019-04-22 14:03:20,2019-04-22 14:03:20,"0,171s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:03:20,2019-04-22 14:03:22,"2,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_4""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:22,2019-04-22 14:03:22,"0,076s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_4""), ""0"")",Chrome 73.0.3683.103,,2019-04-22 14:03:22,2019-04-22 14:03:22,"0,189s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:03:22,2019-04-22 14:03:24,"2,007s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/ApplyButton""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:24,2019-04-22 14:03:24,"0,083s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/ApplyButton""))",Chrome 73.0.3683.103,,2019-04-22 14:03:24,2019-04-22 14:03:25,"0,377s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:03:25,2019-04-22 14:03:27,"2,004s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:03:27,2019-04-22 14:03:27,"0,024s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:27,2019-04-22 14:03:27,"0,053s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate""))",Chrome 73.0.3683.103,,2019-04-22 14:03:27,2019-04-22 14:03:27,"0,165s",PASSED
+"sendKeys(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate""), getDate.DateUtilities.getDateMonthDayYearNumber())",Chrome 73.0.3683.103,,2019-04-22 14:03:27,2019-04-22 14:03:27,"0,264s",PASSED
+"sendKeys(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate""), ""08032012"")",Chrome 73.0.3683.103,,2019-04-22 14:03:27,2019-04-22 14:03:27,"0,003s",NOT_RUN
+delay(4),Chrome 73.0.3683.103,,2019-04-22 14:03:27,2019-04-22 14:03:31,"4,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:31,2019-04-22 14:03:31,"0,070s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate""))",Chrome 73.0.3683.103,,2019-04-22 14:03:31,2019-04-22 14:03:32,"0,252s",PASSED
+"sendKeys(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate""), ""08032012"")",Chrome 73.0.3683.103,,2019-04-22 14:03:32,2019-04-22 14:03:32,"0,003s",NOT_RUN
+"sendKeys(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate""), getDate.DateUtilities.getDateMonthDayYearNumber())",Chrome 73.0.3683.103,,2019-04-22 14:03:32,2019-04-22 14:03:32,"0,257s",PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-22 14:03:32,2019-04-22 14:03:36,"4,015s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/button_OkDiagnosis""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:03:36,2019-04-22 14:03:36,"0,055s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Diagnosis/button_OkDiagnosis""))",Chrome 73.0.3683.103,,2019-04-22 14:03:36,2019-04-22 14:03:36,"0,144s",PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-22 14:03:36,2019-04-22 14:03:41,"5,005s",PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-22 14:03:41,2019-04-22 14:03:42,"1,018s",PASSED
+,,,,,,
+Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23505 - Clinical Edge - POC - Plan of Care,Chrome 73.0.3683.103,"Summary: Clinical Edge - POC - Plan of Care
+Description: ",2019-04-22 14:03:44,2019-04-22 14:04:42,"57,139s",PASSED
+"callTestCase(findTestCase(""Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:03:45,2019-04-22 14:04:00,"15,177s",PASSED
+waitForPageLoad(60),Chrome 73.0.3683.103,,2019-04-22 14:04:00,2019-04-22 14:04:00,"0,024s",PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-22 14:04:00,2019-04-22 14:04:00,"0,014s",PASSED
+waitForPageLoad(60),Chrome 73.0.3683.103,,2019-04-22 14:04:00,2019-04-22 14:04:00,"0,020s",PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-22 14:04:00,2019-04-22 14:04:08,"8,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLNK-23497/button_Close""), 100)",Chrome 73.0.3683.103,,2019-04-22 14:04:08,2019-04-22 14:04:08,"0,003s",NOT_RUN
+"click(findTestObject(""Regression Clinical Edge/CLNK-23497/button_Close""))",Chrome 73.0.3683.103,,2019-04-22 14:04:08,2019-04-22 14:04:08,"0,003s",NOT_RUN
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:04:08,2019-04-22 14:04:08,"0,003s",NOT_RUN
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/ClientPage/HomeLink""), 100)",Chrome 73.0.3683.103,,2019-04-22 14:04:08,2019-04-22 14:04:08,"0,067s",PASSED
+"click(findTestObject(""Regression Clinical Edge/ClientPage/HomeLink""))",Chrome 73.0.3683.103,,2019-04-22 14:04:08,2019-04-22 14:04:10,"1,439s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:04:10,2019-04-22 14:04:12,"2,004s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:04:12,2019-04-22 14:04:12,"0,024s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/HomePage/RequestTab""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:04:12,2019-04-22 14:04:12,"0,060s",PASSED
+"click(findTestObject(""Regression Clinical Edge/HomePage/RequestTab""))",Chrome 73.0.3683.103,,2019-04-22 14:04:12,2019-04-22 14:04:12,"0,199s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:04:12,2019-04-22 14:04:14,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/HomePage/SearchText""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:04:14,2019-04-22 14:04:14,"0,047s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/HomePage/SearchText""), G_ClientLastName)",Chrome 73.0.3683.103,,2019-04-22 14:04:14,2019-04-22 14:04:15,"0,704s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:04:15,2019-04-22 14:04:18,"3,005s",PASSED
+"scrollToElement(findTestObject(""Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)""), 60)",Chrome 73.0.3683.103,,2019-04-22 14:04:18,2019-04-22 14:04:18,"0,072s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)""), 60)",Chrome 73.0.3683.103,,2019-04-22 14:04:18,2019-04-22 14:04:18,"0,053s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)""))",Chrome 73.0.3683.103,,2019-04-22 14:04:18,2019-04-22 14:04:20,"2,523s",PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-22 14:04:20,2019-04-22 14:04:25,"5,006s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:04:25,2019-04-22 14:04:25,"0,026s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/HomePage/ClientLink""), 100)",Chrome 73.0.3683.103,,2019-04-22 14:04:25,2019-04-22 14:04:25,"0,058s",PASSED
+"click(findTestObject(""Regression Clinical Edge/HomePage/ClientLink""))",Chrome 73.0.3683.103,,2019-04-22 14:04:25,2019-04-22 14:04:27,"1,853s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:04:27,2019-04-22 14:04:29,"2,005s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:04:29,2019-04-22 14:04:29,"0,023s",PASSED
+"scrollToElement(findTestObject(""Regression Clinical Edge/CLINK - 23504/Plan of Care Section""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:04:29,2019-04-22 14:04:29,"0,075s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23505/AddPlanCare""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:04:29,2019-04-22 14:04:29,"0,065s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23505/AddPlanCare""))",Chrome 73.0.3683.103,,2019-04-22 14:04:29,2019-04-22 14:04:30,"0,195s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:04:30,2019-04-22 14:04:32,"2,003s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23505/POC""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:04:32,2019-04-22 14:04:32,"0,071s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23505/POC""))",Chrome 73.0.3683.103,,2019-04-22 14:04:32,2019-04-22 14:04:32,"0,183s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:04:32,2019-04-22 14:04:35,"3,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23505/SavePOC""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:04:35,2019-04-22 14:04:35,"0,054s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23505/SavePOC""))",Chrome 73.0.3683.103,,2019-04-22 14:04:35,2019-04-22 14:04:35,"0,287s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:04:35,2019-04-22 14:04:38,"3,006s",PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-22 14:04:38,2019-04-22 14:04:39,"1,232s",PASSED
+,,,,,,
+Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23509 - Clinical Edge - POC - Sign and Submit,Chrome 73.0.3683.103,"Summary: Clinical Edge - POC - Sign and Submit
+Description: ",2019-04-22 14:04:42,2019-04-22 14:07:20,"2m - 38,831s",PASSED
+"callTestCase(findTestCase(""Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:04:42,2019-04-22 14:04:58,"15,677s",PASSED
+waitForPageLoad(60),Chrome 73.0.3683.103,,2019-04-22 14:04:58,2019-04-22 14:04:58,"0,022s",PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-22 14:04:58,2019-04-22 14:04:58,"0,011s",PASSED
+waitForPageLoad(60),Chrome 73.0.3683.103,,2019-04-22 14:04:58,2019-04-22 14:04:58,"0,014s",PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-22 14:04:58,2019-04-22 14:05:06,"8,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLNK-23497/button_Close""), 100)",Chrome 73.0.3683.103,,2019-04-22 14:05:06,2019-04-22 14:05:06,"0,003s",NOT_RUN
+"click(findTestObject(""Regression Clinical Edge/CLNK-23497/button_Close""))",Chrome 73.0.3683.103,,2019-04-22 14:05:06,2019-04-22 14:05:06,"0,002s",NOT_RUN
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:05:06,2019-04-22 14:05:06,"0,002s",NOT_RUN
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/ClientPage/HomeLink""), 100)",Chrome 73.0.3683.103,,2019-04-22 14:05:06,2019-04-22 14:05:06,"0,072s",PASSED
+"click(findTestObject(""Regression Clinical Edge/ClientPage/HomeLink""))",Chrome 73.0.3683.103,,2019-04-22 14:05:06,2019-04-22 14:05:07,"1,349s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:05:07,2019-04-22 14:05:09,"2,006s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:05:09,2019-04-22 14:05:09,"0,022s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/HomePage/RequestTab""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:05:09,2019-04-22 14:05:09,"0,057s",PASSED
+"click(findTestObject(""Regression Clinical Edge/HomePage/RequestTab""))",Chrome 73.0.3683.103,,2019-04-22 14:05:09,2019-04-22 14:05:09,"0,183s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:05:09,2019-04-22 14:05:11,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/HomePage/SearchText""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:05:11,2019-04-22 14:05:11,"0,046s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/HomePage/SearchText""), G_ClientLastName)",Chrome 73.0.3683.103,,2019-04-22 14:05:11,2019-04-22 14:05:12,"0,653s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:05:12,2019-04-22 14:05:15,"3,004s",PASSED
+"scrollToElement(findTestObject(""Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)""), 60)",Chrome 73.0.3683.103,,2019-04-22 14:05:15,2019-04-22 14:05:15,"0,077s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)""), 60)",Chrome 73.0.3683.103,,2019-04-22 14:05:15,2019-04-22 14:05:15,"0,046s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)""))",Chrome 73.0.3683.103,,2019-04-22 14:05:15,2019-04-22 14:05:18,"2,352s",PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-22 14:05:18,2019-04-22 14:05:23,"5,005s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:05:23,2019-04-22 14:05:23,"0,018s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/HomePage/ClientLink""), 100)",Chrome 73.0.3683.103,,2019-04-22 14:05:23,2019-04-22 14:05:23,"0,052s",PASSED
+"click(findTestObject(""Regression Clinical Edge/HomePage/ClientLink""))",Chrome 73.0.3683.103,,2019-04-22 14:05:23,2019-04-22 14:05:26,"3,074s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:05:26,2019-04-22 14:05:28,"2,004s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:05:28,2019-04-22 14:05:28,"0,030s",PASSED
+"scrollToElement(findTestObject(""Regression Clinical Edge/CLINK - 23504/Plan of Care Section""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:05:28,2019-04-22 14:05:28,"0,073s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Plan of Care Client""))",Chrome 73.0.3683.103,,2019-04-22 14:05:28,2019-04-22 14:05:32,"4,578s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:05:32,2019-04-22 14:05:32,"0,026s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/GoNext""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:05:32,2019-04-22 14:05:33,"0,635s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/GoNext""))",Chrome 73.0.3683.103,,2019-04-22 14:05:33,2019-04-22 14:05:33,"0,157s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:05:33,2019-04-22 14:05:33,"0,019s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:05:33,2019-04-22 14:05:35,"2,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/GoNext""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:05:35,2019-04-22 14:05:36,"0,786s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:05:36,2019-04-22 14:05:38,"2,004s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/GoNext""))",Chrome 73.0.3683.103,,2019-04-22 14:05:38,2019-04-22 14:05:41,"2,590s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:05:41,2019-04-22 14:05:41,"0,133s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:05:41,2019-04-22 14:05:43,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/GoNext""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:05:43,2019-04-22 14:05:43,"0,043s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/GoNext""))",Chrome 73.0.3683.103,,2019-04-22 14:05:43,2019-04-22 14:05:45,"2,285s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:05:45,2019-04-22 14:05:45,"0,051s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:05:45,2019-04-22 14:05:47,"2,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/EditBtn""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:05:47,2019-04-22 14:05:47,"0,002s",NOT_RUN
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/EditBtn""))",Chrome 73.0.3683.103,,2019-04-22 14:05:47,2019-04-22 14:05:47,"0,001s",NOT_RUN
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:05:47,2019-04-22 14:05:47,"0,002s",NOT_RUN
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:05:47,2019-04-22 14:05:47,"0,002s",NOT_RUN
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/CaneMedical Equipment""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:05:47,2019-04-22 14:05:47,"0,052s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/CaneMedical Equipment""))",Chrome 73.0.3683.103,,2019-04-22 14:05:47,2019-04-22 14:05:47,"0,175s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:05:47,2019-04-22 14:05:49,"2,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/SaveBtn""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:05:49,2019-04-22 14:05:49,"0,051s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/SaveBtn""))",Chrome 73.0.3683.103,,2019-04-22 14:05:49,2019-04-22 14:05:50,"0,197s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:05:50,2019-04-22 14:05:50,"0,056s",PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-22 14:05:50,2019-04-22 14:06:00,"10,003s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/div_SignSubmit""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:00,2019-04-22 14:06:00,"0,098s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/div_SignSubmit""))",Chrome 73.0.3683.103,,2019-04-22 14:06:00,2019-04-22 14:06:00,"0,199s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:06:00,2019-04-22 14:06:00,"0,116s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:06:00,2019-04-22 14:06:03,"3,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/b_Treatment Orders""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:03,2019-04-22 14:06:03,"0,061s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/b_Treatment Orders""))",Chrome 73.0.3683.103,,2019-04-22 14:06:03,2019-04-22 14:06:08,"4,812s",PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-22 14:06:08,2019-04-22 14:06:13,"5,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/AddTreatment Orders""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:13,2019-04-22 14:06:13,"0,050s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/AddTreatment Orders""))",Chrome 73.0.3683.103,,2019-04-22 14:06:13,2019-04-22 14:06:13,"0,288s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:06:13,2019-04-22 14:06:15,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/ServiceType""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:15,2019-04-22 14:06:15,"0,051s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/ServiceType""))",Chrome 73.0.3683.103,,2019-04-22 14:06:15,2019-04-22 14:06:16,"0,266s",PASSED
+"sendKeys(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/ServiceType""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:06:16,2019-04-22 14:06:16,"0,186s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:06:16,2019-04-22 14:06:18,"2,003s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/Number of Visits""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:18,2019-04-22 14:06:18,"0,055s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/Number of Visits""), ""2"")",Chrome 73.0.3683.103,,2019-04-22 14:06:18,2019-04-22 14:06:18,"0,242s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/Frequency""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:18,2019-04-22 14:06:18,"0,057s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/Frequency""))",Chrome 73.0.3683.103,,2019-04-22 14:06:18,2019-04-22 14:06:18,"0,229s",PASSED
+"sendKeys(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/Frequency""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:06:18,2019-04-22 14:06:19,"0,155s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:06:19,2019-04-22 14:06:21,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/Order Duration""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:21,2019-04-22 14:06:21,"0,046s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/Order Duration""), ""2"")",Chrome 73.0.3683.103,,2019-04-22 14:06:21,2019-04-22 14:06:21,"0,230s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/Duration""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:21,2019-04-22 14:06:21,"0,076s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/Duration""))",Chrome 73.0.3683.103,,2019-04-22 14:06:21,2019-04-22 14:06:21,"0,263s",PASSED
+"sendKeys(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/Duration""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 73.0.3683.103,,2019-04-22 14:06:21,2019-04-22 14:06:21,"0,148s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:06:21,2019-04-22 14:06:23,"2,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/WeeklyLimit""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:23,2019-04-22 14:06:23,"0,063s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/WeeklyLimit""), ""2"")",Chrome 73.0.3683.103,,2019-04-22 14:06:23,2019-04-22 14:06:24,"0,220s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/button_OK""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:24,2019-04-22 14:06:24,"0,061s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Frequency/button_OK""))",Chrome 73.0.3683.103,,2019-04-22 14:06:24,2019-04-22 14:06:24,"0,258s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:06:24,2019-04-22 14:06:24,"0,029s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:06:24,2019-04-22 14:06:26,"2,004s",PASSED
+"waitForPageLoad(50, CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:06:26,2019-04-22 14:06:26,"0,016s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/SaveBtn""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:26,2019-04-22 14:06:26,"0,050s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/SaveBtn""))",Chrome 73.0.3683.103,,2019-04-22 14:06:26,2019-04-22 14:06:26,"0,153s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:06:26,2019-04-22 14:06:26,"0,022s",PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-22 14:06:26,2019-04-22 14:06:36,"10,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/div_SignSubmit""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:36,2019-04-22 14:06:36,"0,060s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/div_SignSubmit""))",Chrome 73.0.3683.103,,2019-04-22 14:06:36,2019-04-22 14:06:36,"0,129s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:06:36,2019-04-22 14:06:36,"0,019s",PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-22 14:06:36,2019-04-22 14:06:45,"8,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Question 22. Rehab Potential""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:45,2019-04-22 14:06:45,"0,051s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/Question 22. Rehab Potential""))",Chrome 73.0.3683.103,,2019-04-22 14:06:45,2019-04-22 14:06:49,"4,339s",PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-22 14:06:49,2019-04-22 14:06:54,"5,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Rehabilitation Potential""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:06:54,2019-04-22 14:06:54,"0,060s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLINK-23509/Rehabilitation Potential""), ""Rehabilitation Potential"")",Chrome 73.0.3683.103,,2019-04-22 14:06:54,2019-04-22 14:06:55,"0,923s",PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-22 14:06:55,2019-04-22 14:07:00,"5,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/SaveBtn""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:07:00,2019-04-22 14:07:00,"0,062s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/SaveBtn""))",Chrome 73.0.3683.103,,2019-04-22 14:07:00,2019-04-22 14:07:00,"0,169s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:07:00,2019-04-22 14:07:00,"0,016s",PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-22 14:07:00,2019-04-22 14:07:10,"10,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/div_SignSubmit""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:07:10,2019-04-22 14:07:10,"0,066s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/div_SignSubmit""))",Chrome 73.0.3683.103,,2019-04-22 14:07:10,2019-04-22 14:07:10,"0,166s",PASSED
+waitForPageLoad(50),Chrome 73.0.3683.103,,2019-04-22 14:07:10,2019-04-22 14:07:10,"0,020s",PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-22 14:07:10,2019-04-22 14:07:13,"3,004s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/Signature""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:07:13,2019-04-22 14:07:13,"0,046s",PASSED
+"setText(findTestObject(""Regression Clinical Edge/CLINK-23509/Signature""), G_Password)",Chrome 73.0.3683.103,,2019-04-22 14:07:13,2019-04-22 14:07:14,"0,271s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:07:14,2019-04-22 14:07:16,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression Clinical Edge/CLINK-23509/OkSignature""), 50)",Chrome 73.0.3683.103,,2019-04-22 14:07:16,2019-04-22 14:07:16,"0,042s",PASSED
+"click(findTestObject(""Regression Clinical Edge/CLINK-23509/OkSignature""), CONTINUE_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-22 14:07:16,2019-04-22 14:07:16,"0,200s",PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-22 14:07:16,2019-04-22 14:07:18,"2,004s",PASSED

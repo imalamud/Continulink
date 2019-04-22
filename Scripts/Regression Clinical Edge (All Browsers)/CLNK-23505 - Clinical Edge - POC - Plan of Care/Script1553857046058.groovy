@@ -87,3 +87,5 @@ WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23505/SavePOC'))
 
 WebUI.delay(3)
 
+WebUI.closeBrowser()
+
