@@ -1,0 +1,180 @@
+1
+00:00:01,218 --> 00:00:01,230
+1. callTestCase(findTestCase("Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login"), [:], STOP_ON_FAILURE)
+
+2
+00:00:02,199 --> 00:00:02,201
+1. openBrowser(G_SiteURL)
+
+3
+00:00:14,501 --> 00:00:14,504
+5. waitForPageLoad(60)
+
+4
+00:00:14,792 --> 00:00:14,795
+9. maximizeWindow()
+
+5
+00:00:16,000 --> 00:00:16,003
+13. setText(findTestObject("Regression Clinical Edge/CLNK-23349/User"), G_User)
+
+6
+00:00:16,451 --> 00:00:16,453
+17. setText(findTestObject("Regression Clinical Edge/CLNK-23349/Password"), G_Password)
+
+7
+00:00:16,784 --> 00:00:16,786
+21. click(findTestObject("Regression Clinical Edge/CLNK-23349/Button_LogIn"))
+
+8
+00:00:19,308 --> 00:00:19,310
+25. waitForPageLoad(60)
+
+9
+00:00:19,355 --> 00:00:19,358
+29. waitForElementPresent(findTestObject("Regression Clinical Edge/ClientPage/button_Add Schedule"), 60)
+
+10
+00:00:19,488 --> 00:00:19,491
+33. verifyElementPresent(findTestObject("Regression Clinical Edge/ClientPage/button_Add Schedule"), 100)
+
+11
+00:00:19,594 --> 00:00:19,597
+5. waitForPageLoad(60)
+
+12
+00:00:19,627 --> 00:00:19,630
+9. maximizeWindow()
+
+13
+00:00:19,675 --> 00:00:19,678
+13. waitForPageLoad(60)
+
+14
+00:00:19,751 --> 00:00:19,753
+17. delay(8)
+
+15
+00:00:27,772 --> 00:00:27,774
+21. waitForElementPresent(findTestObject("Regression Clinical Edge/CLNK-23497/button_Close"), 100)
+
+16
+00:00:27,779 --> 00:00:27,783
+25. click(findTestObject("Regression Clinical Edge/CLNK-23497/button_Close"))
+
+17
+00:00:27,785 --> 00:00:27,789
+29. delay(2)
+
+18
+00:00:27,791 --> 00:00:27,792
+33. waitForElementPresent(findTestObject("Regression Clinical Edge/ClientPage/HomeLink"), 100)
+
+19
+00:00:27,865 --> 00:00:27,869
+37. click(findTestObject("Regression Clinical Edge/ClientPage/HomeLink"))
+
+20
+00:00:29,272 --> 00:00:29,276
+41. delay(2)
+
+21
+00:00:31,283 --> 00:00:31,285
+45. waitForPageLoad(50)
+
+22
+00:00:31,306 --> 00:00:31,307
+49. waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/RequestTab"), 50)
+
+23
+00:00:31,364 --> 00:00:31,365
+53. click(findTestObject("Regression Clinical Edge/HomePage/RequestTab"))
+
+24
+00:00:31,563 --> 00:00:31,565
+57. delay(2)
+
+25
+00:00:33,571 --> 00:00:33,574
+61. waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/SearchText"), 50)
+
+26
+00:00:33,638 --> 00:00:33,642
+65. setText(findTestObject("Regression Clinical Edge/HomePage/SearchText"), G_ClientLastName)
+
+27
+00:00:34,141 --> 00:00:34,142
+69. delay(3)
+
+28
+00:00:37,147 --> 00:00:37,149
+73. scrollToElement(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)"), 60)
+
+29
+00:00:37,265 --> 00:00:37,267
+77. waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)"), 60)
+
+30
+00:00:37,337 --> 00:00:37,339
+81. click(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)"))
+
+31
+00:00:39,706 --> 00:00:39,707
+85. delay(5)
+
+32
+00:00:44,712 --> 00:00:44,714
+89. waitForPageLoad(50)
+
+33
+00:00:44,734 --> 00:00:44,735
+93. waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/ClientLink"), 100)
+
+34
+00:00:44,798 --> 00:00:44,800
+97. click(findTestObject("Regression Clinical Edge/HomePage/ClientLink"))
+
+35
+00:00:46,710 --> 00:00:46,712
+101. delay(2)
+
+36
+00:00:48,718 --> 00:00:48,719
+105. waitForPageLoad(50)
+
+37
+00:00:48,742 --> 00:00:48,743
+109. scrollToElement(findTestObject("Regression Clinical Edge/CLINK - 23504/Plan of Care Section"), 50)
+
+38
+00:00:48,813 --> 00:00:48,815
+113. waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23505/AddPlanCare"), 50)
+
+39
+00:00:48,868 --> 00:00:48,870
+117. click(findTestObject("Regression Clinical Edge/CLINK-23505/AddPlanCare"))
+
+40
+00:00:49,028 --> 00:00:49,029
+121. delay(2)
+
+41
+00:00:51,033 --> 00:00:51,034
+125. waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23505/POC"), 50)
+
+42
+00:00:51,092 --> 00:00:51,094
+129. click(findTestObject("Regression Clinical Edge/CLINK-23505/POC"))
+
+43
+00:00:51,855 --> 00:00:51,857
+133. delay(3)
+
+44
+00:00:54,862 --> 00:00:54,863
+137. waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23505/SavePOC"), 50)
+
+45
+00:01:47,504 --> 00:01:47,506
+141. click(findTestObject("Regression Clinical Edge/CLINK-23505/SavePOC"))
+

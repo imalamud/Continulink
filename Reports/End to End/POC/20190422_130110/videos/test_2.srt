@@ -1,0 +1,4 @@
+1
+00:00:00,536 --> 00:00:00,538
+1. callTestCase(findTestCase("Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login"), [:], STOP_ON_FAILURE)
+

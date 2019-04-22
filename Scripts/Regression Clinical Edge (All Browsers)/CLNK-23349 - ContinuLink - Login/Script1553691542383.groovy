@@ -27,7 +27,11 @@ WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23349/Button_LogIn'))
 
 WebUI.waitForPageLoad(60)
 
-WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/ClientPage/button_Add Schedule'), 60)
+WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Regression Clinical Edge/ClientPage/button_Add Schedule'), 100)
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23509/button_Close'), 100)
+
+WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23509/button_Close'))
+
+WebUI.delay(2)
 

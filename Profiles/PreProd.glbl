@@ -81,11 +81,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Mobin'</initValue>
-      <name>G_LastNameAdd</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'Nurse'</initValue>
       <name>G_ClinicalManager</name>
    </GlobalVariableEntity>

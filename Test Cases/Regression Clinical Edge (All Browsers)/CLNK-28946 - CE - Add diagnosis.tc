@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: CE - Add diagnosis
+Description: </description>
+   <name>CLNK-28946 - CE - Add diagnosis</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_15003&quot;:[],&quot;customfield_13500&quot;:&quot;1|i04bxb:&quot;,&quot;customfield_15127&quot;:{&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/customFieldOption/14722&quot;,&quot;value&quot;:&quot;No&quot;,&quot;id&quot;:&quot;14722&quot;},&quot;customfield_15114&quot;:{&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/customFieldOption/14707&quot;,&quot;value&quot;:&quot;Yes&quot;,&quot;id&quot;:&quot;14707&quot;},&quot;customfield_15113&quot;:{&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/customFieldOption/14705&quot;,&quot;value&quot;:&quot;Yes&quot;,&quot;id&quot;:&quot;14705&quot;},&quot;customfield_14700&quot;:{&quot;value&quot;:&quot;0.0&quot;},&quot;customfield_13601&quot;:[],&quot;customfield_11500&quot;:&quot;9223372036854775807&quot;,&quot;customfield_14209&quot;:{&quot;issueId&quot;:294997,&quot;statuses&quot;:[]},&quot;customfield_14207&quot;:[&quot;CLNK-27695&quot;],&quot;customfield_14208&quot;:[],&quot;customfield_15213&quot;:[{&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/customFieldOption/14823&quot;,&quot;value&quot;:&quot;Administrative&quot;,&quot;id&quot;:&quot;14823&quot;}],&quot;customfield_14201&quot;:{&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/customFieldOption/14200&quot;,&quot;value&quot;:&quot;Manual&quot;,&quot;id&quot;:&quot;14200&quot;},&quot;customfield_14205&quot;:{&quot;steps&quot;:[]},&quot;customfield_14800&quot;:&quot;com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@7e331ba5&quot;,&quot;customfield_14206&quot;:&quot;\u003cp\u003eN/A\u003c/p\u003e&quot;},&quot;status&quot;:{&quot;id&quot;:1,&quot;description&quot;:&quot;The issue is open &quot;,&quot;iconUrl&quot;:&quot;https://support.goprocura.com/images/icons/statuses/needinfo.png&quot;,&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/status/1&quot;,&quot;name&quot;:&quot;Open&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/project/11000&quot;,&quot;key&quot;:&quot;CLNK&quot;,&quot;id&quot;:11000,&quot;name&quot;:&quot;Continulink Development&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;CE - Add diagnosis&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;erebizzo@procura.com&quot;,&quot;displayName&quot;:&quot;Esteban Rebizzo&quot;,&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/user?username\u003derebizzo&quot;,&quot;name&quot;:&quot;erebizzo&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;isaac.malamud@mqs.com.uy&quot;,&quot;displayName&quot;:&quot;Isaac Marcelo Malamud&quot;,&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/user?username\u003dimalamud&quot;,&quot;name&quot;:&quot;imalamud&quot;},&quot;priority&quot;:{&quot;id&quot;:5,&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/priority/5&quot;,&quot;name&quot;:&quot;Low&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/issue/CLNK-28946/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://support.goprocura.com/rest/api/2/issue/294997&quot;,&quot;key&quot;:&quot;CLNK-28946&quot;,&quot;id&quot;:294997}}</value>
+         </entry>
+      </properties>
+      <type>REPORT</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>eb0672d6-48c9-4518-ac5f-8281b63a6e3f</testCaseGuid>
+</TestCaseEntity>
