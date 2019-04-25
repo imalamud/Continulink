@@ -30,6 +30,38 @@ not_run: WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23497/button_
 
 not_run: WebUI.delay(2)
 
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/ClientPage/HomeLink'), 100)
+
+WebUI.click(findTestObject('Regression Clinical Edge/ClientPage/HomeLink'))
+
+WebUI.delay(2)
+
+WebUI.waitForPageLoad(50)
+
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/HomePage/RequestTab'), 50)
+
+WebUI.click(findTestObject('Regression Clinical Edge/HomePage/RequestTab'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/HomePage/SearchText'), 50)
+
+WebUI.setText(findTestObject('Regression Clinical Edge/HomePage/SearchText'), GlobalVariable.G_ClientLastName)
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'), 60)
+
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'), 60)
+
+WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'))
+
+WebUI.delay(5)
+
+WebUI.waitForPageLoad(50)
+
+WebUI.delay(3)
+
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/HomePage/ClientLink'), 100)
 
 WebUI.click(findTestObject('Regression Clinical Edge/HomePage/ClientLink'))
@@ -37,19 +69,6 @@ WebUI.click(findTestObject('Regression Clinical Edge/HomePage/ClientLink'))
 WebUI.delay(2)
 
 WebUI.waitForPageLoad(50)
-
-WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23497/Client Search'), 50)
-
-WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23497/Client Search'))
-
-WebUI.setText(findTestObject('Regression Clinical Edge/CLNK-23497/Client Search'), GlobalVariable.G_Client)
-
-WebUI.delay(2)
-
-WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLNK-23497/Client Search'), Keys.chord(Keys.ARROW_RIGHT, Keys.ARROW_DOWN, 
-        Keys.ENTER))
-
-WebUI.delay(3)
 
 WebUI.scrollToElement(findTestObject('Regression Clinical Edge/CLNK-23497/AddAssessments'), 50)
 
@@ -75,4 +94,6 @@ WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23497/
 WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23497/SaveAssessment'))
 
 WebUI.delay(3)
+
+WebUI.closeBrowser()
 

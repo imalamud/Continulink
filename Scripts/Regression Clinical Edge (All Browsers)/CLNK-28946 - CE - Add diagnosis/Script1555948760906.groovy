@@ -123,17 +123,12 @@ WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23509/Diagnosis/input
 
 WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumber'())
 
-not_run: WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate'), '08032012')
-
 WebUI.delay(4)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate'), 
     50)
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate'))
-
-not_run: WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate'), 
-    '08032012')
 
 WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate'), 
     CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumber'())

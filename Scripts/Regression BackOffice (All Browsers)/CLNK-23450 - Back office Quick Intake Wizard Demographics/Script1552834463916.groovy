@@ -41,13 +41,13 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain')
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), GlobalVariable.G_23450Name)
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), GlobalVariable.G_ClientFirstName)
 
 WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23450/LastNameDemo'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23450/LastNameDemo'), GlobalVariable.G_23450Last)
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-23450/LastNameDemo'), GlobalVariable.G_ClientLastName)
 
 WebUI.delay(2)
 

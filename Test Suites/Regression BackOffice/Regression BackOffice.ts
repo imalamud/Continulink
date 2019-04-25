@@ -19,19 +19,19 @@
    <testCaseLink>
       <guid>4afff2da-62e9-4256-965a-e76ced8946c8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>db7dd276-11d4-4374-af6a-4805a62233d3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23451 - Back office Quick Intake Wizard Payer</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>afaba911-07d9-4119-9d85-c34900cdc0d3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23450 - Back office Quick Intake Wizard Demographics</testCaseId>
    </testCaseLink>
    <testCaseLink>

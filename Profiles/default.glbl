@@ -21,17 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Heather Khur'</initValue>
-      <name>G_Patient</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'0100'</initValue>
+      <initValue>'0150'</initValue>
       <name>G_StartTime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0130'</initValue>
+      <initValue>'0210'</initValue>
       <name>G_EndTime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Federico'</initValue>
+      <initValue>'Elias'</initValue>
       <name>G_ClientFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -66,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kobrinsky'</initValue>
+      <initValue>'Bejerano'</initValue>
       <name>G_ClientLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -78,11 +73,6 @@
       <description></description>
       <initValue>'Abbott'</initValue>
       <name>G_LastNameSearch</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Rollback'</initValue>
-      <name>G_LastNameAdd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -111,23 +101,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Auth'</initValue>
-      <name>G_23450Name</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Test'</initValue>
-      <name>G_23450Last</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'2548785698'</initValue>
       <name>G_23442Phone</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Khur'</initValue>
-      <name>G_Client</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -138,5 +113,20 @@
       <description></description>
       <initValue>'http://qanewpoc.continulink.com:81/backoffice/Client/ClientSearch.aspx?search=true'</initValue>
       <name>G_BackWindow</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Barb'</initValue>
+      <name>G_CaregiverFirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mirinda'</initValue>
+      <name>G_CareGiverLastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'530009222'</initValue>
+      <name>G_CaregiverSSN</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

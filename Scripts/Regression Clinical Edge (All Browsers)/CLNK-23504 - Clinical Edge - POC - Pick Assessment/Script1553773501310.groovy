@@ -24,12 +24,6 @@ WebUI.waitForPageLoad(60)
 
 WebUI.delay(8)
 
-not_run: WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'), 100)
-
-not_run: WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'))
-
-not_run: WebUI.delay(2)
-
 WebUI.waitForPageLoad(50)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/HomePage/ClientLink'), 100)
@@ -42,23 +36,25 @@ WebUI.waitForPageLoad(50)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK - 23504/SearchTextClient'), 50)
 
-WebUI.setText(findTestObject('Regression Clinical Edge/CLINK - 23504/SearchTextClient'), GlobalVariable.G_ClientLastName)
+WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLINK - 23504/SearchTextClient'), GlobalVariable.G_ClientLastName)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-not_run: WebUI.scrollToElement(findTestObject('Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'), 60)
+WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLINK - 23504/SearchTextClient'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
-not_run: WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'), 60)
-
-not_run: WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'))
-
-not_run: WebUI.delay(5)
+WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Regression Clinical Edge/CLINK - 23504/Plan of Care Section'), 50)
+
+WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK - 23504/a_Plan of Care'), 50)
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLINK - 23504/a_Plan of Care'))
 
+WebUI.waitForPageLoad(50)
+
 WebUI.delay(3)
+
+WebUI.closeBrowser()
 
