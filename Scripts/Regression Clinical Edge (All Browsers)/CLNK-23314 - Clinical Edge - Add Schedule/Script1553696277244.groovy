@@ -46,7 +46,7 @@ WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/HomePage/SearchText'), 50)
 
-WebUI.setText(findTestObject('Regression Clinical Edge/HomePage/SearchText'), GlobalVariable.G_Patient)
+WebUI.setText(findTestObject('Regression Clinical Edge/HomePage/SearchText'), GlobalVariable.G_ClientLastName)
 
 WebUI.delay(3)
 
@@ -114,4 +114,6 @@ WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23314/SaveButton'))
 WebUI.waitForPageLoad(100)
 
 WebUI.delay(4)
+
+WebUI.closeBrowser()
 
