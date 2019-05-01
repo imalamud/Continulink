@@ -121,12 +121,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Mirinda'</initValue>
+      <initValue>'Thompson'</initValue>
       <name>G_CareGiverLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'530009222'</initValue>
+      <initValue>'535870012'</initValue>
       <name>G_CaregiverSSN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bthompson'</initValue>
+      <name>G_CaregiverUserName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
