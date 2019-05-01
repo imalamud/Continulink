@@ -124,10 +124,6 @@ WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/Address/City')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/Address/Country'), 'United States')
-
-WebUI.delay(3)
-
 WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Address/State'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Address/State'), 'Florida')
@@ -187,7 +183,7 @@ WebUI.delay(3)
 
 not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Discipline/Begin Date'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Discipline/Begin Date'), '04/04/2019')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Discipline/Begin Date'), '04/24/2019')
 
 WebUI.delay(4)
 
@@ -278,7 +274,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Race and Sex/Date Of Hire'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Race and Sex/Date Of Hire'), '04/04/2019')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Race and Sex/Date Of Hire'), '04/24/2019')
 
 WebUI.delay(3)
 
@@ -289,6 +285,317 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK - 28718/BannerFr
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/bttnSaveII'), 50)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/bttnSaveII'))
+
+WebUI.delay(3)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Locations/Caregiver Locations'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Locations/Caregiver Locations'))
+
+WebUI.delay(2)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Locations/Add New Caregiver Location'), 
+    100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Locations/Add New Caregiver Location'))
+
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Locations/ZoneNameType'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Locations/ZoneNameType'))
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Locations/ZoneNameType'), Keys.chord(Keys.ARROW_DOWN, 
+        Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Locations/Hawaii Facility'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Locations/Hawaii Facility'))
+
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Locations/a_Add To List'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Locations/a_Add To List'))
+
+WebUI.delay(5)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK - 28718/BannerFrame'), 50)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Locations/_bttnSaveLocations'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Locations/_bttnSaveLocations'))
+
+WebUI.delay(3)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/Caregiver Attributes'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/Caregiver Attributes'))
+
+WebUI.delay(2)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/EditAttrbiute'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/EditAttrbiute'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/LicenseNro'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/LicenseNro'), '12')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Expiration Date'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Expiration Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Renewal Date'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Renewal Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/input_State Issued _txtStateIssued'), 
+    50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/input_State Issued _txtStateIssued'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/input_State Issued _txtStateIssued'), 'AC')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked'), 'Isaac')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked Date'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/Add To List License'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/Add To List License'))
+
+WebUI.delay(5)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK - 28718/BannerFrame'), 50)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/_btnSaveLicense'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/_btnSaveLicense'))
+
+WebUI.delay(3)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Active/Caregiver Demographics'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/Caregiver Demographics'))
+
+WebUI.delay(2)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Active/Status'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/Status'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Active/Status'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
+        Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/Effective DateStatus'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Active/Effective DateStatus'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(3)
+
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Active/ReasonCode'), 100)
+
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/ReasonCode'))
+
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Active/ReasonCode'), Keys.chord(Keys.ARROW_DOWN, 
+        Keys.ENTER))
+
+not_run: WebUI.delay(5)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/Comments'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Active/Comments'), 'Isaac')
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Regression BackOffice/CLINK - 28718/Active/Date Check was Sent'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/Date Check was Sent'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Active/Date Check was Sent'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/input_Date Check Received_txtDateCheckRecvd'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Active/input_Date Check Received_txtDateCheckRecvd'), 
+    CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/Background Check Completed'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Active/Background Check Completed'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(3)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK - 28718/BannerFrame'), 50)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Active/bttnSaveActive'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/bttnSaveActive'))
+
+WebUI.delay(3)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Administrators'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Administrators'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Admin  System Settings'), 
+    100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Admin  System Settings'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Users'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Users'))
+
+WebUI.delay(2)
+
+WebUI.acceptAlert()
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Add New User'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Add New User'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/CaregiverChkBox'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/CaregiverChkBox'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Caregiver Name'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Caregiver Name'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Caregiver Name'), GlobalVariable.G_CareGiverLastName)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/a_Fernandez Barb'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/User Name'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/User Name'), GlobalVariable.G_CaregiverUserName)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Password'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Password'), GlobalVariable.G_PasswordBackOffice)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Confirm newPassword'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Confirm newPassword'), GlobalVariable.G_PasswordBackOffice)
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Email'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Email'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Email'), 'imm@gmail.com')
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Caregiver_chk'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Caregiver_chk'))
+
+WebUI.delay(3)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK - 28718/BannerFrame'), 50)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/_btnUserSave'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/_btnUserSave'))
 
 WebUI.delay(3)
 
