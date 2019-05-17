@@ -42,13 +42,13 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain')
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), GlobalVariable.G_23444_CaregiverName)
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), GlobalVariable.G_CaregiverFirstName)
 
 WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23441/Last NameHR'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-23441/Last NameHR'), GlobalVariable.G_23444_CaregiverLast)
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-23441/Last NameHR'), GlobalVariable.G_CareGiverLastName)
 
 WebUI.delay(2)
 
@@ -76,11 +76,11 @@ WebUI.setText(findTestObject('Regression BackOffice/CLINK-23445/Mail Address'), 
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/SameasAddress'), 50)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/SameasAddress'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-23445/SameasAddress'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK-23445/SameasAddress'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.scrollToElement(findTestObject('Regression BackOffice/CLINK-23445/Race'), 50)
 
@@ -98,7 +98,7 @@ WebUI.delay(3)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/Date Of Hire'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23445/Date Of Hire'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-23445/Date Of Hire'), '04/20/2019')
 
 WebUI.delay(4)
 
@@ -111,4 +111,6 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23445/Sa
 WebUI.click(findTestObject('Regression BackOffice/CLINK-23445/Save'))
 
 WebUI.delay(2)
+
+WebUI.closeBrowser()
 

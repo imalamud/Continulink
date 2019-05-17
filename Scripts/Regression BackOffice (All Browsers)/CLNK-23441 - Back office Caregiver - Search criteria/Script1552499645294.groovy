@@ -41,13 +41,13 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain')
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), 'James')
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/FirstNameSearch'), GlobalVariable.G_CaregiverFirstName)
 
 WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23441/Last NameHR'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-23441/Last NameHR'), 'Test')
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-23441/Last NameHR'), GlobalVariable.G_CareGiverLastName)
 
 WebUI.delay(2)
 
@@ -56,4 +56,6 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23441/Car
 WebUI.click(findTestObject('Regression BackOffice/CLNK-23441/CaregiverSearchButton'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
+
+WebUI.closeBrowser()
 

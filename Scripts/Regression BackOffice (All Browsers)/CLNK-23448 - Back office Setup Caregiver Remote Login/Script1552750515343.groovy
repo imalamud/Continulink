@@ -42,7 +42,7 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain')
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/Caregiver Name II'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23448/Caregiver Name II'), GlobalVariable.G_23448_Name)
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-23448/Caregiver Name II'), GlobalVariable.G_CaregiverFirstName)
 
 WebUI.delay(2)
 

@@ -61,13 +61,6 @@
       <type>Main</type>
       <value>id(&quot;txtClientSuffix&quot;)</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Regression BackOffice/CLINK-23450/Page_InterLink/frame_Capture object_FrameMain</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

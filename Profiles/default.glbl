@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Elias'</initValue>
+      <initValue>'Rosifredo'</initValue>
       <name>G_ClientFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bejerano'</initValue>
+      <initValue>'Caillava'</initValue>
       <name>G_ClientLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,38 +71,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Abbott'</initValue>
-      <name>G_LastNameSearch</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Nurse'</initValue>
+      <initValue>'Charlie'</initValue>
       <name>G_ClinicalManager</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Mobin'</initValue>
       <name>G_SpecificUser</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'demo'</initValue>
-      <name>G_23444_CaregiverName</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'tester'</initValue>
-      <name>G_23444_CaregiverLast</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'dew'</initValue>
-      <name>G_23448_Name</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'2548785698'</initValue>
-      <name>G_23442Phone</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -116,22 +91,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Barb'</initValue>
+      <initValue>'Walter'</initValue>
       <name>G_CaregiverFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Thompson'</initValue>
+      <initValue>'Tiburcio'</initValue>
       <name>G_CareGiverLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'535870012'</initValue>
+      <initValue>'535870022'</initValue>
       <name>G_CaregiverSSN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'bthompson'</initValue>
+      <initValue>'wtiburcio'</initValue>
       <name>G_CaregiverUserName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

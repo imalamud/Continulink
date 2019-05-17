@@ -233,23 +233,49 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/u_Continue'))
 
-WebUI.delay(2)
+WebUI.waitForPageLoad(50)
 
 WebUI.switchToDefaultContent()
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
 
+WebUI.delay(10)
+
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Race and Sex/Caregiver HR Details'), 100)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Race and Sex/Caregiver HR Details'))
 
-WebUI.delay(2)
-
-WebUI.acceptAlert()
+WebUI.delay(5)
 
 WebUI.switchToDefaultContent()
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/General Information/First Name Caregiver'), 
+    50)
+
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/General Information/First Name Caregiver'), GlobalVariable.G_CaregiverFirstName)
+
+WebUI.delay(4)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/General Information/Last Name Caregiver'), 
+    50)
+
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/General Information/Last Name Caregiver'), GlobalVariable.G_CareGiverLastName)
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/CaregiverBttnSearch'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/CaregiverBttnSearch'))
+
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/CaregiverLink'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/CaregiverLink'))
 
 WebUI.delay(5)
 
