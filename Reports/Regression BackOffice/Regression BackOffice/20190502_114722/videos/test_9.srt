@@ -1,0 +1,228 @@
+1
+00:00:00,447 --> 00:00:00,450
+1. callTestCase(findTestCase("Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,531 --> 00:00:00,532
+1. openBrowser(G_SiteBackOffice)
+
+3
+00:00:05,811 --> 00:00:05,813
+5. waitForPageLoad(60)
+
+4
+00:00:05,875 --> 00:00:05,876
+9. maximizeWindow()
+
+5
+00:00:07,295 --> 00:00:07,296
+13. setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice)
+
+6
+00:00:07,669 --> 00:00:07,669
+17. setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice)
+
+7
+00:00:08,019 --> 00:00:08,019
+21. click(findTestObject("Regression BackOffice/Login/LoginBackOffice"))
+
+8
+00:00:15,793 --> 00:00:15,794
+25. waitForPageLoad(60)
+
+9
+00:00:15,823 --> 00:00:15,824
+29. delay(3)
+
+10
+00:00:18,829 --> 00:00:18,830
+33. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 5)
+
+11
+00:00:18,956 --> 00:00:18,957
+37. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 60)
+
+12
+00:00:19,019 --> 00:00:19,020
+41. verifyElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100)
+
+13
+00:00:19,064 --> 00:00:19,065
+45. switchToDefaultContent()
+
+14
+00:00:19,087 --> 00:00:19,088
+5. waitForPageLoad(60)
+
+15
+00:00:19,106 --> 00:00:19,107
+9. delay(3)
+
+16
+00:00:22,112 --> 00:00:22,113
+13. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 30)
+
+17
+00:00:22,187 --> 00:00:22,188
+17. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100)
+
+18
+00:00:22,225 --> 00:00:22,226
+21. click(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"))
+
+19
+00:00:22,520 --> 00:00:22,521
+25. delay(2)
+
+20
+00:00:24,526 --> 00:00:24,528
+29. waitForPageLoad(50)
+
+21
+00:00:24,563 --> 00:00:24,564
+33. waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/AdmissionDetails"), 50)
+
+22
+00:00:24,639 --> 00:00:24,640
+37. click(findTestObject("Regression BackOffice/CLINK - 27906/AdmissionDetails"))
+
+23
+00:00:26,983 --> 00:00:26,984
+41. delay(2)
+
+24
+00:00:28,989 --> 00:00:28,990
+45. switchToDefaultContent()
+
+25
+00:00:29,034 --> 00:00:29,035
+49. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameMain"), 30)
+
+26
+00:00:29,138 --> 00:00:29,138
+53. waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/Last NameAdmission"), 50)
+
+27
+00:00:29,211 --> 00:00:29,213
+57. setText(findTestObject("Regression BackOffice/CLINK - 27906/Last NameAdmission"), G_ClientLastName)
+
+28
+00:00:29,692 --> 00:00:29,693
+61. delay(2)
+
+29
+00:00:31,698 --> 00:00:31,700
+65. waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/SearchButton"), 50)
+
+30
+00:00:31,771 --> 00:00:31,772
+69. click(findTestObject("Regression BackOffice/CLINK - 27906/SearchButton"), STOP_ON_FAILURE)
+
+31
+00:00:32,822 --> 00:00:32,823
+73. delay(2)
+
+32
+00:00:34,828 --> 00:00:34,829
+77. waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/ClientRollbackLink"), 50)
+
+33
+00:00:34,873 --> 00:00:34,874
+81. click(findTestObject("Regression BackOffice/CLINK - 27906/ClientRollbackLink"), STOP_ON_FAILURE)
+
+34
+00:01:47,641 --> 00:01:47,642
+85. delay(2)
+
+35
+00:01:49,647 --> 00:01:49,648
+89. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameMain"), 30)
+
+36
+00:01:49,789 --> 00:01:49,790
+93. waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/ClinicalManagersLink"), 50)
+
+37
+00:01:49,897 --> 00:01:49,898
+97. click(findTestObject("Regression BackOffice/CLINK - 27906/ClinicalManagersLink"), STOP_ON_FAILURE)
+
+38
+00:01:50,256 --> 00:01:50,257
+101. delay(2)
+
+39
+00:01:52,263 --> 00:01:52,264
+105. verifyElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/AddNewClinicalManagerLink"), 60)
+
+40
+00:01:52,345 --> 00:01:52,346
+109. waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/SameCareManagerChk"), 50)
+
+41
+00:01:52,472 --> 00:01:52,473
+113. click(findTestObject("Regression BackOffice/CLINK - 27906/SameCareManagerChk"), STOP_ON_FAILURE)
+
+42
+00:01:52,736 --> 00:01:52,737
+117. delay(2)
+
+43
+00:01:54,743 --> 00:01:54,744
+121. waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/SameCareManagerChk"), 50)
+
+44
+00:01:54,785 --> 00:01:54,786
+125. click(findTestObject("Regression BackOffice/CLINK - 27906/SameCareManagerChk"), STOP_ON_FAILURE)
+
+45
+00:01:54,935 --> 00:01:54,936
+129. delay(2)
+
+46
+00:01:56,942 --> 00:01:56,943
+133. waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/AddNewClinicalManagerLink"), 50)
+
+47
+00:01:57,014 --> 00:01:57,016
+137. click(findTestObject("Regression BackOffice/CLINK - 27906/AddNewClinicalManagerLink"), STOP_ON_FAILURE)
+
+48
+00:01:57,463 --> 00:01:57,464
+141. delay(2)
+
+49
+00:01:59,470 --> 00:01:59,471
+145. verifyElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/Id"), 60)
+
+50
+00:01:59,565 --> 00:01:59,565
+149. verifyElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/CareManagerName"), 60)
+
+51
+00:01:59,637 --> 00:01:59,638
+153. verifyElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/Discipline"), 60)
+
+52
+00:01:59,711 --> 00:01:59,711
+157. verifyElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/Delete"), 60)
+
+53
+00:01:59,771 --> 00:01:59,772
+161. waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/ClinicalManagerNameText"), 50)
+
+54
+00:01:59,846 --> 00:01:59,847
+165. setText(findTestObject("Regression BackOffice/CLINK - 27906/ClinicalManagerNameText"), G_ClinicalManager)
+
+55
+00:02:00,734 --> 00:02:00,735
+169. delay(2)
+
+56
+00:02:02,740 --> 00:02:02,742
+173. waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/li_Admin"), 50)
+
+57
+00:02:55,522 --> 00:02:55,523
+177. click(findTestObject("Regression BackOffice/CLINK - 27906/li_Admin"), STOP_ON_FAILURE)
+

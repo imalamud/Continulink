@@ -203,13 +203,13 @@ WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23509/div_SignSubmit'
 
 WebUI.waitForPageLoad(50)
 
-WebUI.delay(8)
+WebUI.delay(15)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23509/Question 22. Rehab Potential'), 50)
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23509/Question 22. Rehab Potential'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23509/Rehabilitation Potential'), 50)
 
@@ -244,4 +244,6 @@ WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23509
 WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23509/OkSignature'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
+
+WebUI.closeBrowser()
 
