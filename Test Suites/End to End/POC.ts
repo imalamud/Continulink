@@ -23,6 +23,12 @@
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-28946 - CE - Add diagnosis</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>d4dd1d34-1dfd-4e37-ad7e-acc3b592d50c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23506 - Clinical Edge - POC - 60 Day Summary</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>6ae1f3c3-df27-4839-ab00-cc0d1bbfa84c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
