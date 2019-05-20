@@ -23,12 +23,6 @@ WebUI.waitForPageLoad(60)
 
 WebUI.delay(8)
 
-not_run: WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'), 100)
-
-not_run: WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'))
-
-not_run: WebUI.delay(2)
-
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/ClientPage/HomeLink'), 100)
 
 WebUI.click(findTestObject('Regression Clinical Edge/ClientPage/HomeLink'))
@@ -81,9 +75,9 @@ WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23505/POC'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23505/SavePOC'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23506/ErrorMessageIcon'), 50)
 
-WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23505/SavePOC'))
+WebUI.verifyElementPresent(findTestObject('Regression Clinical Edge/CLNK-23506/ErrorMessageIcon'), 50)
 
 WebUI.delay(3)
 
