@@ -13,31 +13,31 @@
    <testCaseLink>
       <guid>ecaa646a-1d20-4dc7-910b-91bce2085749</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>05f626f3-b5ee-4bcc-b532-ac096d9698ba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-28946 - CE - Add diagnosis</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d4dd1d34-1dfd-4e37-ad7e-acc3b592d50c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23506 - Clinical Edge - POC - 60 Day Summary</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6ae1f3c3-df27-4839-ab00-cc0d1bbfa84c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23505 - Clinical Edge - POC - Plan of Care</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d979c592-cf82-4499-ac4e-4202ed07c08d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23509 - Clinical Edge - POC - Sign and Submit</testCaseId>
    </testCaseLink>
    <testCaseLink>

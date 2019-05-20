@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="POC" time="76" tests="1" failures="0" errors="0">
+   <testsuite name="POC" tests="1" failures="0" errors="0" time="76" timestamp="2019-05-20 12:31:01" hostname="isaac - DESKTOP-RO0FF5F" id="Test Suites/End to End/POC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\isaac\\Katalon Studio\\Continulink\\Reports\\End to End\\POC\\20190520_123055"/>
+         <property name="logFiles" value="C:\\Users\\isaac\\Katalon Studio\\Continulink\\Reports\\End to End\\POC\\20190520_123055\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="isaac - DESKTOP-RO0FF5F"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="d593a1f7cbe8afa103af79957a94e629"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Regression BackOffice (All Browsers)/CLNK-28578 - BO - Happy Path - Approving PoC" classname="Test Cases/Regression BackOffice (All Browsers)/CLNK-28578 - BO - Happy Path - Approving PoC" status="PASSED">
+         <system-out><![CDATA[2019-05-20 12:31:02 - [TEST_CASE][PASSED] - Test Cases/Regression BackOffice (All Browsers)/CLNK-28578 - BO - Happy Path - Approving PoC: Test Cases/Regression BackOffice (All Browsers)/CLNK-28578 - BO - Happy Path - Approving PoC
+
+2019-05-20 12:31:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client' successfully
+
+2019-05-20 12:31:04 - [TEST_CASE][PASSED] - Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client: Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client
+
+2019-05-20 12:31:05 - [TEST_STEP][PASSED] - openBrowser(G_SiteBackOffice): Browser is opened with url: 'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'
+
+2019-05-20 12:31:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-20 12:31:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-20 12:31:18 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'
+
+2019-05-20 12:31:18 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-05-20 12:31:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-20 12:31:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-20 12:31:20 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-20 12:31:20 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice): Text 'demo' is set on object 'Object Repository/Regression BackOffice/Login/UserBackOffice'
+
+2019-05-20 12:31:20 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Regression BackOffice/Login/UserBackOffice'
+
+2019-05-20 12:31:20 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice): Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/Login/PasswordBackOffice'
+
+2019-05-20 12:31:21 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/Login/PasswordBackOffice'
+
+2019-05-20 12:31:21 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/Login/LoginBackOffice")): Object: 'Object Repository/Regression BackOffice/Login/LoginBackOffice' is clicked on
+
+2019-05-20 12:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/Login/LoginBackOffice' is clicked on
+
+2019-05-20 12:31:27 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-05-20 12:31:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-20 12:31:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-20 12:31:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-20 12:31:30 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 5): null
+
+2019-05-20 12:31:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 60): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-05-20 12:31:31 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-05-20 12:31:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-05-20 12:31:31 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-05-20 12:31:31 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-05-20 12:31:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client' successfully
+
+2019-05-20 12:31:31 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-05-20 12:31:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-20 12:31:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-20 12:31:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-20 12:31:34 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 30): null
+
+2019-05-20 12:31:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-28578/ClinicalLink"), 100): Object 'Object Repository/Regression BackOffice/CLINK-28578/ClinicalLink' is present
+
+2019-05-20 12:31:34 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-28578/ClinicalLink' is present
+
+2019-05-20 12:31:34 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-28578/ClinicalLink")): Object: 'Object Repository/Regression BackOffice/CLINK-28578/ClinicalLink' is clicked on
+
+2019-05-20 12:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-28578/ClinicalLink' is clicked on
+
+2019-05-20 12:31:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-20 12:31:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-20 12:31:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-28578/Notes QA"), 50): Object 'Object Repository/Regression BackOffice/CLINK-28578/Notes QA' is present
+
+2019-05-20 12:31:37 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-28578/Notes QA' is present
+
+2019-05-20 12:31:37 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-28578/Notes QA")): Object: 'Object Repository/Regression BackOffice/CLINK-28578/Notes QA' is clicked on
+
+2019-05-20 12:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-28578/Notes QA' is clicked on
+
+2019-05-20 12:31:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-20 12:31:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-20 12:31:42 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-05-20 12:31:42 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameMain"), 30): null
+
+2019-05-20 12:31:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-28578/input_Client_txtClient"), 50): Object 'Object Repository/Regression BackOffice/CLINK-28578/input_Client_txtClient' is present
+
+2019-05-20 12:31:42 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-28578/input_Client_txtClient' is present
+
+2019-05-20 12:31:42 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLINK-28578/input_Client_txtClient"), G_ClientLastName): Text 'Dennis' is set on object 'Object Repository/Regression BackOffice/CLINK-28578/input_Client_txtClient'
+
+2019-05-20 12:31:43 - [MESSAGE][PASSED] - Text 'Dennis' is set on object 'Object Repository/Regression BackOffice/CLINK-28578/input_Client_txtClient'
+
+2019-05-20 12:31:43 - [TEST_STEP][PASSED] - focus(findTestObject("Regression BackOffice/CLINK-28578/input_Client_txtClient")): Object: 'Object Repository/Regression BackOffice/CLINK-28578/input_Client_txtClient' is focused
+
+2019-05-20 12:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-28578/input_Client_txtClient' is focused
+
+2019-05-20 12:31:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-20 12:31:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-20 12:31:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLINK-28578/input_Client_txtClient"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-28578/input_Client_txtClient'
+
+2019-05-20 12:31:45 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-28578/input_Client_txtClient'
+
+2019-05-20 12:31:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-20 12:31:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-20 12:31:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-28578/btnSearch"), 50): Object 'Object Repository/Regression BackOffice/CLINK-28578/btnSearch' is present
+
+2019-05-20 12:31:50 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-28578/btnSearch' is present
+
+2019-05-20 12:31:50 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-28578/btnSearch"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-28578/btnSearch' is clicked on
+
+2019-05-20 12:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-28578/btnSearch' is clicked on
+
+2019-05-20 12:31:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-20 12:31:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-20 12:31:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-28578/DocumentLink"), 50): Object 'Object Repository/Regression BackOffice/CLINK-28578/DocumentLink' is present
+
+2019-05-20 12:31:53 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-28578/DocumentLink' is present
+
+2019-05-20 12:31:53 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-28578/DocumentLink"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-28578/DocumentLink' is clicked on
+
+2019-05-20 12:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-28578/DocumentLink' is clicked on
+
+2019-05-20 12:31:53 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-05-20 12:31:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-20 12:31:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-20 12:31:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-20 12:31:58 - [TEST_STEP][NOT_RUN] - switchToDefaultContent(): NOT_RUN: switchToDefaultContent()
+
+2019-05-20 12:31:58 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToDefaultContent()
+
+2019-05-20 12:31:58 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLINK-28578/iframe"), 30): null
+
+2019-05-20 12:31:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-20 12:32:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-20 12:32:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-28578/ApproveLink"), 50): Object 'Object Repository/Regression BackOffice/CLINK-28578/ApproveLink' is present
+
+2019-05-20 12:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-28578/ApproveLink' is present
+
+2019-05-20 12:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-28578/ApproveLink"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-28578/ApproveLink' is clicked on
+
+2019-05-20 12:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-28578/ApproveLink' is clicked on
+
+2019-05-20 12:32:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-20 12:32:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-20 12:32:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-28578/input_Confirm Password"), 50): Object 'Object Repository/Regression BackOffice/CLINK-28578/input_Confirm Password' is present
+
+2019-05-20 12:32:09 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-28578/input_Confirm Password' is present
+
+2019-05-20 12:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLINK-28578/input_Confirm Password"), G_Password): Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/CLINK-28578/input_Confirm Password'
+
+2019-05-20 12:32:09 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/CLINK-28578/input_Confirm Password'
+
+2019-05-20 12:32:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-20 12:32:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-20 12:32:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-28578/OkPOC"), 50): Object 'Object Repository/Regression BackOffice/CLINK-28578/OkPOC' is present
+
+2019-05-20 12:32:11 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-28578/OkPOC' is present
+
+2019-05-20 12:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-28578/OkPOC"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-28578/OkPOC' is clicked on
+
+2019-05-20 12:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-28578/OkPOC' is clicked on
+
+2019-05-20 12:32:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-20 12:32:14 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-20 12:31:01 - [TEST_SUITE][PASSED] - POC: Test Cases/Regression BackOffice (All Browsers)/CLNK-28578 - BO - Happy Path - Approving PoC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
