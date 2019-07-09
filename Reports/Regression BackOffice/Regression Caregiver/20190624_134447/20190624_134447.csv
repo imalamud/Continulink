@@ -1,0 +1,668 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression Caregiver,Chrome 75.0.3770.100,,2019-06-24 13:45:03,2019-06-24 14:02:25,"17m - 21,250s",FAILED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-28718 - BO - Full Caregiver creation,Chrome 75.0.3770.100,"Summary: BO - Full Caregiver creation
+Description: ",2019-06-24 13:45:06,2019-06-24 13:52:55,"7m - 49,276s",FAILED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:45:14,2019-06-24 13:46:03,"49,634s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.100,,2019-06-24 13:46:03,2019-06-24 13:46:04,"0,140s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:46:04,2019-06-24 13:46:07,"3,022s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:46:07,2019-06-24 13:46:07,"0,237s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:46:07,2019-06-24 13:46:07,"0,286s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""))",Chrome 75.0.3770.100,,2019-06-24 13:46:07,2019-06-24 13:46:08,"0,826s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:08,2019-06-24 13:46:10,"2,021s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 13:46:10,2019-06-24 13:46:10,"0,162s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Caregiver Search""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:46:10,2019-06-24 13:46:10,"0,192s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Caregiver Search""))",Chrome 75.0.3770.100,,2019-06-24 13:46:10,2019-06-24 13:46:13,"2,391s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:13,2019-06-24 13:46:15,"2,014s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.100,,2019-06-24 13:46:15,2019-06-24 13:46:15,"0,209s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:46:15,2019-06-24 13:46:15,"0,139s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:46:15,2019-06-24 13:46:15,"0,269s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/CaregiverFirst Name""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:46:15,2019-06-24 13:46:16,"0,233s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/CaregiverFirst Name""), ""xxxxx"")",Chrome 75.0.3770.100,,2019-06-24 13:46:16,2019-06-24 13:46:17,"0,984s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:17,2019-06-24 13:46:19,"2,018s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/CaregiverLast Name""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:46:19,2019-06-24 13:46:19,"0,362s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/CaregiverLast Name""), ""xxxxx"")",Chrome 75.0.3770.100,,2019-06-24 13:46:19,2019-06-24 13:46:20,"0,817s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:20,2019-06-24 13:46:22,"2,015s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/SSN""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:46:22,2019-06-24 13:46:22,"0,238s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/SSN""), ""999999995"")",Chrome 75.0.3770.100,,2019-06-24 13:46:22,2019-06-24 13:46:23,"0,893s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:23,2019-06-24 13:46:25,"2,016s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/CaregiverBttnSearch""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:46:25,2019-06-24 13:46:25,"0,219s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/CaregiverBttnSearch""))",Chrome 75.0.3770.100,,2019-06-24 13:46:25,2019-06-24 13:46:27,"1,866s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:27,2019-06-24 13:46:29,"2,012s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Add a new Caregiver Link""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:46:29,2019-06-24 13:46:29,"0,176s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Add a new Caregiver Link""))",Chrome 75.0.3770.100,,2019-06-24 13:46:29,2019-06-24 13:46:30,"0,557s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:30,2019-06-24 13:46:32,"2,018s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 13:46:32,2019-06-24 13:46:33,"0,958s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/CaregiverType""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:46:33,2019-06-24 13:46:33,"0,358s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/CaregiverType""))",Chrome 75.0.3770.100,,2019-06-24 13:46:33,2019-06-24 13:46:34,"0,995s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:34,2019-06-24 13:46:36,"2,015s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/CaregiverType""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:46:36,2019-06-24 13:46:37,"0,441s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:37,2019-06-24 13:46:39,"2,014s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/LineOfBusiness""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:46:39,2019-06-24 13:46:39,"0,267s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/LineOfBusiness""))",Chrome 75.0.3770.100,,2019-06-24 13:46:39,2019-06-24 13:46:40,"1,067s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:40,2019-06-24 13:46:42,"2,019s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/LineOfBusiness""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:46:42,2019-06-24 13:46:42,"0,581s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:42,2019-06-24 13:46:44,"2,013s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/First Name Caregiver""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:46:44,2019-06-24 13:46:45,"0,143s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/First Name Caregiver""), G_CaregiverFirstName)",Chrome 75.0.3770.100,,2019-06-24 13:46:45,2019-06-24 13:46:46,"1,506s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:46,2019-06-24 13:46:48,"2,013s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/Last Name Caregiver""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:46:48,2019-06-24 13:46:48,"0,240s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/Last Name Caregiver""), G_CareGiverLastName)",Chrome 75.0.3770.100,,2019-06-24 13:46:48,2019-06-24 13:46:50,"1,689s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:50,2019-06-24 13:46:52,"2,014s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/SSNCaregiver""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:46:52,2019-06-24 13:46:52,"0,270s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/SSNCaregiver""), G_CaregiverSSN)",Chrome 75.0.3770.100,,2019-06-24 13:46:52,2019-06-24 13:46:55,"2,216s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:46:55,2019-06-24 13:46:57,"2,027s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/Address/Address""), ""1628 NW 6 St"")",Chrome 75.0.3770.100,,2019-06-24 13:46:57,2019-06-24 13:47:00,"3,187s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:47:00,2019-06-24 13:47:03,"3,013s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/Address/City""), ""Miami"")",Chrome 75.0.3770.100,,2019-06-24 13:47:03,2019-06-24 13:47:04,"1,090s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:47:04,2019-06-24 13:47:07,"3,017s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Address/State""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:47:07,2019-06-24 13:47:08,"0,796s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Address/State""), ""Florida"")",Chrome 75.0.3770.100,,2019-06-24 13:47:08,2019-06-24 13:47:08,"0,438s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Address/State""), Keys.chord(ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:47:08,2019-06-24 13:47:08,"0,290s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:47:08,2019-06-24 13:47:13,"5,016s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Address/BtnVerify""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:47:13,2019-06-24 13:47:14,"0,696s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:47:14,2019-06-24 13:47:19,"5,015s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Address/ChkVerify""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:47:19,2019-06-24 13:47:20,"0,713s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:47:20,2019-06-24 13:47:23,"3,014s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Phone/Add New Phone Link""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:47:23,2019-06-24 13:47:23,"0,319s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Phone/Add New Phone Link""))",Chrome 75.0.3770.100,,2019-06-24 13:47:23,2019-06-24 13:47:25,"1,839s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:47:25,2019-06-24 13:47:27,"2,013s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Phone/PhoneType""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:47:27,2019-06-24 13:47:28,"1,119s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Phone/PhoneType""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:47:28,2019-06-24 13:47:29,"0,564s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:47:29,2019-06-24 13:47:32,"3,015s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/Phone/PhoneNumber""), ""2345698789"")",Chrome 75.0.3770.100,,2019-06-24 13:47:32,2019-06-24 13:47:35,"2,745s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:47:35,2019-06-24 13:47:38,"3,013s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Phone/chkisprimary""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:47:38,2019-06-24 13:47:38,"0,142s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Phone/chkisprimary""))",Chrome 75.0.3770.100,,2019-06-24 13:47:38,2019-06-24 13:47:38,"0,604s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:47:38,2019-06-24 13:47:40,"2,016s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Phone/a_Add to List""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:47:40,2019-06-24 13:47:41,"0,275s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Phone/a_Add to List""))",Chrome 75.0.3770.100,,2019-06-24 13:47:41,2019-06-24 13:47:41,"0,604s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:47:41,2019-06-24 13:47:43,"2,015s",PASSED
+"scrollToElement(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/Add Discipline""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:47:43,2019-06-24 13:47:43,"0,200s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/Add Discipline""))",Chrome 75.0.3770.100,,2019-06-24 13:47:43,2019-06-24 13:47:44,"0,754s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:47:44,2019-06-24 13:47:46,"2,014s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/DisciplineType""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:47:46,2019-06-24 13:47:47,"0,788s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/DisciplineType""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:47:47,2019-06-24 13:47:47,"0,532s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:47:47,2019-06-24 13:47:51,"3,018s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/Begin Date""))",Chrome 75.0.3770.100,,2019-06-24 13:47:51,2019-06-24 13:47:51,"0,016s",NOT_RUN
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/Begin Date""), ""04/24/2019"")",Chrome 75.0.3770.100,,2019-06-24 13:47:51,2019-06-24 13:47:52,"1,427s",PASSED
+delay(4),Chrome 75.0.3770.100,,2019-06-24 13:47:52,2019-06-24 13:47:56,"4,014s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/Effective EndDate""))",Chrome 75.0.3770.100,,2019-06-24 13:47:56,2019-06-24 13:47:56,"0,008s",NOT_RUN
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/Effective EndDate""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 13:47:56,2019-06-24 13:47:56,"0,006s",NOT_RUN
+delay(4),Chrome 75.0.3770.100,,2019-06-24 13:47:56,2019-06-24 13:47:56,"0,007s",NOT_RUN
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/ChkPrimaryDiscipline""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:47:56,2019-06-24 13:47:56,"0,173s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/ChkPrimaryDiscipline""))",Chrome 75.0.3770.100,,2019-06-24 13:47:56,2019-06-24 13:47:57,"0,675s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:47:57,2019-06-24 13:47:59,"2,015s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/Add to List Discipline""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:47:59,2019-06-24 13:47:59,"0,274s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Discipline/Add to List Discipline""))",Chrome 75.0.3770.100,,2019-06-24 13:47:59,2019-06-24 13:48:00,"0,737s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:48:00,2019-06-24 13:48:02,"2,017s",PASSED
+acceptAlert(),Chrome 75.0.3770.100,,2019-06-24 13:48:02,2019-06-24 13:48:02,"0,190s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:48:02,2019-06-24 13:48:04,"2,012s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:48:04,2019-06-24 13:48:04,"0,098s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK - 28718/BannerFrame""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:48:04,2019-06-24 13:48:04,"0,284s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/bttnSave""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:48:04,2019-06-24 13:48:05,"0,097s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/bttnSave""))",Chrome 75.0.3770.100,,2019-06-24 13:48:05,2019-06-24 13:48:06,"1,183s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:48:06,2019-06-24 13:48:09,"3,014s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:48:09,2019-06-24 13:48:09,"0,076s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:48:09,2019-06-24 13:48:09,"0,241s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Date Of Birth""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:48:09,2019-06-24 13:48:10,"0,760s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Date Of Birth""), ""05/23/1970"")",Chrome 75.0.3770.100,,2019-06-24 13:48:10,2019-06-24 13:48:11,"1,014s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:48:11,2019-06-24 13:48:14,"3,014s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/u_Continue""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:48:14,2019-06-24 13:48:14,"0,227s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/u_Continue""))",Chrome 75.0.3770.100,,2019-06-24 13:48:14,2019-06-24 13:48:20,"5,803s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:48:20,2019-06-24 13:48:25,"5,014s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 13:48:25,2019-06-24 13:48:25,"0,094s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:48:25,2019-06-24 13:48:25,"0,045s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:48:25,2019-06-24 13:48:25,"0,245s",PASSED
+delay(10),Chrome 75.0.3770.100,,2019-06-24 13:48:25,2019-06-24 13:48:35,"10,019s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Race and Sex/Caregiver HR Details""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:48:35,2019-06-24 13:48:36,"0,309s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Race and Sex/Caregiver HR Details""))",Chrome 75.0.3770.100,,2019-06-24 13:48:36,2019-06-24 13:48:37,"0,858s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:48:37,2019-06-24 13:48:42,"5,013s",PASSED
+acceptAlert(),Chrome 75.0.3770.100,,2019-06-24 13:48:42,2019-06-24 13:48:42,"0,123s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:48:42,2019-06-24 13:48:44,"2,111s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:48:44,2019-06-24 13:48:44,"0,169s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:48:44,2019-06-24 13:48:46,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/First Name Caregiver""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,007s",NOT_RUN
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/First Name Caregiver""), G_CaregiverFirstName)",Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,007s",NOT_RUN
+delay(4),Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,007s",NOT_RUN
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/Last Name Caregiver""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,009s",NOT_RUN
+"setText(findTestObject(""Regression BackOffice/CLINK - 28718/General Information/Last Name Caregiver""), G_CareGiverLastName)",Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,042s",NOT_RUN
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,010s",NOT_RUN
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/CaregiverBttnSearch""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,007s",NOT_RUN
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/CaregiverBttnSearch""))",Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,007s",NOT_RUN
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,006s",NOT_RUN
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/CaregiverLink""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,008s",NOT_RUN
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/CaregiverLink""))",Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,006s",NOT_RUN
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,006s",NOT_RUN
+"scrollToElement(findTestObject(""Regression BackOffice/CLINK - 28718/Race and Sex/ChkSameAddress""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:46,"0,158s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Race and Sex/ChkSameAddress""))",Chrome 75.0.3770.100,,2019-06-24 13:48:46,2019-06-24 13:48:47,"0,615s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:48:47,2019-06-24 13:48:52,"5,012s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Race and Sex/RaceType""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:48:52,2019-06-24 13:48:53,"0,713s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Race and Sex/RaceType""), Keys.chord(ARROW_UP, ARROW_UP, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:48:53,2019-06-24 13:48:53,"0,447s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:48:53,2019-06-24 13:48:56,"3,012s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Race and Sex/SexType""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:48:56,2019-06-24 13:48:56,"0,180s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Race and Sex/SexType""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:48:56,2019-06-24 13:48:57,"0,530s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:48:57,2019-06-24 13:49:00,"3,014s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Race and Sex/Date Of Hire""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:49:00,2019-06-24 13:49:00,"0,541s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Race and Sex/Date Of Hire""), ""04/24/2019"")",Chrome 75.0.3770.100,,2019-06-24 13:49:00,2019-06-24 13:49:01,"0,894s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:49:01,2019-06-24 13:49:04,"3,011s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:49:04,2019-06-24 13:49:04,"0,196s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK - 28718/BannerFrame""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:49:04,2019-06-24 13:49:05,"0,244s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/bttnSaveII""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:49:05,2019-06-24 13:49:05,"0,123s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/bttnSaveII""))",Chrome 75.0.3770.100,,2019-06-24 13:49:05,2019-06-24 13:49:10,"5,730s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:49:10,2019-06-24 13:49:14,"3,013s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:49:14,2019-06-24 13:49:14,"0,084s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:49:14,2019-06-24 13:49:14,"0,183s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/Caregiver Locations""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:49:14,2019-06-24 13:49:14,"0,096s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/Caregiver Locations""))",Chrome 75.0.3770.100,,2019-06-24 13:49:14,2019-06-24 13:49:16,"2,522s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:49:16,2019-06-24 13:49:18,"2,021s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:49:18,2019-06-24 13:49:19,"0,079s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:49:19,2019-06-24 13:49:19,"0,277s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:49:19,2019-06-24 13:49:24,"5,011s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/Add New Caregiver Location""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:49:24,2019-06-24 13:49:24,"0,117s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/Add New Caregiver Location""))",Chrome 75.0.3770.100,,2019-06-24 13:49:24,2019-06-24 13:49:25,"0,712s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:49:25,2019-06-24 13:49:30,"5,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/ZoneNameType""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:49:30,2019-06-24 13:49:30,"0,169s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/ZoneNameType""))",Chrome 75.0.3770.100,,2019-06-24 13:49:30,2019-06-24 13:49:30,"0,657s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:49:30,2019-06-24 13:49:33,"3,013s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/ZoneNameType""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:49:33,2019-06-24 13:49:34,"0,425s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:49:34,2019-06-24 13:49:39,"5,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/Hawaii Facility""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:49:39,2019-06-24 13:49:39,"0,188s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/Hawaii Facility""))",Chrome 75.0.3770.100,,2019-06-24 13:49:39,2019-06-24 13:49:40,"0,549s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:49:40,2019-06-24 13:49:45,"5,013s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/a_Add To List""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:49:45,2019-06-24 13:49:45,"0,172s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/a_Add To List""))",Chrome 75.0.3770.100,,2019-06-24 13:49:45,2019-06-24 13:49:46,"0,811s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:49:46,2019-06-24 13:49:51,"5,012s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:49:51,2019-06-24 13:49:51,"0,052s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK - 28718/BannerFrame""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:49:51,2019-06-24 13:49:51,"0,164s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/_bttnSaveLocations""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:49:51,2019-06-24 13:49:51,"0,088s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Locations/_bttnSaveLocations""))",Chrome 75.0.3770.100,,2019-06-24 13:49:51,2019-06-24 13:49:56,"4,804s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:49:56,2019-06-24 13:49:59,"3,013s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:49:59,2019-06-24 13:49:59,"0,059s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:49:59,2019-06-24 13:49:59,"0,140s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/License/Caregiver Attributes""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:49:59,2019-06-24 13:49:59,"0,167s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/License/Caregiver Attributes""))",Chrome 75.0.3770.100,,2019-06-24 13:49:59,2019-06-24 13:50:02,"2,483s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:50:02,2019-06-24 13:50:04,"2,012s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:50:04,2019-06-24 13:50:04,"0,081s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:50:04,2019-06-24 13:50:04,"0,329s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:50:04,2019-06-24 13:50:09,"5,011s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/License/EditAttrbiute""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:50:09,2019-06-24 13:50:09,"0,221s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/License/EditAttrbiute""))",Chrome 75.0.3770.100,,2019-06-24 13:50:09,2019-06-24 13:50:10,"1,197s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:50:10,2019-06-24 13:50:16,"5,019s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/License/LicenseNro""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:50:16,2019-06-24 13:50:16,"0,775s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/License/LicenseNro""), ""12"")",Chrome 75.0.3770.100,,2019-06-24 13:50:16,2019-06-24 13:50:17,"0,354s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:50:17,2019-06-24 13:50:20,"3,014s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/License/License Expiration Date""))",Chrome 75.0.3770.100,,2019-06-24 13:50:20,2019-06-24 13:50:21,"0,990s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/License/License Expiration Date""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 13:50:21,2019-06-24 13:50:22,"0,924s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:50:22,2019-06-24 13:50:25,"3,011s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/License/License Renewal Date""))",Chrome 75.0.3770.100,,2019-06-24 13:50:25,2019-06-24 13:50:25,"0,693s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/License/License Renewal Date""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 13:50:25,2019-06-24 13:50:26,"0,800s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:50:26,2019-06-24 13:50:29,"3,014s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/License/input_State Issued _txtStateIssued""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:50:29,2019-06-24 13:50:29,"0,310s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/License/input_State Issued _txtStateIssued""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:50:29,2019-06-24 13:50:30,"0,605s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:50:30,2019-06-24 13:50:32,"2,013s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/License/input_State Issued _txtStateIssued""), ""AC"")",Chrome 75.0.3770.100,,2019-06-24 13:50:32,2019-06-24 13:50:33,"0,510s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:50:33,2019-06-24 13:50:36,"3,010s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/License/License Checked""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:50:36,2019-06-24 13:50:36,"0,939s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:50:36,2019-06-24 13:50:38,"2,014s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/License/License Checked""), ""Isaac"")",Chrome 75.0.3770.100,,2019-06-24 13:50:38,2019-06-24 13:50:40,"1,110s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:50:40,2019-06-24 13:50:43,"3,011s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/License/License Checked Date""))",Chrome 75.0.3770.100,,2019-06-24 13:50:43,2019-06-24 13:50:44,"1,018s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/License/License Checked Date""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 13:50:44,2019-06-24 13:50:46,"1,903s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:50:46,2019-06-24 13:50:49,"3,017s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/License/Add To List License""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:50:49,2019-06-24 13:50:49,"0,155s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/License/Add To List License""))",Chrome 75.0.3770.100,,2019-06-24 13:50:49,2019-06-24 13:50:49,"0,715s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:50:49,2019-06-24 13:50:54,"5,013s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:50:54,2019-06-24 13:50:55,"0,253s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK - 28718/BannerFrame""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:50:55,2019-06-24 13:50:55,"0,322s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/License/_btnSaveLicense""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:50:55,2019-06-24 13:50:55,"0,135s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/License/_btnSaveLicense""))",Chrome 75.0.3770.100,,2019-06-24 13:50:55,2019-06-24 13:51:00,"5,197s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:51:00,2019-06-24 13:51:03,"3,010s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:51:03,2019-06-24 13:51:03,"0,050s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:51:03,2019-06-24 13:51:04,"0,193s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Caregiver Demographics""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:51:04,2019-06-24 13:51:04,"0,168s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Caregiver Demographics""))",Chrome 75.0.3770.100,,2019-06-24 13:51:04,2019-06-24 13:51:06,"2,628s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:51:06,2019-06-24 13:51:08,"2,014s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:51:08,2019-06-24 13:51:08,"0,064s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:51:08,2019-06-24 13:51:09,"0,223s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:51:09,2019-06-24 13:51:14,"5,008s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Status""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:51:14,2019-06-24 13:51:14,"0,212s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Status""))",Chrome 75.0.3770.100,,2019-06-24 13:51:14,2019-06-24 13:51:15,"0,758s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Status""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:51:15,2019-06-24 13:51:15,"0,624s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:51:15,2019-06-24 13:51:20,"5,012s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Effective DateStatus""))",Chrome 75.0.3770.100,,2019-06-24 13:51:20,2019-06-24 13:51:21,"0,590s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Effective DateStatus""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 13:51:21,2019-06-24 13:51:22,"0,944s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:51:22,2019-06-24 13:51:25,"3,011s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Active/ReasonCode""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:51:25,2019-06-24 13:51:25,"0,001s",NOT_RUN
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Active/ReasonCode""))",Chrome 75.0.3770.100,,2019-06-24 13:51:25,2019-06-24 13:51:25,"0,000s",NOT_RUN
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Active/ReasonCode""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:51:25,2019-06-24 13:51:25,"0,000s",NOT_RUN
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:51:25,2019-06-24 13:51:25,"0,016s",NOT_RUN
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Comments""))",Chrome 75.0.3770.100,,2019-06-24 13:51:25,2019-06-24 13:51:26,"0,740s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Comments""), ""Isaac"")",Chrome 75.0.3770.100,,2019-06-24 13:51:26,2019-06-24 13:51:26,"0,332s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:51:26,2019-06-24 13:51:29,"3,010s",PASSED
+"scrollToElement(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Date Check was Sent""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:51:29,2019-06-24 13:51:29,"0,165s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Date Check was Sent""))",Chrome 75.0.3770.100,,2019-06-24 13:51:29,2019-06-24 13:51:30,"0,580s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Date Check was Sent""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 13:51:30,2019-06-24 13:51:31,"0,788s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:51:31,2019-06-24 13:51:34,"3,009s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Active/input_Date Check Received_txtDateCheckRecvd""))",Chrome 75.0.3770.100,,2019-06-24 13:51:34,2019-06-24 13:51:34,"0,501s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Active/input_Date Check Received_txtDateCheckRecvd""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 13:51:34,2019-06-24 13:51:35,"0,743s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:51:35,2019-06-24 13:51:38,"3,016s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Background Check Completed""))",Chrome 75.0.3770.100,,2019-06-24 13:51:38,2019-06-24 13:51:38,"0,670s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Active/Background Check Completed""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 13:51:38,2019-06-24 13:51:40,"1,113s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:51:40,2019-06-24 13:51:43,"3,011s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:51:43,2019-06-24 13:51:43,"0,050s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK - 28718/BannerFrame""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:51:43,2019-06-24 13:51:43,"0,328s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Active/bttnSaveActive""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:51:43,2019-06-24 13:51:43,"0,299s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Active/bttnSaveActive""))",Chrome 75.0.3770.100,,2019-06-24 13:51:43,2019-06-24 13:51:51,"7,261s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:51:51,2019-06-24 13:51:54,"3,010s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:51:54,2019-06-24 13:51:54,"0,058s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:51:54,2019-06-24 13:51:54,"0,283s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Administrators""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:51:54,2019-06-24 13:51:54,"0,195s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Administrators""))",Chrome 75.0.3770.100,,2019-06-24 13:51:54,2019-06-24 13:51:55,"0,621s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:51:55,2019-06-24 13:51:57,"2,013s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Admin  System Settings""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:51:57,2019-06-24 13:51:57,"0,147s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Admin  System Settings""))",Chrome 75.0.3770.100,,2019-06-24 13:51:57,2019-06-24 13:51:57,"0,495s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:51:57,2019-06-24 13:51:59,"2,041s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Users""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:51:59,2019-06-24 13:52:00,"0,155s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Users""))",Chrome 75.0.3770.100,,2019-06-24 13:52:00,2019-06-24 13:52:00,"0,576s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:52:00,2019-06-24 13:52:02,"2,011s",PASSED
+acceptAlert(),Chrome 75.0.3770.100,,2019-06-24 13:52:02,2019-06-24 13:52:02,"0,113s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:52:02,2019-06-24 13:52:04,"1,810s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:52:04,2019-06-24 13:52:04,"0,217s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:52:04,2019-06-24 13:52:09,"5,008s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Add New User""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:52:09,2019-06-24 13:52:09,"0,126s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Add New User""))",Chrome 75.0.3770.100,,2019-06-24 13:52:09,2019-06-24 13:52:10,"0,810s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:52:10,2019-06-24 13:52:12,"2,012s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/CaregiverChkBox""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:52:12,2019-06-24 13:52:13,"0,347s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/CaregiverChkBox""))",Chrome 75.0.3770.100,,2019-06-24 13:52:13,2019-06-24 13:52:13,"0,792s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:52:13,2019-06-24 13:52:15,"2,012s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Caregiver Name""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:52:15,2019-06-24 13:52:16,"0,133s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Caregiver Name""))",Chrome 75.0.3770.100,,2019-06-24 13:52:16,2019-06-24 13:52:16,"0,612s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Caregiver Name""), G_CareGiverLastName)",Chrome 75.0.3770.100,,2019-06-24 13:52:16,2019-06-24 13:52:17,"0,443s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:52:17,2019-06-24 13:52:20,"3,015s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/a_Fernandez Barb""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:52:20,2019-06-24 13:52:22,"2,446s",FAILED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:52:22,2019-06-24 13:52:24,"2,015s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/User Name""))",Chrome 75.0.3770.100,,2019-06-24 13:52:24,2019-06-24 13:52:25,"0,564s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/User Name""), G_CaregiverUserName)",Chrome 75.0.3770.100,,2019-06-24 13:52:25,2019-06-24 13:52:25,"0,478s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:52:25,2019-06-24 13:52:28,"3,017s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Password""))",Chrome 75.0.3770.100,,2019-06-24 13:52:28,2019-06-24 13:52:29,"0,720s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Password""), G_PasswordBackOffice)",Chrome 75.0.3770.100,,2019-06-24 13:52:29,2019-06-24 13:52:29,"0,520s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:52:29,2019-06-24 13:52:32,"3,013s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Confirm newPassword""))",Chrome 75.0.3770.100,,2019-06-24 13:52:32,2019-06-24 13:52:33,"0,585s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Confirm newPassword""), G_PasswordBackOffice)",Chrome 75.0.3770.100,,2019-06-24 13:52:33,2019-06-24 13:52:33,"0,425s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:52:33,2019-06-24 13:52:36,"3,012s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Email""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:52:36,2019-06-24 13:52:37,"0,165s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Email""))",Chrome 75.0.3770.100,,2019-06-24 13:52:37,2019-06-24 13:52:37,"0,422s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Email""), ""imm@gmail.com"")",Chrome 75.0.3770.100,,2019-06-24 13:52:37,2019-06-24 13:52:38,"0,700s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:52:38,2019-06-24 13:52:41,"3,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Caregiver_chk""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:52:41,2019-06-24 13:52:41,"0,162s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/Caregiver_chk""))",Chrome 75.0.3770.100,,2019-06-24 13:52:41,2019-06-24 13:52:42,"0,762s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:52:42,2019-06-24 13:52:45,"3,009s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:52:45,2019-06-24 13:52:45,"0,053s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK - 28718/BannerFrame""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:52:45,2019-06-24 13:52:45,"0,232s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/_btnUserSave""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:52:45,2019-06-24 13:52:45,"0,201s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK - 28718/Administrator/_btnUserSave""))",Chrome 75.0.3770.100,,2019-06-24 13:52:45,2019-06-24 13:52:46,"0,967s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:52:46,2019-06-24 13:52:49,"3,012s",PASSED
+closeBrowser(),Chrome 75.0.3770.100,,2019-06-24 13:52:49,2019-06-24 13:52:51,"1,749s",FAILED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-23441 - Back office Caregiver - Search criteria,Chrome 75.0.3770.100,"Summary: Back office  Caregiver  - Search criteria
+Description: Tested and Passed. See screen shot as evidence",2019-06-24 13:52:55,2019-06-24 13:53:50,"55,288s",PASSED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:52:56,2019-06-24 13:53:24,"28,439s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.100,,2019-06-24 13:53:24,2019-06-24 13:53:24,"0,047s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:53:24,2019-06-24 13:53:27,"3,013s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:53:27,2019-06-24 13:53:28,"0,229s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:53:28,2019-06-24 13:53:28,"0,157s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""))",Chrome 75.0.3770.100,,2019-06-24 13:53:28,2019-06-24 13:53:29,"0,822s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:53:29,2019-06-24 13:53:31,"2,011s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 13:53:31,2019-06-24 13:53:31,"0,037s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver Search""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:53:31,2019-06-24 13:53:31,"0,147s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver Search""))",Chrome 75.0.3770.100,,2019-06-24 13:53:31,2019-06-24 13:53:33,"2,271s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:53:33,2019-06-24 13:53:35,"2,008s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:53:35,2019-06-24 13:53:35,"0,125s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:53:35,2019-06-24 13:53:36,"0,451s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:53:36,2019-06-24 13:53:36,"0,409s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), G_CaregiverFirstName)",Chrome 75.0.3770.100,,2019-06-24 13:53:36,2019-06-24 13:53:37,"1,056s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:53:37,2019-06-24 13:53:39,"2,011s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:53:39,2019-06-24 13:53:39,"0,193s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), G_CareGiverLastName)",Chrome 75.0.3770.100,,2019-06-24 13:53:39,2019-06-24 13:53:40,"0,767s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:53:40,2019-06-24 13:53:42,"2,006s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:53:42,2019-06-24 13:53:42,"0,149s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:53:42,2019-06-24 13:53:44,"1,835s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:53:44,2019-06-24 13:53:46,"2,009s",PASSED
+closeBrowser(),Chrome 75.0.3770.100,,2019-06-24 13:53:46,2019-06-24 13:53:48,"1,663s",PASSED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-23442 - Back office Caregiver Demographics,Chrome 75.0.3770.100,"Summary: Back office  Caregiver Demographics
+Description: ",2019-06-24 13:53:50,2019-06-24 13:55:42,"1m - 51,742s",PASSED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:53:52,2019-06-24 13:54:14,"22,705s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.100,,2019-06-24 13:54:14,2019-06-24 13:54:14,"0,055s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:54:14,2019-06-24 13:54:17,"3,013s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:54:17,2019-06-24 13:54:18,"0,325s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:54:18,2019-06-24 13:54:18,"0,158s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""))",Chrome 75.0.3770.100,,2019-06-24 13:54:18,2019-06-24 13:54:19,"1,201s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:19,2019-06-24 13:54:21,"2,010s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 13:54:21,2019-06-24 13:54:21,"0,042s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/CaregiverDemographics""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:54:21,2019-06-24 13:54:21,"0,126s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/CaregiverDemographics""))",Chrome 75.0.3770.100,,2019-06-24 13:54:21,2019-06-24 13:54:23,"1,922s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:23,2019-06-24 13:54:25,"2,009s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:54:25,2019-06-24 13:54:25,"0,080s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:54:25,2019-06-24 13:54:25,"0,226s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:54:25,2019-06-24 13:54:26,"0,112s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), G_CaregiverFirstName)",Chrome 75.0.3770.100,,2019-06-24 13:54:26,2019-06-24 13:54:26,"0,661s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:26,2019-06-24 13:54:28,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:54:28,2019-06-24 13:54:28,"0,205s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), G_CareGiverLastName)",Chrome 75.0.3770.100,,2019-06-24 13:54:28,2019-06-24 13:54:30,"1,096s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:30,2019-06-24 13:54:32,"2,011s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:54:32,2019-06-24 13:54:32,"0,172s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:54:32,2019-06-24 13:54:34,"2,140s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:34,2019-06-24 13:54:36,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/ClientLink""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:54:36,2019-06-24 13:54:36,"0,170s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/ClientLink""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:54:36,2019-06-24 13:54:40,"4,075s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:40,2019-06-24 13:54:42,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/NickName""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:54:42,2019-06-24 13:54:42,"0,248s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23442/NickName""), ""Pache"")",Chrome 75.0.3770.100,,2019-06-24 13:54:42,2019-06-24 13:54:44,"1,684s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:44,2019-06-24 13:54:46,"2,006s",PASSED
+"scrollToElement(findTestObject(""Regression BackOffice/CLINK-23442/NewPhoneLink""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:54:46,2019-06-24 13:54:46,"0,238s",PASSED
+delay(1),Chrome 75.0.3770.100,,2019-06-24 13:54:46,2019-06-24 13:54:47,"1,012s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/NewPhoneLink""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:54:47,2019-06-24 13:54:48,"0,875s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:48,2019-06-24 13:54:50,"2,022s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/PhoneTypeList""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:54:50,2019-06-24 13:54:50,"0,131s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/PhoneTypeList""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:54:50,2019-06-24 13:54:51,"0,768s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK-23442/PhoneTypeList""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:54:51,2019-06-24 13:54:52,"0,478s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:52,2019-06-24 13:54:54,"2,019s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/PhoneNumber""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:54:54,2019-06-24 13:54:54,"0,190s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23442/PhoneNumber""), ""1234567890"")",Chrome 75.0.3770.100,,2019-06-24 13:54:54,2019-06-24 13:54:55,"1,612s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:55,2019-06-24 13:54:57,"2,022s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/Add to List Button""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:54:57,2019-06-24 13:54:58,"0,150s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/Add to List Button""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:54:58,2019-06-24 13:54:58,"0,657s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:54:58,2019-06-24 13:55:00,"2,021s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/Group""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:55:00,2019-06-24 13:55:00,"0,159s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/Group""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:55:00,2019-06-24 13:55:01,"0,886s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK-23442/Group""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:55:01,2019-06-24 13:55:02,"0,379s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:55:02,2019-06-24 13:55:04,"2,013s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/SubGroup""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:55:04,2019-06-24 13:55:04,"0,158s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/SubGroup""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:55:04,2019-06-24 13:55:05,"0,654s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK-23442/SubGroup""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:55:05,2019-06-24 13:55:05,"0,509s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:55:05,2019-06-24 13:55:07,"2,016s",PASSED
+"scrollToElement(findTestObject(""Regression BackOffice/CLINK-23442/Add Discipline""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:55:07,2019-06-24 13:55:07,"0,189s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/Add Discipline""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:55:07,2019-06-24 13:55:08,"0,695s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:55:08,2019-06-24 13:55:10,"2,015s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/DisciplineList""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:55:10,2019-06-24 13:55:10,"0,161s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/DisciplineList""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:55:10,2019-06-24 13:55:11,"0,691s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK-23442/DisciplineList""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:55:11,2019-06-24 13:55:11,"0,619s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:55:11,2019-06-24 13:55:13,"2,017s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/Begin Date""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:55:13,2019-06-24 13:55:14,"0,098s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23442/Begin Date""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 13:55:14,2019-06-24 13:55:15,"1,530s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:55:15,2019-06-24 13:55:17,"2,028s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/Add to List Discipline""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:55:17,2019-06-24 13:55:17,"0,128s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/Add to List Discipline""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:55:17,2019-06-24 13:55:18,"0,602s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:55:18,2019-06-24 13:55:18,"0,027s",PASSED
+acceptAlert(),Chrome 75.0.3770.100,,2019-06-24 13:55:18,2019-06-24 13:55:18,"0,040s",PASSED
+delay(5),Chrome 75.0.3770.100,,2019-06-24 13:55:18,2019-06-24 13:55:23,"5,010s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 13:55:23,2019-06-24 13:55:23,"0,083s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:55:23,2019-06-24 13:55:23,"0,069s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:55:23,2019-06-24 13:55:23,"0,257s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/RequestChart""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:55:23,2019-06-24 13:55:24,"0,138s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/RequestChart""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:55:24,2019-06-24 13:55:24,"0,548s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:55:24,2019-06-24 13:55:26,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/QAReviewForForms""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:55:26,2019-06-24 13:55:26,"0,098s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/QAReviewForForms""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:55:26,2019-06-24 13:55:27,"0,518s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:55:27,2019-06-24 13:55:29,"2,012s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:55:29,2019-06-24 13:55:29,"0,072s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK-23442/BannerFrame""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:55:29,2019-06-24 13:55:29,"0,191s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/SaveButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:55:29,2019-06-24 13:55:29,"0,114s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/SaveButton""))",Chrome 75.0.3770.100,,2019-06-24 13:55:29,2019-06-24 13:55:36,"6,854s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:55:36,2019-06-24 13:55:38,"2,010s",PASSED
+closeBrowser(),Chrome 75.0.3770.100,,2019-06-24 13:55:38,2019-06-24 13:55:40,"1,589s",PASSED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-23445 - Back office Caregiver HR Details,Chrome 75.0.3770.100,"Summary: Back office Caregiver HR Details
+Description: ",2019-06-24 13:55:42,2019-06-24 13:57:08,"1m - 26,075s",PASSED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:55:43,2019-06-24 13:56:11,"27,391s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.100,,2019-06-24 13:56:11,2019-06-24 13:56:11,"0,137s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:56:11,2019-06-24 13:56:14,"3,009s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:56:14,2019-06-24 13:56:14,"0,242s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:56:14,2019-06-24 13:56:14,"0,108s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""))",Chrome 75.0.3770.100,,2019-06-24 13:56:14,2019-06-24 13:56:15,"0,767s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:56:15,2019-06-24 13:56:17,"2,011s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 13:56:17,2019-06-24 13:56:17,"0,068s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23445/CaregiverHRDetails""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:17,2019-06-24 13:56:17,"0,196s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23445/CaregiverHRDetails""))",Chrome 75.0.3770.100,,2019-06-24 13:56:17,2019-06-24 13:56:20,"2,823s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:56:20,2019-06-24 13:56:22,"2,012s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:56:22,2019-06-24 13:56:22,"0,031s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:56:22,2019-06-24 13:56:22,"0,329s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:22,2019-06-24 13:56:23,"0,126s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), G_CaregiverFirstName)",Chrome 75.0.3770.100,,2019-06-24 13:56:23,2019-06-24 13:56:23,"0,769s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:56:23,2019-06-24 13:56:25,"2,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:25,2019-06-24 13:56:26,"0,207s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), G_CareGiverLastName)",Chrome 75.0.3770.100,,2019-06-24 13:56:26,2019-06-24 13:56:26,"0,757s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:56:26,2019-06-24 13:56:28,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:28,2019-06-24 13:56:29,"0,164s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:56:29,2019-06-24 13:56:30,"1,858s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:56:30,2019-06-24 13:56:32,"2,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/ClientLink""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:32,2019-06-24 13:56:33,"0,118s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/ClientLink""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:56:33,2019-06-24 13:56:36,"3,042s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:56:36,2019-06-24 13:56:38,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23445/Middle Initial""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:38,2019-06-24 13:56:38,"0,136s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23445/Middle Initial""), ""M"")",Chrome 75.0.3770.100,,2019-06-24 13:56:38,2019-06-24 13:56:39,"1,076s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:56:39,2019-06-24 13:56:41,"2,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23445/Mail Address""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:41,2019-06-24 13:56:41,"0,116s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23445/Mail Address""), ""isaac@gmail.com"")",Chrome 75.0.3770.100,,2019-06-24 13:56:41,2019-06-24 13:56:42,"1,179s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:56:42,2019-06-24 13:56:44,"2,008s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23445/SameasAddress""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:44,2019-06-24 13:56:44,"0,005s",NOT_RUN
+"click(findTestObject(""Regression BackOffice/CLINK-23445/SameasAddress""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:56:44,2019-06-24 13:56:44,"0,005s",NOT_RUN
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:56:44,2019-06-24 13:56:44,"0,005s",NOT_RUN
+"scrollToElement(findTestObject(""Regression BackOffice/CLINK-23445/Race""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:44,2019-06-24 13:56:44,"0,246s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23445/Race""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:56:44,2019-06-24 13:56:45,"0,744s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK-23445/Race""), Keys.chord(ARROW_UP, ARROW_UP, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:56:45,2019-06-24 13:56:46,"0,414s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:56:46,2019-06-24 13:56:48,"2,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23445/Sex""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:48,2019-06-24 13:56:48,"0,119s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23445/Sex""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:56:48,2019-06-24 13:56:48,"0,507s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:56:48,2019-06-24 13:56:51,"3,013s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23445/Date Of Hire""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:51,2019-06-24 13:56:51,"0,136s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23445/Date Of Hire""), ""04/20/2019"")",Chrome 75.0.3770.100,,2019-06-24 13:56:51,2019-06-24 13:56:52,"1,159s",PASSED
+delay(4),Chrome 75.0.3770.100,,2019-06-24 13:56:52,2019-06-24 13:56:56,"4,012s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:56:56,2019-06-24 13:56:57,"0,048s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK-23444/BannerFrameAtt""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:56:57,2019-06-24 13:56:57,"0,291s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23445/Save""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:56:57,2019-06-24 13:56:57,"0,127s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23445/Save""))",Chrome 75.0.3770.100,,2019-06-24 13:56:57,2019-06-24 13:57:02,"5,239s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:57:02,2019-06-24 13:57:04,"2,010s",PASSED
+closeBrowser(),Chrome 75.0.3770.100,,2019-06-24 13:57:04,2019-06-24 13:57:06,"1,540s",PASSED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations,Chrome 75.0.3770.100,"Summary: Back office Caregiver Locations
+Description: ",2019-06-24 13:57:08,2019-06-24 13:58:25,"1m - 16,483s",PASSED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:57:09,2019-06-24 13:57:34,"24,733s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.100,,2019-06-24 13:57:34,2019-06-24 13:57:34,"0,070s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:57:34,2019-06-24 13:57:37,"3,002s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:57:37,2019-06-24 13:57:37,"0,235s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:57:37,2019-06-24 13:57:37,"0,104s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""))",Chrome 75.0.3770.100,,2019-06-24 13:57:37,2019-06-24 13:57:38,"0,688s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:57:38,2019-06-24 13:57:40,"2,010s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 13:57:40,2019-06-24 13:57:40,"0,033s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23446/Caregiver Locations""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:57:40,2019-06-24 13:57:40,"0,115s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23446/Caregiver Locations""))",Chrome 75.0.3770.100,,2019-06-24 13:57:40,2019-06-24 13:57:43,"2,411s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:57:43,2019-06-24 13:57:45,"2,009s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:57:45,2019-06-24 13:57:45,"0,073s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:57:45,2019-06-24 13:57:45,"0,459s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:57:45,2019-06-24 13:57:45,"0,139s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), G_CaregiverFirstName)",Chrome 75.0.3770.100,,2019-06-24 13:57:45,2019-06-24 13:57:46,"0,864s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:57:46,2019-06-24 13:57:48,"2,008s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:57:48,2019-06-24 13:57:48,"0,208s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), G_CareGiverLastName)",Chrome 75.0.3770.100,,2019-06-24 13:57:48,2019-06-24 13:57:49,"0,849s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:57:49,2019-06-24 13:57:51,"2,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:57:51,2019-06-24 13:57:51,"0,211s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:57:51,2019-06-24 13:57:53,"1,829s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:57:53,2019-06-24 13:57:55,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/ClientLink""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:57:55,2019-06-24 13:57:55,"0,126s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/ClientLink""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:57:55,2019-06-24 13:57:58,"2,729s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:57:58,2019-06-24 13:58:00,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23446/NewCaregiverLocation""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:58:00,2019-06-24 13:58:00,"0,251s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23446/NewCaregiverLocation""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:58:00,2019-06-24 13:58:01,"0,794s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:58:01,2019-06-24 13:58:03,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23446/ZoneName""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:58:03,2019-06-24 13:58:03,"0,147s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23446/ZoneName""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:58:03,2019-06-24 13:58:04,"0,826s",PASSED
+"sendKeys(findTestObject(""Regression BackOffice/CLINK-23446/ZoneName""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 75.0.3770.100,,2019-06-24 13:58:04,2019-06-24 13:58:05,"0,468s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:58:05,2019-06-24 13:58:07,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23446/li_Location""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:58:07,2019-06-24 13:58:07,"0,113s",PASSED
+"doubleClick(findTestObject(""Regression BackOffice/CLINK-23446/li_Location""))",Chrome 75.0.3770.100,,2019-06-24 13:58:07,2019-06-24 13:58:07,"0,664s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:58:07,2019-06-24 13:58:09,"2,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23446/a_Add To List""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:58:09,2019-06-24 13:58:10,"0,141s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23446/a_Add To List""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:58:10,2019-06-24 13:58:10,"0,943s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 13:58:10,2019-06-24 13:58:11,"0,042s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:58:11,2019-06-24 13:58:14,"3,010s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:58:14,2019-06-24 13:58:14,"0,031s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK-23444/BannerFrameAtt""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:58:14,2019-06-24 13:58:14,"0,203s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23446/SaveButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:58:14,2019-06-24 13:58:14,"0,178s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23446/SaveButton""))",Chrome 75.0.3770.100,,2019-06-24 13:58:14,2019-06-24 13:58:19,"4,627s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:58:19,2019-06-24 13:58:21,"2,011s",PASSED
+closeBrowser(),Chrome 75.0.3770.100,,2019-06-24 13:58:21,2019-06-24 13:58:22,"1,692s",PASSED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-23444 - Back office Caregiver Attributes,Chrome 75.0.3770.100,"Summary: Back office Caregiver Attributes
+Description: ",2019-06-24 13:58:25,2019-06-24 13:59:43,"1m - 18,264s",PASSED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:58:26,2019-06-24 13:58:51,"24,694s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.100,,2019-06-24 13:58:51,2019-06-24 13:58:51,"0,063s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:58:51,2019-06-24 13:58:54,"3,017s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:58:54,2019-06-24 13:58:54,"0,375s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""), 100)",Chrome 75.0.3770.100,,2019-06-24 13:58:54,2019-06-24 13:58:54,"0,156s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""))",Chrome 75.0.3770.100,,2019-06-24 13:58:54,2019-06-24 13:58:55,"1,013s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:58:55,2019-06-24 13:58:57,"2,011s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 13:58:57,2019-06-24 13:58:57,"0,065s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23444/Caregiver Attributes""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:58:57,2019-06-24 13:58:57,"0,111s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23444/Caregiver Attributes""))",Chrome 75.0.3770.100,,2019-06-24 13:58:57,2019-06-24 13:59:00,"2,741s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:59:00,2019-06-24 13:59:02,"2,013s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:59:02,2019-06-24 13:59:02,"0,049s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:59:02,2019-06-24 13:59:02,"0,271s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:59:02,2019-06-24 13:59:03,"0,104s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), G_CaregiverFirstName)",Chrome 75.0.3770.100,,2019-06-24 13:59:03,2019-06-24 13:59:03,"0,759s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:59:03,2019-06-24 13:59:05,"2,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:59:05,2019-06-24 13:59:05,"0,137s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), G_CareGiverLastName)",Chrome 75.0.3770.100,,2019-06-24 13:59:05,2019-06-24 13:59:06,"0,643s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:59:06,2019-06-24 13:59:08,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:59:08,2019-06-24 13:59:08,"0,151s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:59:08,2019-06-24 13:59:10,"1,907s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:59:10,2019-06-24 13:59:12,"2,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/ClientLink""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:59:12,2019-06-24 13:59:12,"0,153s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/ClientLink""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:59:12,2019-06-24 13:59:14,"1,994s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:59:14,2019-06-24 13:59:16,"2,011s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23444/New Attribute""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:59:16,2019-06-24 13:59:16,"0,118s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23444/New Attribute""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:59:16,2019-06-24 13:59:17,"0,615s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:59:17,2019-06-24 13:59:19,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23444/CheckedBy""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:59:19,2019-06-24 13:59:19,"0,172s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23444/CheckedBy""), ""Isaac"")",Chrome 75.0.3770.100,,2019-06-24 13:59:19,2019-06-24 13:59:20,"1,186s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:59:20,2019-06-24 13:59:22,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23444/Checked Date""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:59:22,2019-06-24 13:59:23,"0,126s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23444/Checked Date""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 13:59:23,2019-06-24 13:59:24,"1,180s",PASSED
+delay(4),Chrome 75.0.3770.100,,2019-06-24 13:59:24,2019-06-24 13:59:28,"4,011s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23444/a_Add To List""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:59:28,2019-06-24 13:59:28,"0,178s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23444/a_Add To List""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:59:28,2019-06-24 13:59:29,"0,619s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 13:59:29,2019-06-24 13:59:32,"3,010s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 13:59:32,2019-06-24 13:59:32,"0,063s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK-23444/BannerFrameAtt""), 30)",Chrome 75.0.3770.100,,2019-06-24 13:59:32,2019-06-24 13:59:32,"0,218s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23444/Save""), 50)",Chrome 75.0.3770.100,,2019-06-24 13:59:32,2019-06-24 13:59:32,"0,157s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23444/Save""))",Chrome 75.0.3770.100,,2019-06-24 13:59:32,2019-06-24 13:59:37,"4,660s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 13:59:37,2019-06-24 13:59:39,"2,009s",PASSED
+closeBrowser(),Chrome 75.0.3770.100,,2019-06-24 13:59:39,2019-06-24 13:59:40,"1,774s",PASSED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-23447 - Back office Caregiver Demographics,Chrome 75.0.3770.100,"Summary: Back office Caregiver Demographics
+Description: ",2019-06-24 13:59:43,2019-06-24 14:01:13,"1m - 29,843s",PASSED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 13:59:44,2019-06-24 14:00:09,"24,893s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.100,,2019-06-24 14:00:09,2019-06-24 14:00:09,"0,047s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 14:00:09,2019-06-24 14:00:12,"3,003s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 14:00:12,2019-06-24 14:00:13,"0,341s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""), 100)",Chrome 75.0.3770.100,,2019-06-24 14:00:13,2019-06-24 14:00:13,"0,183s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/Caregiver  HRLink""))",Chrome 75.0.3770.100,,2019-06-24 14:00:13,2019-06-24 14:00:14,"0,978s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:00:14,2019-06-24 14:00:16,"2,008s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 14:00:16,2019-06-24 14:00:16,"0,076s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23447/Caregiver Demographics""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:00:16,2019-06-24 14:00:16,"0,144s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23447/Caregiver Demographics""))",Chrome 75.0.3770.100,,2019-06-24 14:00:16,2019-06-24 14:00:19,"2,465s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:00:19,2019-06-24 14:00:21,"2,010s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 14:00:21,2019-06-24 14:00:21,"0,036s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 14:00:21,2019-06-24 14:00:21,"0,243s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:00:21,2019-06-24 14:00:21,"0,114s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-10235/FirstNameSearch""), G_CaregiverFirstName)",Chrome 75.0.3770.100,,2019-06-24 14:00:21,2019-06-24 14:00:22,"0,880s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:00:22,2019-06-24 14:00:24,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:00:24,2019-06-24 14:00:24,"0,178s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLNK-23441/Last NameHR""), G_CareGiverLastName)",Chrome 75.0.3770.100,,2019-06-24 14:00:24,2019-06-24 14:00:25,"0,674s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:00:25,2019-06-24 14:00:27,"2,011s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:00:27,2019-06-24 14:00:27,"0,152s",PASSED
+"click(findTestObject(""Regression BackOffice/CLNK-23441/CaregiverSearchButton""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 14:00:27,2019-06-24 14:00:29,"1,798s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:00:29,2019-06-24 14:00:31,"2,011s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23442/ClientLink""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:00:31,2019-06-24 14:00:31,"0,112s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23442/ClientLink""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 14:00:31,2019-06-24 14:00:36,"4,904s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:00:36,2019-06-24 14:00:38,"2,010s",PASSED
+waitForPageLoad(0),Chrome 75.0.3770.100,,2019-06-24 14:00:38,2019-06-24 14:00:38,"0,056s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23447/DateSent""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:00:38,2019-06-24 14:00:38,"0,215s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23447/DateSent""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 14:00:38,2019-06-24 14:00:40,"2,385s",PASSED
+delay(4),Chrome 75.0.3770.100,,2019-06-24 14:00:40,2019-06-24 14:00:44,"4,013s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23447/DateReceived""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:00:44,2019-06-24 14:00:44,"0,145s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23447/DateReceived""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 14:00:44,2019-06-24 14:00:46,"1,346s",PASSED
+delay(4),Chrome 75.0.3770.100,,2019-06-24 14:00:46,2019-06-24 14:00:50,"4,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23447/CheckCompletedDate""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:00:50,2019-06-24 14:00:50,"0,258s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-23447/CheckCompletedDate""), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash())",Chrome 75.0.3770.100,,2019-06-24 14:00:50,2019-06-24 14:00:53,"2,668s",PASSED
+delay(4),Chrome 75.0.3770.100,,2019-06-24 14:00:53,2019-06-24 14:00:57,"4,010s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 14:00:57,2019-06-24 14:00:57,"0,050s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK-23444/BannerFrameAtt""), 30)",Chrome 75.0.3770.100,,2019-06-24 14:00:57,2019-06-24 14:00:57,"0,246s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-23446/SaveButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:00:57,2019-06-24 14:00:57,"0,124s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-23446/SaveButton""))",Chrome 75.0.3770.100,,2019-06-24 14:00:57,2019-06-24 14:01:07,"9,366s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:01:07,2019-06-24 14:01:09,"2,009s",PASSED
+closeBrowser(),Chrome 75.0.3770.100,,2019-06-24 14:01:09,2019-06-24 14:01:10,"1,836s",PASSED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-17788 - (Task A) New Clinical Manager Caregiver Property,Chrome 75.0.3770.100,"Summary: 7 (Task A) New Clinical Manager Caregiver Property & 8  (Task B) Update Care Manager Control in Admission Details >>Phase 1<<
+Description: {color:#205081}_*Requirement Coverage*_{color}Â Â 
+
+h3. {color:#205081}7Â  Â (Task A) New Clinical Manager Caregiver Property{color}
+
+
+
+*ContinuLink > Caregiver / HR Block > Caregiver Demo. > Other Information*
+
+
+
+Under the Caregiver / HR Block Tab in the Caregiver Demographics page we should add a new Radio Button â€œIs Clinical Manger?â€� This will identify a user as a clinical manger.
+
+
+
+The radio button must be defaulted to â€œNoâ€� on release.
+
+h3. {color:#205081}8Â  Â  Â (Task B) Update Care Manager Control in Admission Details{color}
+
+
+
+*ContinuLink > Client / Intake Block > Admission Details > Care Manager Panel*
+
+
+
+We should modify the Care Manager panel to allow for both care manager and Clinical manager entries. We should do this by demoting the content of the panel to a tab labeled â€œCare Managerâ€�, this tab should be the default position of the control. We should also create a new tab labeled â€œClinical Managerâ€�.",2019-06-24 14:01:13,2019-06-24 14:02:24,"1m - 11,420s",PASSED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 14:01:14,2019-06-24 14:01:38,"24,043s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.100,,2019-06-24 14:01:38,2019-06-24 14:01:38,"0,045s",PASSED
+delay(3),Chrome 75.0.3770.100,,2019-06-24 14:01:38,2019-06-24 14:01:41,"3,001s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.100,,2019-06-24 14:01:41,2019-06-24 14:01:41,"0,289s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/CaregiverHRLink""), 100)",Chrome 75.0.3770.100,,2019-06-24 14:01:41,2019-06-24 14:01:42,"0,112s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/CaregiverHRLink""))",Chrome 75.0.3770.100,,2019-06-24 14:01:42,2019-06-24 14:01:42,"0,838s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:01:42,2019-06-24 14:01:44,"2,010s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.100,,2019-06-24 14:01:44,2019-06-24 14:01:44,"0,065s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/CaregiverDemographics""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:01:44,2019-06-24 14:01:45,"0,123s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/CaregiverDemographics""))",Chrome 75.0.3770.100,,2019-06-24 14:01:45,2019-06-24 14:01:47,"2,249s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:01:47,2019-06-24 14:01:49,"2,010s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 14:01:49,2019-06-24 14:01:49,"0,057s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.100,,2019-06-24 14:01:49,2019-06-24 14:01:49,"0,260s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/LastNameSearch""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:01:49,2019-06-24 14:01:49,"0,265s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-17788/LastNameSearch""), G_CareGiverLastName)",Chrome 75.0.3770.100,,2019-06-24 14:01:49,2019-06-24 14:01:50,"0,739s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:01:50,2019-06-24 14:01:52,"2,011s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/SearchButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:01:52,2019-06-24 14:01:52,"0,120s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/SearchButton""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 14:01:52,2019-06-24 14:01:54,"1,717s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:01:54,2019-06-24 14:01:56,"2,009s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/UserLink""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:01:56,2019-06-24 14:01:56,"0,122s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/UserLink""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 14:01:56,2019-06-24 14:02:00,"3,822s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:02:00,2019-06-24 14:02:02,"2,010s",PASSED
+"scrollToElement(findTestObject(""Regression BackOffice/CLINK-17788/OtherInformationSection""), 20)",Chrome 75.0.3770.100,,2019-06-24 14:02:02,2019-06-24 14:02:02,"0,253s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/YesCareManager""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:02:02,2019-06-24 14:02:02,"0,153s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/YesCareManager""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 14:02:02,2019-06-24 14:02:03,"0,906s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:02:03,2019-06-24 14:02:05,"2,010s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/NoClinicalManager""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:02:05,2019-06-24 14:02:06,"0,467s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/NoClinicalManager""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 14:02:06,2019-06-24 14:02:07,"1,461s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.100,,2019-06-24 14:02:07,2019-06-24 14:02:08,"0,272s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:02:08,2019-06-24 14:02:10,"2,010s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK-17788/BannerFrame""), 30)",Chrome 75.0.3770.100,,2019-06-24 14:02:10,2019-06-24 14:02:11,"1,283s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/SaveButton""), 50)",Chrome 75.0.3770.100,,2019-06-24 14:02:11,2019-06-24 14:02:11,"0,410s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/SaveButton""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,2019-06-24 14:02:11,2019-06-24 14:02:18,"7,071s",PASSED
+delay(2),Chrome 75.0.3770.100,,2019-06-24 14:02:18,2019-06-24 14:02:20,"2,011s",PASSED
+closeBrowser(),Chrome 75.0.3770.100,,2019-06-24 14:02:20,2019-06-24 14:02:22,"1,710s",PASSED

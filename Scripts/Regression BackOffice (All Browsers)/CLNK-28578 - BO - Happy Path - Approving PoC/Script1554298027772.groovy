@@ -68,7 +68,7 @@ not_run: WebUI.switchToDefaultContent()
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK-28578/iframe'), 30)
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/ApproveLink'), 50)
 
@@ -87,4 +87,6 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/Ok
 WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/OkPOC'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
+
+WebUI.closeBrowser()
 
