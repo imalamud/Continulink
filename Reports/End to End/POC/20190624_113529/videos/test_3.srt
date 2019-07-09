@@ -1,0 +1,48 @@
+1
+00:00:01,543 --> 00:00:01,546
+1. callTestCase(findTestCase("Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,729 --> 00:00:01,729
+1. openBrowser(G_SiteURL)
+
+3
+00:00:18,561 --> 00:00:18,563
+5. waitForPageLoad(60)
+
+4
+00:00:18,812 --> 00:00:18,814
+9. maximizeWindow()
+
+5
+00:00:21,293 --> 00:00:21,296
+13. setText(findTestObject("Regression Clinical Edge/CLNK-23349/User"), G_User)
+
+6
+00:00:23,426 --> 00:00:23,429
+17. setText(findTestObject("Regression Clinical Edge/CLNK-23349/Password"), G_Password)
+
+7
+00:00:24,260 --> 00:00:24,263
+21. click(findTestObject("Regression Clinical Edge/CLNK-23349/Button_LogIn"))
+
+8
+00:00:29,279 --> 00:00:29,281
+25. waitForPageLoad(60)
+
+9
+00:00:29,409 --> 00:00:29,411
+29. delay(2)
+
+10
+00:00:31,420 --> 00:00:31,423
+33. waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"), 100)
+
+11
+00:02:25,504 --> 00:02:25,504
+37. click(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"))
+
+12
+00:03:00,240 --> 00:03:00,243
+41. delay(2)
+

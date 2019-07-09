@@ -21,12 +21,6 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(60)
 
-not_run: WebUI.delay(8)
-
-not_run: WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'), 100)
-
-not_run: WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23497/button_Close'))
-
 WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/ClientPage/HomeLink'), 100)

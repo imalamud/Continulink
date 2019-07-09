@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Dyno'</initValue>
+      <initValue>'Mark'</initValue>
       <name>G_ClientFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Dennis'</initValue>
+      <initValue>'Robinson'</initValue>
       <name>G_ClientLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -91,22 +91,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Walter'</initValue>
+      <initValue>'Paul'</initValue>
       <name>G_CaregiverFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Tiburcio'</initValue>
+      <initValue>'George'</initValue>
       <name>G_CareGiverLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'535870022'</initValue>
+      <initValue>'535870073'</initValue>
       <name>G_CaregiverSSN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'wtiburcio'</initValue>
+      <initValue>'pgeorge'</initValue>
       <name>G_CaregiverUserName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -28,4 +28,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23314 - Clinical Edge - Add Schedule</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>eb9adbe0-b0b8-4653-b534-0a7eab22ef98</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-13514 - CE - Medication Profile Widget - Adding elements</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
