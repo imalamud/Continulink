@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'demo'</initValue>
+      <initValue>'automation_admin'</initValue>
       <name>G_UserBackOffice</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
