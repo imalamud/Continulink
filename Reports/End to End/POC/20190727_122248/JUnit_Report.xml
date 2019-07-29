@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="POC" time="79" tests="1" failures="0" errors="0">
+   <testsuite name="POC" tests="1" failures="0" errors="0" time="79" timestamp="2019-07-27 12:22:50" hostname="isaac - DESKTOP-BPONDF2" id="Test Suites/End to End/POC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\End to End\\POC\\20190727_122248"/>
+         <property name="logFiles" value="C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\End to End\\POC\\20190727_122248\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="isaac - DESKTOP-BPONDF2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="192.168.0.114"/>
+         <property name="sessionId" value="bd91f3c3ec445ea460ab06df5b70ab3b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Regression Clinical Edge (All Browsers)/CLNK-28946 - CE - Add diagnosis" classname="Test Cases/Regression Clinical Edge (All Browsers)/CLNK-28946 - CE - Add diagnosis" status="PASSED">
+         <system-out><![CDATA[2019-07-27 12:22:50 - [TEST_CASE][PASSED] - Test Cases/Regression Clinical Edge (All Browsers)/CLNK-28946 - CE - Add diagnosis: Test Cases/Regression Clinical Edge (All Browsers)/CLNK-28946 - CE - Add diagnosis
+
+2019-07-27 12:22:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login' successfully
+
+2019-07-27 12:22:51 - [TEST_CASE][PASSED] - Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login: Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login
+
+2019-07-27 12:22:51 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'https://qanewpoc.continulink.com/Account/Login.aspx?ReturnUrl=%2fdefault.aspx'
+
+2019-07-27 12:22:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-27 12:22:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-27 12:23:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qanewpoc.continulink.com/Account/Login.aspx?ReturnUrl=%2fdefault.aspx'
+
+2019-07-27 12:23:04 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-27 12:23:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-27 12:23:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-27 12:23:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-27 12:23:08 - [TEST_STEP][PASSED] - setText(findTestObject("Regression Clinical Edge/CLNK-23349/User"), G_User): Text 'Mobinnur' is set on object 'Object Repository/Regression Clinical Edge/CLNK-23349/User'
+
+2019-07-27 12:23:09 - [MESSAGE][PASSED] - Text 'Mobinnur' is set on object 'Object Repository/Regression Clinical Edge/CLNK-23349/User'
+
+2019-07-27 12:23:09 - [TEST_STEP][PASSED] - setText(findTestObject("Regression Clinical Edge/CLNK-23349/Password"), G_Password): Text 'qwerty' is set on object 'Object Repository/Regression Clinical Edge/CLNK-23349/Password'
+
+2019-07-27 12:23:09 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Regression Clinical Edge/CLNK-23349/Password'
+
+2019-07-27 12:23:09 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLNK-23349/Button_LogIn")): Object: 'Object Repository/Regression Clinical Edge/CLNK-23349/Button_LogIn' is clicked on
+
+2019-07-27 12:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLNK-23349/Button_LogIn' is clicked on
+
+2019-07-27 12:23:11 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-27 12:23:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-27 12:23:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:13 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"), 100): NOT_RUN: waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"), 100)
+
+2019-07-27 12:23:13 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"), 100)
+
+2019-07-27 12:23:13 - [TEST_STEP][NOT_RUN] - click(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close")): NOT_RUN: click(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"))
+
+2019-07-27 12:23:13 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"))
+
+2019-07-27 12:23:13 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-07-27 12:23:13 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-07-27 12:23:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login' successfully
+
+2019-07-27 12:23:13 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-27 12:23:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-27 12:23:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-27 12:23:13 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-27 12:23:13 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-27 12:23:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-27 12:23:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/ClientPage/HomeLink"), 100): Object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink' is present
+
+2019-07-27 12:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink' is present
+
+2019-07-27 12:23:15 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/ClientPage/HomeLink")): Object: 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink' is clicked on
+
+2019-07-27 12:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink' is clicked on
+
+2019-07-27 12:23:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:18 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-27 12:23:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-27 12:23:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/RequestTab"), 50): Object 'Object Repository/Regression Clinical Edge/HomePage/RequestTab' is present
+
+2019-07-27 12:23:18 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/HomePage/RequestTab' is present
+
+2019-07-27 12:23:18 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/HomePage/RequestTab")): Object: 'Object Repository/Regression Clinical Edge/HomePage/RequestTab' is clicked on
+
+2019-07-27 12:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/HomePage/RequestTab' is clicked on
+
+2019-07-27 12:23:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/SearchText"), 50): Object 'Object Repository/Regression Clinical Edge/HomePage/SearchText' is present
+
+2019-07-27 12:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/HomePage/SearchText' is present
+
+2019-07-27 12:23:20 - [TEST_STEP][PASSED] - setText(findTestObject("Regression Clinical Edge/HomePage/SearchText"), G_ClientLastName): Text 'Bross' is set on object 'Object Repository/Regression Clinical Edge/HomePage/SearchText'
+
+2019-07-27 12:23:21 - [MESSAGE][PASSED] - Text 'Bross' is set on object 'Object Repository/Regression Clinical Edge/HomePage/SearchText'
+
+2019-07-27 12:23:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-27 12:23:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-27 12:23:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)"), 60): Scroll to object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' successfully
+
+2019-07-27 12:23:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' successfully
+
+2019-07-27 12:23:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)"), 60): Object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' is present
+
+2019-07-27 12:23:24 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' is present
+
+2019-07-27 12:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' is clicked on
+
+2019-07-27 12:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' is clicked on
+
+2019-07-27 12:23:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-27 12:23:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-27 12:23:31 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-27 12:23:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-27 12:23:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/ClientLink"), 100): Object 'Object Repository/Regression Clinical Edge/HomePage/ClientLink' is present
+
+2019-07-27 12:23:31 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/HomePage/ClientLink' is present
+
+2019-07-27 12:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/HomePage/ClientLink")): Object: 'Object Repository/Regression Clinical Edge/HomePage/ClientLink' is clicked on
+
+2019-07-27 12:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/HomePage/ClientLink' is clicked on
+
+2019-07-27 12:23:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:34 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-27 12:23:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-27 12:23:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/AddDiagnosis"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/AddDiagnosis' is present
+
+2019-07-27 12:23:34 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/AddDiagnosis' is present
+
+2019-07-27 12:23:34 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/AddDiagnosis")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/AddDiagnosis' is clicked on
+
+2019-07-27 12:23:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/AddDiagnosis' is clicked on
+
+2019-07-27 12:23:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/a_Diagnosis"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/a_Diagnosis' is present
+
+2019-07-27 12:23:36 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/a_Diagnosis' is present
+
+2019-07-27 12:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/a_Diagnosis")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/a_Diagnosis' is clicked on
+
+2019-07-27 12:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/a_Diagnosis' is clicked on
+
+2019-07-27 12:23:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/DiagnosisSearch"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/DiagnosisSearch' is present
+
+2019-07-27 12:23:39 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/DiagnosisSearch' is present
+
+2019-07-27 12:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/DiagnosisSearch")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/DiagnosisSearch' is clicked on
+
+2019-07-27 12:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/DiagnosisSearch' is clicked on
+
+2019-07-27 12:23:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_1"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_1' is present
+
+2019-07-27 12:23:41 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_1' is present
+
+2019-07-27 12:23:41 - [TEST_STEP][PASSED] - setText(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_1"), "A"): Text 'A' is set on object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_1'
+
+2019-07-27 12:23:41 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_1'
+
+2019-07-27 12:23:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_2"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_2' is present
+
+2019-07-27 12:23:43 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_2' is present
+
+2019-07-27 12:23:43 - [TEST_STEP][PASSED] - setText(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_2"), "0"): Text '0' is set on object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_2'
+
+2019-07-27 12:23:43 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_2'
+
+2019-07-27 12:23:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_3"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_3' is present
+
+2019-07-27 12:23:45 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_3' is present
+
+2019-07-27 12:23:45 - [TEST_STEP][PASSED] - setText(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_3"), "0"): Text '0' is set on object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_3'
+
+2019-07-27 12:23:45 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_3'
+
+2019-07-27 12:23:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_4"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_4' is present
+
+2019-07-27 12:23:48 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_4' is present
+
+2019-07-27 12:23:48 - [TEST_STEP][PASSED] - setText(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_4"), "0"): Text '0' is set on object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_4'
+
+2019-07-27 12:23:48 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/Codifier_Level_4'
+
+2019-07-27 12:23:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/ApplyButton"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/ApplyButton' is present
+
+2019-07-27 12:23:50 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/ApplyButton' is present
+
+2019-07-27 12:23:50 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/ApplyButton")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/ApplyButton' is clicked on
+
+2019-07-27 12:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/ApplyButton' is clicked on
+
+2019-07-27 12:23:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-27 12:23:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-27 12:23:52 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-27 12:23:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-27 12:23:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate' is present
+
+2019-07-27 12:23:52 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate' is present
+
+2019-07-27 12:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate' is clicked on
+
+2019-07-27 12:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate' is clicked on
+
+2019-07-27 12:23:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate"), getDate.DateUtilities.getDateMonthDayYearNumber()): Keys '07272019' sent to object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate'
+
+2019-07-27 12:23:52 - [MESSAGE][PASSED] - getDate.DateUtilities.getDateMonthDayYearNumber is PASSED
+
+2019-07-27 12:23:52 - [MESSAGE][PASSED] - Keys '07272019' sent to object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_OE Date_txtOEDate'
+
+2019-07-27 12:23:52 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-07-27 12:23:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-27 12:23:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate' is present
+
+2019-07-27 12:23:56 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate' is present
+
+2019-07-27 12:23:56 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate' is clicked on
+
+2019-07-27 12:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate' is clicked on
+
+2019-07-27 12:23:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate"), getDate.DateUtilities.getDateMonthDayYearNumber()): Keys '07272019' sent to object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate'
+
+2019-07-27 12:23:57 - [MESSAGE][PASSED] - getDate.DateUtilities.getDateMonthDayYearNumber is PASSED
+
+2019-07-27 12:23:57 - [MESSAGE][PASSED] - Keys '07272019' sent to object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/input_Effective Begin Date_txtBeginDate'
+
+2019-07-27 12:23:57 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-07-27 12:24:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-27 12:24:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/button_OkDiagnosis"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/button_OkDiagnosis' is present
+
+2019-07-27 12:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/button_OkDiagnosis' is present
+
+2019-07-27 12:24:01 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23509/Diagnosis/button_OkDiagnosis")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/button_OkDiagnosis' is clicked on
+
+2019-07-27 12:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23509/Diagnosis/button_OkDiagnosis' is clicked on
+
+2019-07-27 12:24:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-27 12:24:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-27 12:24:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-27 12:24:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-27 12:22:50 - [TEST_SUITE][PASSED] - POC: Test Cases/Regression Clinical Edge (All Browsers)/CLNK-28946 - CE - Add diagnosis]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

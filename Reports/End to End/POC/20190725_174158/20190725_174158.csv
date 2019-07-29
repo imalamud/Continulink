@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+POC,Chrome 75.0.3770.142,,2019-07-25 17:42:10,2019-07-25 17:46:15,"4m - 5,272s",FAILED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard,Chrome 75.0.3770.142,"Summary: Back office  Quick Intake Wizard (Automation MK)
+Description: ",2019-07-25 17:42:11,2019-07-25 17:46:07,"3m - 56,052s",FAILED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.142,,2019-07-25 17:42:15,2019-07-25 17:46:04,"3m - 49,326s",FAILED

@@ -567,7 +567,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Add New User'))
 
-WebUI.delay(2)
+WebUI.delay(15)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/CaregiverChkBox'), 100)
 
@@ -583,7 +583,8 @@ WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/a_Fernandez Barb'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Caregiver Name'), Keys.chord(Keys.ARROW_DOWN, 
+        Keys.ENTER))
 
 WebUI.delay(2)
 
