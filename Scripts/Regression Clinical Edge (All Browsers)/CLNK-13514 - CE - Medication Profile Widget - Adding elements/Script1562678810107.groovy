@@ -134,7 +134,7 @@ WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-13514/
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLNK-13514/Medication/SaveMedication'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-13514/Medication/AddMedicationButton'), 100)
 
@@ -164,7 +164,7 @@ WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-13514/
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLNK-13514/Medication/AddMedicationButton'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-13514/a_Review'), 100)
 
@@ -238,7 +238,7 @@ WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-13514/
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLNK-13514/Medication/AddMedicationButton'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-13514/a_Infusion'), 100)
 

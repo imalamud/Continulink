@@ -4,12 +4,18 @@
    <name>Regression FrontEnd</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>isaac.malamud@mqs.com.uy;</mailRecipient>
+   <mailRecipient>isaac.malamud@mqs.com.uy;smemon@compliahealth.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>8a738b78-212a-486f-a3d1-b610e54bcabb</testSuiteGuid>
+   <testCaseLink>
+      <guid>340b0637-a146-4fb5-b8ac-476137743cb9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>ed7e54d4-22a3-4a6d-b43c-762244efc911</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -19,7 +25,7 @@
    <testCaseLink>
       <guid>6323c061-0dbb-466e-ac53-6c4746ec52d4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23504 - Clinical Edge - POC - Pick Assessment</testCaseId>
    </testCaseLink>
    <testCaseLink>

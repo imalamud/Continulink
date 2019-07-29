@@ -4,7 +4,7 @@
    <name>Regression BackOffice</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>isaac.malamud@mqs.com.uy;</mailRecipient>
+   <mailRecipient>isaac.malamud@mqs.com.uy;smemon@compliahealth.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

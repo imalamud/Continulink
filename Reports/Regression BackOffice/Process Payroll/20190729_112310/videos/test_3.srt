@@ -1,0 +1,80 @@
+1
+00:00:00,159 --> 00:00:00,159
+1. openBrowser(G_SiteBackOffice)
+
+2
+00:00:07,624 --> 00:00:07,629
+5. waitForPageLoad(60)
+
+3
+00:00:07,660 --> 00:00:07,662
+9. maximizeWindow()
+
+4
+00:00:11,802 --> 00:00:11,803
+13. setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice)
+
+5
+00:00:11,965 --> 00:00:11,966
+17. setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice)
+
+6
+00:00:12,089 --> 00:00:12,089
+21. click(findTestObject("Regression BackOffice/Login/LoginBackOffice"))
+
+7
+00:00:17,732 --> 00:00:17,733
+25. waitForPageLoad(60)
+
+8
+00:00:17,754 --> 00:00:17,755
+29. delay(3)
+
+9
+00:00:20,763 --> 00:00:20,763
+33. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 5)
+
+10
+00:00:20,814 --> 00:00:20,815
+37. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-30366/PayrollLink"), 60)
+
+11
+00:00:20,838 --> 00:00:20,838
+41. click(findTestObject("Regression BackOffice/CLNK-30366/PayrollLink"), CONTINUE_ON_FAILURE)
+
+12
+00:00:20,931 --> 00:00:20,931
+45. delay(2)
+
+13
+00:00:22,948 --> 00:00:22,948
+49. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-30367/PostClose Payroll"), 60)
+
+14
+00:00:22,972 --> 00:00:22,972
+53. click(findTestObject("Regression BackOffice/CLNK-30367/PostClose Payroll"), CONTINUE_ON_FAILURE)
+
+15
+00:00:24,096 --> 00:00:24,096
+57. delay(2)
+
+16
+00:00:26,102 --> 00:00:26,103
+61. waitForPageLoad(60)
+
+17
+00:00:26,119 --> 00:00:26,120
+65. switchToDefaultContent()
+
+18
+00:00:26,135 --> 00:00:26,136
+69. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameMain"), 30)
+
+19
+00:00:26,177 --> 00:00:26,177
+73. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-30367/BUClick"), 50)
+
+20
+00:01:17,173 --> 00:01:17,173
+77. click(findTestObject("Regression BackOffice/CLNK-30367/BUClick"), CONTINUE_ON_FAILURE)
+

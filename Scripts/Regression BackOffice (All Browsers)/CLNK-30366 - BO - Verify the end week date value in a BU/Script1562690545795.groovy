@@ -55,3 +55,5 @@ WebUI.click(findTestObject('Regression BackOffice/CLNK-30366/Demo_Demo'), Failur
 
 WebUI.delay(30)
 
+WebUI.closeBrowser()
+
