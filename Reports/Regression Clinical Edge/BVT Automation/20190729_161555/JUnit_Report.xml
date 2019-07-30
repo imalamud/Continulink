@@ -1,0 +1,1838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BVT Automation" time="1062" tests="2" failures="2" errors="0">
+   <testsuite name="BVT Automation" tests="2" failures="2" errors="0" time="1062" timestamp="2019-07-29 16:15:58" hostname="isaac - DESKTOP-BPONDF2" id="Test Suites/Regression Clinical Edge/BVT Automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555"/>
+         <property name="logFiles" value="C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428266770.png, C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428435463.png, C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428519691.png, C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428603729.png, C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428637754.png, C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428729964.png, C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428816998.png"/>
+         <property name="hostName" value="isaac - DESKTOP-BPONDF2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="65dadc44fc941cb85440261ebf3b5f85"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard" classname="Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard" status="PASSED">
+         <system-out><![CDATA[2019-07-29 16:15:58 - [TEST_CASE][PASSED] - Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard: Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard
+
+2019-07-29 16:15:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client' successfully
+
+2019-07-29 16:15:59 - [TEST_CASE][PASSED] - Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client: Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client
+
+2019-07-29 16:16:00 - [TEST_STEP][PASSED] - openBrowser(G_SiteBackOffice): Browser is opened with url: 'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'
+
+2019-07-29 16:16:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-29 16:16:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-29 16:16:10 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'
+
+2019-07-29 16:16:10 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:16:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:16:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-29 16:16:14 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-29 16:16:14 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice): Text 'demo' is set on object 'Object Repository/Regression BackOffice/Login/UserBackOffice'
+
+2019-07-29 16:16:14 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Regression BackOffice/Login/UserBackOffice'
+
+2019-07-29 16:16:14 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice): Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/Login/PasswordBackOffice'
+
+2019-07-29 16:16:14 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/Login/PasswordBackOffice'
+
+2019-07-29 16:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/Login/LoginBackOffice")): Object: 'Object Repository/Regression BackOffice/Login/LoginBackOffice' is clicked on
+
+2019-07-29 16:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/Login/LoginBackOffice' is clicked on
+
+2019-07-29 16:16:20 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:16:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:16:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:16:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:16:23 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 5): null
+
+2019-07-29 16:16:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 60): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:16:23 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:16:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:16:23 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:16:23 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-07-29 16:16:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client' successfully
+
+2019-07-29 16:16:23 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:16:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:16:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:16:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:16:26 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 30): null
+
+2019-07-29 16:16:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon")): Object: 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is clicked on
+
+2019-07-29 16:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is clicked on
+
+2019-07-29 16:16:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:28 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-29 16:16:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:16:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Quick Intake Wizard Link"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Quick Intake Wizard Link' is present
+
+2019-07-29 16:16:29 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Quick Intake Wizard Link' is present
+
+2019-07-29 16:16:29 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Quick Intake Wizard Link")): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Quick Intake Wizard Link' is clicked on
+
+2019-07-29 16:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Quick Intake Wizard Link' is clicked on
+
+2019-07-29 16:16:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:33 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-07-29 16:16:33 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameMain"), 30): null
+
+2019-07-29 16:16:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/New Referral Button"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/New Referral Button' is present
+
+2019-07-29 16:16:33 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/New Referral Button' is present
+
+2019-07-29 16:16:33 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/New Referral Button")): Object: 'Object Repository/Regression BackOffice/CLNK-23449/New Referral Button' is clicked on
+
+2019-07-29 16:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/New Referral Button' is clicked on
+
+2019-07-29 16:16:33 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-29 16:16:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:16:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ReferralType"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/ReferralType' is present
+
+2019-07-29 16:16:35 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ReferralType' is present
+
+2019-07-29 16:16:35 - [TEST_STEP][PASSED] - focus(findTestObject("Regression BackOffice/CLNK-23449/ReferralType")): Object: 'Object Repository/Regression BackOffice/CLNK-23449/ReferralType' is focused
+
+2019-07-29 16:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/ReferralType' is focused
+
+2019-07-29 16:16:35 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/ReferralType")): Object: 'Object Repository/Regression BackOffice/CLNK-23449/ReferralType' is clicked on
+
+2019-07-29 16:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/ReferralType' is clicked on
+
+2019-07-29 16:16:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/ReferralType"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/ReferralType'
+
+2019-07-29 16:16:37 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/ReferralType'
+
+2019-07-29 16:16:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:16:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:16:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ReferralSourcePerson"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/ReferralSourcePerson' is present
+
+2019-07-29 16:16:40 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ReferralSourcePerson' is present
+
+2019-07-29 16:16:40 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/ReferralSourcePerson"), G_ReferralSourcePerson): Text 'Lyudmila Kaskov' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/ReferralSourcePerson'
+
+2019-07-29 16:16:41 - [MESSAGE][PASSED] - Text 'Lyudmila Kaskov' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/ReferralSourcePerson'
+
+2019-07-29 16:16:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClientFirstName"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClientFirstName' is present
+
+2019-07-29 16:16:43 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClientFirstName' is present
+
+2019-07-29 16:16:43 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/ClientFirstName"), G_ClientFirstName): Text 'Bruno' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/ClientFirstName'
+
+2019-07-29 16:16:43 - [MESSAGE][PASSED] - Text 'Bruno' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/ClientFirstName'
+
+2019-07-29 16:16:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClientMiddle"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClientMiddle' is present
+
+2019-07-29 16:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClientMiddle' is present
+
+2019-07-29 16:16:45 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/ClientMiddle"), G_ClientMiddleName): Text 'M' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/ClientMiddle'
+
+2019-07-29 16:16:45 - [MESSAGE][PASSED] - Text 'M' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/ClientMiddle'
+
+2019-07-29 16:16:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClientLastName"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClientLastName' is present
+
+2019-07-29 16:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClientLastName' is present
+
+2019-07-29 16:16:47 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/ClientLastName"), G_ClientLastName): Text 'Alcorta' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/ClientLastName'
+
+2019-07-29 16:16:48 - [MESSAGE][PASSED] - Text 'Alcorta' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/ClientLastName'
+
+2019-07-29 16:16:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/FollowUpCallBack"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/FollowUpCallBack' is present
+
+2019-07-29 16:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/FollowUpCallBack' is present
+
+2019-07-29 16:16:50 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/FollowUpCallBack"), "3"): Text '3' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/FollowUpCallBack'
+
+2019-07-29 16:16:50 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/FollowUpCallBack'
+
+2019-07-29 16:16:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/PhysicianName"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/PhysicianName' is present
+
+2019-07-29 16:16:52 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/PhysicianName' is present
+
+2019-07-29 16:16:52 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/PhysicianName")): Object: 'Object Repository/Regression BackOffice/CLNK-23449/PhysicianName' is clicked on
+
+2019-07-29 16:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/PhysicianName' is clicked on
+
+2019-07-29 16:16:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:54 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/PhysicianName"), G_PhisicanName): Text 'Abbott' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/PhysicianName'
+
+2019-07-29 16:16:54 - [MESSAGE][PASSED] - Text 'Abbott' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/PhysicianName'
+
+2019-07-29 16:16:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:16:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:16:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/li_Black Larry"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/li_Black Larry' is present
+
+2019-07-29 16:16:57 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/li_Black Larry' is present
+
+2019-07-29 16:16:57 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/li_Black Larry")): Object: 'Object Repository/Regression BackOffice/CLNK-23449/li_Black Larry' is clicked on
+
+2019-07-29 16:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/li_Black Larry' is clicked on
+
+2019-07-29 16:16:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:16:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:16:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/SaveButton"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/SaveButton' is present
+
+2019-07-29 16:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/SaveButton' is present
+
+2019-07-29 16:16:59 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/SaveButton"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/SaveButton' is clicked on
+
+2019-07-29 16:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/SaveButton' is clicked on
+
+2019-07-29 16:17:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:17:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:17:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/btnNext"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/btnNext' is present
+
+2019-07-29 16:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/btnNext' is present
+
+2019-07-29 16:17:02 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/btnNext"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/btnNext' is clicked on
+
+2019-07-29 16:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/btnNext' is clicked on
+
+2019-07-29 16:17:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:17:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:17:04 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Demographics/DOB"), "05/23/1970"): Text '05/23/1970' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/DOB'
+
+2019-07-29 16:17:04 - [MESSAGE][PASSED] - Text '05/23/1970' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/DOB'
+
+2019-07-29 16:17:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:07 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Demographics/SSN1"), "436120560"): Text '436120560' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/SSN1'
+
+2019-07-29 16:17:07 - [MESSAGE][PASSED] - Text '436120560' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/SSN1'
+
+2019-07-29 16:17:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:10 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Demographics/Medicare ID"), "123456789a"): Text '123456789a' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Medicare ID'
+
+2019-07-29 16:17:11 - [MESSAGE][PASSED] - Text '123456789a' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Medicare ID'
+
+2019-07-29 16:17:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:14 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Demographics/Address"), "320 Interlocken Parkway"): Text '320 Interlocken Parkway' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Address'
+
+2019-07-29 16:17:14 - [MESSAGE][PASSED] - Text '320 Interlocken Parkway' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Address'
+
+2019-07-29 16:17:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:17 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Demographics/City"), "Broomfield"): Text 'Broomfield' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/City'
+
+2019-07-29 16:17:18 - [MESSAGE][PASSED] - Text 'Broomfield' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/City'
+
+2019-07-29 16:17:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:21 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Demographics/County"), "United States"): Text 'United States' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/County'
+
+2019-07-29 16:17:21 - [MESSAGE][PASSED] - Text 'United States' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/County'
+
+2019-07-29 16:17:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/State"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/State' is clicked on
+
+2019-07-29 16:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/State' is clicked on
+
+2019-07-29 16:17:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Demographics/State"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + DOWN + DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/State'
+
+2019-07-29 16:17:24 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + DOWN + DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/State'
+
+2019-07-29 16:17:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:27 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/btnVerify"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnVerify' is clicked on
+
+2019-07-29 16:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnVerify' is clicked on
+
+2019-07-29 16:17:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/btnVerify"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnVerify' is clicked on
+
+2019-07-29 16:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnVerify' is clicked on
+
+2019-07-29 16:17:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:33 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/UseVerifyAddress"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/UseVerifyAddress' is clicked on
+
+2019-07-29 16:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/UseVerifyAddress' is clicked on
+
+2019-07-29 16:17:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/PhoneType"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PhoneType' is clicked on
+
+2019-07-29 16:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PhoneType' is clicked on
+
+2019-07-29 16:17:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Demographics/PhoneType"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PhoneType'
+
+2019-07-29 16:17:37 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PhoneType'
+
+2019-07-29 16:17:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:40 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Demographics/PhoneNumber"), "2345698789"): Text '2345698789' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PhoneNumber'
+
+2019-07-29 16:17:40 - [MESSAGE][PASSED] - Text '2345698789' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PhoneNumber'
+
+2019-07-29 16:17:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:43 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/Zone"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Zone' is clicked on
+
+2019-07-29 16:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Zone' is clicked on
+
+2019-07-29 16:17:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Demographics/Zone"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Zone'
+
+2019-07-29 16:17:43 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Zone'
+
+2019-07-29 16:17:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Demographics/ContactFName"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactFName' is present
+
+2019-07-29 16:17:46 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactFName' is present
+
+2019-07-29 16:17:46 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Demographics/ContactFName"), "Scott"): Text 'Scott' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactFName'
+
+2019-07-29 16:17:47 - [MESSAGE][PASSED] - Text 'Scott' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactFName'
+
+2019-07-29 16:17:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:17:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:17:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Demographics/ContactLName"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactLName' is present
+
+2019-07-29 16:17:49 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactLName' is present
+
+2019-07-29 16:17:49 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Demographics/ContactLName"), "Ward"): Text 'Ward' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactLName'
+
+2019-07-29 16:17:49 - [MESSAGE][PASSED] - Text 'Ward' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactLName'
+
+2019-07-29 16:17:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:17:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/ContactType"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactType' is clicked on
+
+2019-07-29 16:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactType' is clicked on
+
+2019-07-29 16:17:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Demographics/ContactType"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + DOWN + DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactType'
+
+2019-07-29 16:17:51 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + DOWN + DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactType'
+
+2019-07-29 16:17:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/Relationship"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Relationship' is clicked on
+
+2019-07-29 16:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Relationship' is clicked on
+
+2019-07-29 16:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Demographics/Relationship"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + DOWN + DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Relationship'
+
+2019-07-29 16:17:54 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + DOWN + DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/Relationship'
+
+2019-07-29 16:17:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:17:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/PhoneTypeContact"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PhoneTypeContact' is clicked on
+
+2019-07-29 16:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PhoneTypeContact' is clicked on
+
+2019-07-29 16:17:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Demographics/PhoneTypeContact"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PhoneTypeContact'
+
+2019-07-29 16:17:58 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PhoneTypeContact'
+
+2019-07-29 16:17:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:18:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:18:01 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Demographics/ContactPhone"), "2345698789"): Text '2345698789' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactPhone'
+
+2019-07-29 16:18:01 - [MESSAGE][PASSED] - Text '2345698789' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ContactPhone'
+
+2019-07-29 16:18:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:18:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/EpisodeType"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/EpisodeType' is clicked on
+
+2019-07-29 16:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/EpisodeType' is clicked on
+
+2019-07-29 16:18:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Demographics/EpisodeType"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + DOWN + DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/EpisodeType'
+
+2019-07-29 16:18:04 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + DOWN + DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/EpisodeType'
+
+2019-07-29 16:18:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:18:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/PlaceOfServices"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PlaceOfServices' is clicked on
+
+2019-07-29 16:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PlaceOfServices' is clicked on
+
+2019-07-29 16:18:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Demographics/PlaceOfServices"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + DOWN + DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PlaceOfServices'
+
+2019-07-29 16:18:07 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + DOWN + DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/PlaceOfServices'
+
+2019-07-29 16:18:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:18:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/ClientStatus"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ClientStatus' is clicked on
+
+2019-07-29 16:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ClientStatus' is clicked on
+
+2019-07-29 16:18:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Demographics/ClientStatus"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ClientStatus'
+
+2019-07-29 16:18:11 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/ClientStatus'
+
+2019-07-29 16:18:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:18:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:18:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Demographics/btnSaveDemo"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnSaveDemo' is present
+
+2019-07-29 16:18:14 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnSaveDemo' is present
+
+2019-07-29 16:18:14 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/btnSaveDemo"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnSaveDemo' is clicked on
+
+2019-07-29 16:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnSaveDemo' is clicked on
+
+2019-07-29 16:18:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Demographics/btnNextDemo"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnNextDemo' is present
+
+2019-07-29 16:18:16 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnNextDemo' is present
+
+2019-07-29 16:18:16 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Demographics/btnNextDemo"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnNextDemo' is clicked on
+
+2019-07-29 16:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Demographics/btnNextDemo' is clicked on
+
+2019-07-29 16:18:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23451/PayerList"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23451/PayerList' is present
+
+2019-07-29 16:18:18 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23451/PayerList' is present
+
+2019-07-29 16:18:18 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-23451/PayerList"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-23451/PayerList' is clicked on
+
+2019-07-29 16:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23451/PayerList' is clicked on
+
+2019-07-29 16:18:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLINK-23451/PayerList"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-23451/PayerList'
+
+2019-07-29 16:18:18 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-23451/PayerList'
+
+2019-07-29 16:18:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23451/PlanList"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23451/PlanList' is present
+
+2019-07-29 16:18:20 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23451/PlanList' is present
+
+2019-07-29 16:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-23451/PlanList"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-23451/PlanList' is clicked on
+
+2019-07-29 16:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23451/PlanList' is clicked on
+
+2019-07-29 16:18:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLINK-23451/PlanList"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-23451/PlanList'
+
+2019-07-29 16:18:20 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-23451/PlanList'
+
+2019-07-29 16:18:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23451/GroupList"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23451/GroupList' is present
+
+2019-07-29 16:18:23 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23451/GroupList' is present
+
+2019-07-29 16:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-23451/GroupList"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-23451/GroupList' is clicked on
+
+2019-07-29 16:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23451/GroupList' is clicked on
+
+2019-07-29 16:18:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLINK-23451/GroupList"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-23451/GroupList'
+
+2019-07-29 16:18:23 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-23451/GroupList'
+
+2019-07-29 16:18:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23451/MedicareAdminList"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23451/MedicareAdminList' is present
+
+2019-07-29 16:18:25 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23451/MedicareAdminList' is present
+
+2019-07-29 16:18:25 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-23451/MedicareAdminList"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-23451/MedicareAdminList' is clicked on
+
+2019-07-29 16:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23451/MedicareAdminList' is clicked on
+
+2019-07-29 16:18:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLINK-23451/MedicareAdminList"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-23451/MedicareAdminList'
+
+2019-07-29 16:18:25 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLINK-23451/MedicareAdminList'
+
+2019-07-29 16:18:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK-23451/btnSavePayer"), 50): Object 'Object Repository/Regression BackOffice/CLINK-23451/btnSavePayer' is present
+
+2019-07-29 16:18:27 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK-23451/btnSavePayer' is present
+
+2019-07-29 16:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK-23451/btnSavePayer"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK-23451/btnSavePayer' is clicked on
+
+2019-07-29 16:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK-23451/btnSavePayer' is clicked on
+
+2019-07-29 16:18:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/btnNextPayer"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/btnNextPayer' is present
+
+2019-07-29 16:18:29 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/btnNextPayer' is present
+
+2019-07-29 16:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/btnNextPayer"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/btnNextPayer' is clicked on
+
+2019-07-29 16:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/btnNextPayer' is clicked on
+
+2019-07-29 16:18:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Reporting Groups"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Reporting Groups' is present
+
+2019-07-29 16:18:31 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Reporting Groups' is present
+
+2019-07-29 16:18:31 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Reporting Groups"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Reporting Groups' is clicked on
+
+2019-07-29 16:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Reporting Groups' is clicked on
+
+2019-07-29 16:18:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/btnSaveServices"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/btnSaveServices' is present
+
+2019-07-29 16:18:33 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/btnSaveServices' is present
+
+2019-07-29 16:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/btnSaveServices"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/btnSaveServices' is clicked on
+
+2019-07-29 16:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/btnSaveServices' is clicked on
+
+2019-07-29 16:18:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/btnNextServices"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/btnNextServices' is present
+
+2019-07-29 16:18:36 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/btnNextServices' is present
+
+2019-07-29 16:18:36 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/btnNextServices"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/btnNextServices' is clicked on
+
+2019-07-29 16:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/btnNextServices' is clicked on
+
+2019-07-29 16:18:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:38 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Admit/SOCDate"), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash()): Text '07/29/2019' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/SOCDate'
+
+2019-07-29 16:18:38 - [MESSAGE][PASSED] - getDate.DateUtilities.getDateMonthDayYearNumberwithSlash is PASSED
+
+2019-07-29 16:18:38 - [MESSAGE][PASSED] - Text '07/29/2019' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/SOCDate'
+
+2019-07-29 16:18:38 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-07-29 16:18:42 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-29 16:18:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Admit/DisasterCode"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/DisasterCode' is present
+
+2019-07-29 16:18:42 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/DisasterCode' is present
+
+2019-07-29 16:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Admit/DisasterCode"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/DisasterCode' is clicked on
+
+2019-07-29 16:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/DisasterCode' is clicked on
+
+2019-07-29 16:18:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Admit/DisasterCode"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/DisasterCode'
+
+2019-07-29 16:18:42 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/DisasterCode'
+
+2019-07-29 16:18:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Admit/ClasificationLevel"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/ClasificationLevel' is present
+
+2019-07-29 16:18:44 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/ClasificationLevel' is present
+
+2019-07-29 16:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Admit/ClasificationLevel"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/ClasificationLevel' is clicked on
+
+2019-07-29 16:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/ClasificationLevel' is clicked on
+
+2019-07-29 16:18:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Admit/ClasificationLevel"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/ClasificationLevel'
+
+2019-07-29 16:18:45 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/ClasificationLevel'
+
+2019-07-29 16:18:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Admit/HIPAA"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/HIPAA' is present
+
+2019-07-29 16:18:47 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/HIPAA' is present
+
+2019-07-29 16:18:47 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Admit/HIPAA"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/HIPAA' is clicked on
+
+2019-07-29 16:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/HIPAA' is clicked on
+
+2019-07-29 16:18:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Admit/HIPAA"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/HIPAA'
+
+2019-07-29 16:18:47 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/HIPAA'
+
+2019-07-29 16:18:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Admit/QCode"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/QCode' is present
+
+2019-07-29 16:18:49 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/QCode' is present
+
+2019-07-29 16:18:49 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Admit/QCode"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/QCode' is clicked on
+
+2019-07-29 16:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/QCode' is clicked on
+
+2019-07-29 16:18:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-23449/Admit/QCode"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/QCode'
+
+2019-07-29 16:18:49 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/QCode'
+
+2019-07-29 16:18:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:51 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-23449/Admit/Effective Begin Date"), getDate.DateUtilities.getDateMonthDayYearNumberwithSlash()): Text '07/29/2019' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/Effective Begin Date'
+
+2019-07-29 16:18:51 - [MESSAGE][PASSED] - getDate.DateUtilities.getDateMonthDayYearNumberwithSlash is PASSED
+
+2019-07-29 16:18:51 - [MESSAGE][PASSED] - Text '07/29/2019' is set on object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/Effective Begin Date'
+
+2019-07-29 16:18:51 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-07-29 16:18:55 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-29 16:18:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Admit/btnSaveAdmit"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/btnSaveAdmit' is present
+
+2019-07-29 16:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/btnSaveAdmit' is present
+
+2019-07-29 16:18:56 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Admit/btnSaveAdmit"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/btnSaveAdmit' is clicked on
+
+2019-07-29 16:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/btnSaveAdmit' is clicked on
+
+2019-07-29 16:18:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:18:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:18:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/Admit/btnAdmit"), 50): Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/btnAdmit' is present
+
+2019-07-29 16:18:58 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/Admit/btnAdmit' is present
+
+2019-07-29 16:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/Admit/btnAdmit"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/btnAdmit' is clicked on
+
+2019-07-29 16:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/Admit/btnAdmit' is clicked on
+
+2019-07-29 16:18:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:19:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:19:00 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-07-29 16:19:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-29 16:19:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression BackOffice (All Browsers)/CLNK-10235 - Enter a Need from Schedule Block" classname="Test Cases/Regression BackOffice (All Browsers)/CLNK-10235 - Enter a Need from Schedule Block" status="PASSED">
+         <system-out><![CDATA[2019-07-29 16:19:03 - [TEST_CASE][PASSED] - Test Cases/Regression BackOffice (All Browsers)/CLNK-10235 - Enter a Need from Schedule Block: Test Cases/Regression BackOffice (All Browsers)/CLNK-10235 - Enter a Need from Schedule Block
+
+2019-07-29 16:19:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client' successfully
+
+2019-07-29 16:19:03 - [TEST_CASE][PASSED] - Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client: Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client
+
+2019-07-29 16:19:03 - [TEST_STEP][PASSED] - openBrowser(G_SiteBackOffice): Browser is opened with url: 'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'
+
+2019-07-29 16:19:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-29 16:19:10 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'
+
+2019-07-29 16:19:10 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:19:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:19:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-29 16:19:15 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-29 16:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice): Text 'demo' is set on object 'Object Repository/Regression BackOffice/Login/UserBackOffice'
+
+2019-07-29 16:19:15 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Regression BackOffice/Login/UserBackOffice'
+
+2019-07-29 16:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice): Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/Login/PasswordBackOffice'
+
+2019-07-29 16:19:15 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/Login/PasswordBackOffice'
+
+2019-07-29 16:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/Login/LoginBackOffice")): Object: 'Object Repository/Regression BackOffice/Login/LoginBackOffice' is clicked on
+
+2019-07-29 16:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/Login/LoginBackOffice' is clicked on
+
+2019-07-29 16:19:21 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:19:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:19:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:19:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:19:24 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 5): null
+
+2019-07-29 16:19:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 60): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:19:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:19:24 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-07-29 16:19:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client' successfully
+
+2019-07-29 16:19:24 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:19:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:19:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:19:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:19:27 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 30): null
+
+2019-07-29 16:19:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:19:27 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon")): Object: 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is clicked on
+
+2019-07-29 16:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is clicked on
+
+2019-07-29 16:19:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:19:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:19:29 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-29 16:19:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:19:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/SearchforaClient"), 50): Object 'Object Repository/Regression BackOffice/CLNK-10235/SearchforaClient' is present
+
+2019-07-29 16:19:29 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/SearchforaClient' is present
+
+2019-07-29 16:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/SearchforaClient")): Object: 'Object Repository/Regression BackOffice/CLNK-10235/SearchforaClient' is clicked on
+
+2019-07-29 16:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/SearchforaClient' is clicked on
+
+2019-07-29 16:19:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:19:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:19:32 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-07-29 16:19:32 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameMain"), 30): null
+
+2019-07-29 16:19:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/FirstNameSearch"), 50): Object 'Object Repository/Regression BackOffice/CLNK-10235/FirstNameSearch' is present
+
+2019-07-29 16:19:32 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/FirstNameSearch' is present
+
+2019-07-29 16:19:32 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-10235/FirstNameSearch"), G_ClientFirstName): Text 'Bruno' is set on object 'Object Repository/Regression BackOffice/CLNK-10235/FirstNameSearch'
+
+2019-07-29 16:19:32 - [MESSAGE][PASSED] - Text 'Bruno' is set on object 'Object Repository/Regression BackOffice/CLNK-10235/FirstNameSearch'
+
+2019-07-29 16:19:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:19:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:19:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/LastNameSearch"), 50): Object 'Object Repository/Regression BackOffice/CLNK-10235/LastNameSearch' is present
+
+2019-07-29 16:19:34 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/LastNameSearch' is present
+
+2019-07-29 16:19:34 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-10235/LastNameSearch"), G_ClientLastName): Text 'Alcorta' is set on object 'Object Repository/Regression BackOffice/CLNK-10235/LastNameSearch'
+
+2019-07-29 16:19:34 - [MESSAGE][PASSED] - Text 'Alcorta' is set on object 'Object Repository/Regression BackOffice/CLNK-10235/LastNameSearch'
+
+2019-07-29 16:19:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:19:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:19:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/SearchButton"), 50): Object 'Object Repository/Regression BackOffice/CLINK - 27906/SearchButton' is present
+
+2019-07-29 16:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK - 27906/SearchButton' is present
+
+2019-07-29 16:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK - 27906/SearchButton"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK - 27906/SearchButton' is clicked on
+
+2019-07-29 16:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK - 27906/SearchButton' is clicked on
+
+2019-07-29 16:20:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLINK - 27906/ClientRollbackLink"), 50): Object 'Object Repository/Regression BackOffice/CLINK - 27906/ClientRollbackLink' is present
+
+2019-07-29 16:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLINK - 27906/ClientRollbackLink' is present
+
+2019-07-29 16:21:00 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLINK - 27906/ClientRollbackLink"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLINK - 27906/ClientRollbackLink' is clicked on
+
+2019-07-29 16:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLINK - 27906/ClientRollbackLink' is clicked on
+
+2019-07-29 16:21:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:05 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-07-29 16:21:05 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 30): null
+
+2019-07-29 16:21:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/Puntitos"), 50): Object 'Object Repository/Regression BackOffice/CLNK-10235/Puntitos' is present
+
+2019-07-29 16:21:05 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/Puntitos' is present
+
+2019-07-29 16:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/Puntitos"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-10235/Puntitos' is clicked on
+
+2019-07-29 16:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/Puntitos' is clicked on
+
+2019-07-29 16:21:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:07 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-29 16:21:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:21:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/ClientIntakeClose"), 100): Object 'Object Repository/Regression BackOffice/CLNK-10235/ClientIntakeClose' is present
+
+2019-07-29 16:21:08 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/ClientIntakeClose' is present
+
+2019-07-29 16:21:08 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/ClientIntakeClose")): Object: 'Object Repository/Regression BackOffice/CLNK-10235/ClientIntakeClose' is clicked on
+
+2019-07-29 16:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/ClientIntakeClose' is clicked on
+
+2019-07-29 16:21:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/ScheduleIcon"), 100): Object 'Object Repository/Regression BackOffice/CLNK-10235/ScheduleIcon' is present
+
+2019-07-29 16:21:10 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/ScheduleIcon' is present
+
+2019-07-29 16:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/ScheduleIcon")): Object: 'Object Repository/Regression BackOffice/CLNK-10235/ScheduleIcon' is clicked on
+
+2019-07-29 16:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/ScheduleIcon' is clicked on
+
+2019-07-29 16:21:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/EnterNeeds"), 100): Object 'Object Repository/Regression BackOffice/CLNK-10235/EnterNeeds' is present
+
+2019-07-29 16:21:12 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/EnterNeeds' is present
+
+2019-07-29 16:21:12 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/EnterNeeds")): Object: 'Object Repository/Regression BackOffice/CLNK-10235/EnterNeeds' is clicked on
+
+2019-07-29 16:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/EnterNeeds' is clicked on
+
+2019-07-29 16:21:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:16 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-07-29 16:21:16 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameMain"), 30): null
+
+2019-07-29 16:21:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:21:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:21:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/Client NameSearchNeeds"), 100): Object 'Object Repository/Regression BackOffice/CLNK-10235/Client NameSearchNeeds' is present
+
+2019-07-29 16:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/Client NameSearchNeeds' is present
+
+2019-07-29 16:21:19 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-10235/Client NameSearchNeeds"), G_ClientLastName): Text 'Alcorta' is set on object 'Object Repository/Regression BackOffice/CLNK-10235/Client NameSearchNeeds'
+
+2019-07-29 16:21:19 - [MESSAGE][PASSED] - Text 'Alcorta' is set on object 'Object Repository/Regression BackOffice/CLNK-10235/Client NameSearchNeeds'
+
+2019-07-29 16:21:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-10235/Client NameSearchNeeds"), Keys.chord(ARROW_RIGHT, ARROW_DOWN, ENTER)): Keys 'RIGHT + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-10235/Client NameSearchNeeds'
+
+2019-07-29 16:21:21 - [MESSAGE][PASSED] - Keys 'RIGHT + DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-10235/Client NameSearchNeeds'
+
+2019-07-29 16:21:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/ScheduleAssessmentCode"), 100): Object 'Object Repository/Regression BackOffice/CLNK-10235/ScheduleAssessmentCode' is present
+
+2019-07-29 16:21:23 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/ScheduleAssessmentCode' is present
+
+2019-07-29 16:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/ScheduleAssessmentCode")): Object: 'Object Repository/Regression BackOffice/CLNK-10235/ScheduleAssessmentCode' is clicked on
+
+2019-07-29 16:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/ScheduleAssessmentCode' is clicked on
+
+2019-07-29 16:21:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/ServiceTypeList"), 100): Object 'Object Repository/Regression BackOffice/CLNK-10235/ServiceTypeList' is present
+
+2019-07-29 16:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/ServiceTypeList' is present
+
+2019-07-29 16:21:25 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/ServiceTypeList")): Object: 'Object Repository/Regression BackOffice/CLNK-10235/ServiceTypeList' is clicked on
+
+2019-07-29 16:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/ServiceTypeList' is clicked on
+
+2019-07-29 16:21:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-10235/ServiceTypeList"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-10235/ServiceTypeList'
+
+2019-07-29 16:21:25 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-10235/ServiceTypeList'
+
+2019-07-29 16:21:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Regression BackOffice/CLNK-10235/StartTime"), 10): Scroll to object 'Object Repository/Regression BackOffice/CLNK-10235/StartTime' successfully
+
+2019-07-29 16:21:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Regression BackOffice/CLNK-10235/StartTime' successfully
+
+2019-07-29 16:21:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/StartTime"), 100): Object 'Object Repository/Regression BackOffice/CLNK-10235/StartTime' is present
+
+2019-07-29 16:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/StartTime' is present
+
+2019-07-29 16:21:28 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/StartTime")): Object: 'Object Repository/Regression BackOffice/CLNK-10235/StartTime' is clicked on
+
+2019-07-29 16:21:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/StartTime' is clicked on
+
+2019-07-29 16:21:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-10235/StartTime"), "1100"): Keys '1100' sent to object: 'Object Repository/Regression BackOffice/CLNK-10235/StartTime'
+
+2019-07-29 16:21:28 - [MESSAGE][PASSED] - Keys '1100' sent to object: 'Object Repository/Regression BackOffice/CLNK-10235/StartTime'
+
+2019-07-29 16:21:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/EndTime"), 100): Object 'Object Repository/Regression BackOffice/CLNK-10235/EndTime' is present
+
+2019-07-29 16:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/EndTime' is present
+
+2019-07-29 16:21:30 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/EndTime")): Object: 'Object Repository/Regression BackOffice/CLNK-10235/EndTime' is clicked on
+
+2019-07-29 16:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/EndTime' is clicked on
+
+2019-07-29 16:21:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-10235/EndTime"), "1600"): Keys '1600' sent to object: 'Object Repository/Regression BackOffice/CLNK-10235/EndTime'
+
+2019-07-29 16:21:30 - [MESSAGE][PASSED] - Keys '1600' sent to object: 'Object Repository/Regression BackOffice/CLNK-10235/EndTime'
+
+2019-07-29 16:21:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Regression BackOffice/CLNK-10235/CaregiverName"), 10): Scroll to object 'Object Repository/Regression BackOffice/CLNK-10235/CaregiverName' successfully
+
+2019-07-29 16:21:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Regression BackOffice/CLNK-10235/CaregiverName' successfully
+
+2019-07-29 16:21:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/CaregiverName"), 100): Object 'Object Repository/Regression BackOffice/CLNK-10235/CaregiverName' is present
+
+2019-07-29 16:21:32 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/CaregiverName' is present
+
+2019-07-29 16:21:32 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/CLNK-10235/CaregiverName"), G_CaregiverName): Text 'Mobin, Nur' is set on object 'Object Repository/Regression BackOffice/CLNK-10235/CaregiverName'
+
+2019-07-29 16:21:32 - [MESSAGE][PASSED] - Text 'Mobin, Nur' is set on object 'Object Repository/Regression BackOffice/CLNK-10235/CaregiverName'
+
+2019-07-29 16:21:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:21:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/CaregiverName")): Object: 'Object Repository/Regression BackOffice/CLNK-10235/CaregiverName' is clicked on
+
+2019-07-29 16:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/CaregiverName' is clicked on
+
+2019-07-29 16:21:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression BackOffice/CLNK-10235/CaregiverName"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-10235/CaregiverName'
+
+2019-07-29 16:21:35 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Regression BackOffice/CLNK-10235/CaregiverName'
+
+2019-07-29 16:21:35 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-07-29 16:21:35 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLINK-17788/BannerFrame"), 30): null
+
+2019-07-29 16:21:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-10235/SaveButton"), 50): Object 'Object Repository/Regression BackOffice/CLNK-10235/SaveButton' is present
+
+2019-07-29 16:21:35 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-10235/SaveButton' is present
+
+2019-07-29 16:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/CLNK-10235/SaveButton"), STOP_ON_FAILURE): Object: 'Object Repository/Regression BackOffice/CLNK-10235/SaveButton' is clicked on
+
+2019-07-29 16:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/CLNK-10235/SaveButton' is clicked on
+
+2019-07-29 16:21:35 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-29 16:21:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:21:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-29 16:21:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-29 16:21:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-29 16:21:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows" classname="Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows.run(CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 16:21:43 - [TEST_CASE][FAILED] - Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows: Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows.run(CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)
+
+
+2019-07-29 16:21:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login' successfully
+
+2019-07-29 16:21:43 - [TEST_CASE][PASSED] - Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login: Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login
+
+2019-07-29 16:21:43 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'https://qanewpoc.continulink.com/Account/Login.aspx?ReturnUrl=%2fdefault.aspx'
+
+2019-07-29 16:21:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-29 16:21:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qanewpoc.continulink.com/Account/Login.aspx?ReturnUrl=%2fdefault.aspx'
+
+2019-07-29 16:21:52 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:21:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:21:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-29 16:21:56 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-29 16:21:56 - [TEST_STEP][PASSED] - setText(findTestObject("Regression Clinical Edge/CLNK-23349/User"), G_User): Text 'Mobinnur' is set on object 'Object Repository/Regression Clinical Edge/CLNK-23349/User'
+
+2019-07-29 16:21:57 - [MESSAGE][PASSED] - Text 'Mobinnur' is set on object 'Object Repository/Regression Clinical Edge/CLNK-23349/User'
+
+2019-07-29 16:21:57 - [TEST_STEP][PASSED] - setText(findTestObject("Regression Clinical Edge/CLNK-23349/Password"), G_Password): Text 'qwerty' is set on object 'Object Repository/Regression Clinical Edge/CLNK-23349/Password'
+
+2019-07-29 16:21:57 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Regression Clinical Edge/CLNK-23349/Password'
+
+2019-07-29 16:21:57 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLNK-23349/Button_LogIn")): Object: 'Object Repository/Regression Clinical Edge/CLNK-23349/Button_LogIn' is clicked on
+
+2019-07-29 16:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLNK-23349/Button_LogIn' is clicked on
+
+2019-07-29 16:21:58 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:21:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:21:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:22:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:22:00 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"), 100): NOT_RUN: waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"), 100)
+
+2019-07-29 16:22:01 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"), 100)
+
+2019-07-29 16:22:01 - [TEST_STEP][NOT_RUN] - click(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close")): NOT_RUN: click(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"))
+
+2019-07-29 16:22:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Regression Clinical Edge/CLINK-23509/button_Close"))
+
+2019-07-29 16:22:01 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-07-29 16:22:01 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-07-29 16:22:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login' successfully
+
+2019-07-29 16:22:01 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:22:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:22:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-29 16:22:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-29 16:22:01 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:22:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:22:01 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-07-29 16:22:09 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-07-29 16:22:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/ClientPage/HomeLink"), 100): Object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink' is present
+
+2019-07-29 16:22:09 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink' is present
+
+2019-07-29 16:22:09 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/ClientPage/HomeLink")): Object: 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink' is clicked on
+
+2019-07-29 16:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink' is clicked on
+
+2019-07-29 16:22:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:22:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:22:11 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-29 16:22:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:22:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/RequestTab"), 50): Object 'Object Repository/Regression Clinical Edge/HomePage/RequestTab' is present
+
+2019-07-29 16:22:11 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/HomePage/RequestTab' is present
+
+2019-07-29 16:22:11 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/HomePage/RequestTab")): Object: 'Object Repository/Regression Clinical Edge/HomePage/RequestTab' is clicked on
+
+2019-07-29 16:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/HomePage/RequestTab' is clicked on
+
+2019-07-29 16:22:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:22:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:22:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/SearchText"), 50): Object 'Object Repository/Regression Clinical Edge/HomePage/SearchText' is present
+
+2019-07-29 16:22:14 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/HomePage/SearchText' is present
+
+2019-07-29 16:22:14 - [TEST_STEP][PASSED] - setText(findTestObject("Regression Clinical Edge/HomePage/SearchText"), G_ClientLastName): Text 'Alcorta' is set on object 'Object Repository/Regression Clinical Edge/HomePage/SearchText'
+
+2019-07-29 16:22:14 - [MESSAGE][PASSED] - Text 'Alcorta' is set on object 'Object Repository/Regression Clinical Edge/HomePage/SearchText'
+
+2019-07-29 16:22:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:22:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:22:17 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)"), 60): Scroll to object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' successfully
+
+2019-07-29 16:22:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' successfully
+
+2019-07-29 16:22:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)"), 60): Object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' is present
+
+2019-07-29 16:22:18 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' is present
+
+2019-07-29 16:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' is clicked on
+
+2019-07-29 16:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' is clicked on
+
+2019-07-29 16:22:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-29 16:22:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-29 16:22:25 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-29 16:22:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:22:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23314/button_Add Schedule"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23314/button_Add Schedule' is present
+
+2019-07-29 16:22:25 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23314/button_Add Schedule' is present
+
+2019-07-29 16:22:25 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23314/button_Add Schedule")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/button_Add Schedule' is clicked on
+
+2019-07-29 16:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/button_Add Schedule' is clicked on
+
+2019-07-29 16:22:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23314/FilterBySubServices"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23314/FilterBySubServices' is present
+
+2019-07-29 16:22:25 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23314/FilterBySubServices' is present
+
+2019-07-29 16:22:25 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23314/FilterBySubServices")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/FilterBySubServices' is clicked on
+
+2019-07-29 16:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/FilterBySubServices' is clicked on
+
+2019-07-29 16:22:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:22:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:22:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23314/ServiceTypeList"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23314/ServiceTypeList' is present
+
+2019-07-29 16:22:27 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23314/ServiceTypeList' is present
+
+2019-07-29 16:22:27 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23314/ServiceTypeList")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/ServiceTypeList' is clicked on
+
+2019-07-29 16:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/ServiceTypeList' is clicked on
+
+2019-07-29 16:22:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression Clinical Edge/CLINK-23314/ServiceTypeList"), Keys.chord(ARROW_RIGHT, ARROW_DOWN, ENTER)): Keys 'RIGHT + DOWN + ENTER + ' sent to object: 'Object Repository/Regression Clinical Edge/CLINK-23314/ServiceTypeList'
+
+2019-07-29 16:22:27 - [MESSAGE][PASSED] - Keys 'RIGHT + DOWN + ENTER + ' sent to object: 'Object Repository/Regression Clinical Edge/CLINK-23314/ServiceTypeList'
+
+2019-07-29 16:22:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23314/StartTime"), 60): Object 'Object Repository/Regression Clinical Edge/CLINK-23314/StartTime' is present
+
+2019-07-29 16:22:27 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23314/StartTime' is present
+
+2019-07-29 16:22:27 - [TEST_STEP][PASSED] - clearText(findTestObject("Regression Clinical Edge/CLINK-23314/StartTime")): Text of object 'Object Repository/Regression Clinical Edge/CLINK-23314/StartTime' is cleared
+
+2019-07-29 16:22:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Regression Clinical Edge/CLINK-23314/StartTime' is cleared
+
+2019-07-29 16:22:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:22:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23314/StartTime")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/StartTime' is clicked on
+
+2019-07-29 16:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/StartTime' is clicked on
+
+2019-07-29 16:22:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:22:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:22:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression Clinical Edge/CLINK-23314/StartTime"), G_StartTime): Keys '1400' sent to object: 'Object Repository/Regression Clinical Edge/CLINK-23314/StartTime'
+
+2019-07-29 16:22:32 - [MESSAGE][PASSED] - Keys '1400' sent to object: 'Object Repository/Regression Clinical Edge/CLINK-23314/StartTime'
+
+2019-07-29 16:22:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:22:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:22:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23314/EndTime"), 60): Object 'Object Repository/Regression Clinical Edge/CLINK-23314/EndTime' is present
+
+2019-07-29 16:22:36 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23314/EndTime' is present
+
+2019-07-29 16:22:36 - [TEST_STEP][PASSED] - clearText(findTestObject("Regression Clinical Edge/CLINK-23314/EndTime")): Text of object 'Object Repository/Regression Clinical Edge/CLINK-23314/EndTime' is cleared
+
+2019-07-29 16:22:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Regression Clinical Edge/CLINK-23314/EndTime' is cleared
+
+2019-07-29 16:22:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:22:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:22:38 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23314/EndTime")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/EndTime' is clicked on
+
+2019-07-29 16:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/EndTime' is clicked on
+
+2019-07-29 16:22:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:22:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:22:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Regression Clinical Edge/CLINK-23314/EndTime"), G_EndTime): Keys '1500' sent to object: 'Object Repository/Regression Clinical Edge/CLINK-23314/EndTime'
+
+2019-07-29 16:22:40 - [MESSAGE][PASSED] - Keys '1500' sent to object: 'Object Repository/Regression Clinical Edge/CLINK-23314/EndTime'
+
+2019-07-29 16:22:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23314/SaveButton"), 100): Object 'Object Repository/Regression Clinical Edge/CLINK-23314/SaveButton' is present
+
+2019-07-29 16:22:40 - [MESSAGE][PASSED] - Object 'Object Repository/Regression Clinical Edge/CLINK-23314/SaveButton' is present
+
+2019-07-29 16:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Regression Clinical Edge/CLINK-23314/SaveButton")): Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/SaveButton' is clicked on
+
+2019-07-29 16:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression Clinical Edge/CLINK-23314/SaveButton' is clicked on
+
+2019-07-29 16:22:40 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2019-07-29 16:22:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:22:40 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-07-29 16:22:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-29 16:22:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23467/a_Scheduled"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' is not present after 50 second(s)
+
+2019-07-29 16:23:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:23:35 - [MESSAGE][WARNING] - Object 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' is not present after 50 second(s)
+
+2019-07-29 16:23:35 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Regression Clinical Edge/CLINK-23467/a_Scheduled"), 50): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']' not found
+
+2019-07-29 16:24:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:24:27 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']' not found
+[[ATTACHMENT|C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428266770.png]]
+
+2019-07-29 16:24:27 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows.run(CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)
+
+
+2019-07-29 16:24:27 - [MESSAGE][PASSED] - Browser is closed
+
+2019-07-29 16:24:27 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows.run(CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 16:21:43 - [TEST_CASE][FAILED] - Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows: Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows.run(CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression Clinical Edge (All Browsers)/CLNK-29104 - CE - Start visit" classname="Test Cases/Regression Clinical Edge (All Browsers)/CLNK-29104 - CE - Start visit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Regression Clinical Edge (All Browsers)/CLNK-29104 - CE - Start visit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CLNK-29104 - CE - Start visit.run(CLNK-29104 - CE - Start visit:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 16:24:30 - [TEST_CASE][FAILED] - Test Cases/Regression Clinical Edge (All Browsers)/CLNK-29104 - CE - Start visit: Test Cases/Regression Clinical Edge (All Browsers)/CLNK-29104 - CE - Start visit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CLNK-29104 - CE - Start visit.run(CLNK-29104 - CE - Start visit:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)
+
+
+2019-07-29 16:24:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client' successfully
+
+2019-07-29 16:24:30 - [TEST_CASE][PASSED] - Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client: Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client
+
+2019-07-29 16:24:30 - [TEST_STEP][PASSED] - openBrowser(G_SiteBackOffice): Browser is opened with url: 'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'
+
+2019-07-29 16:24:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-29 16:24:37 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'
+
+2019-07-29 16:24:37 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:24:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:24:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-29 16:24:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-29 16:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice): Text 'demo' is set on object 'Object Repository/Regression BackOffice/Login/UserBackOffice'
+
+2019-07-29 16:24:41 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Regression BackOffice/Login/UserBackOffice'
+
+2019-07-29 16:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice): Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/Login/PasswordBackOffice'
+
+2019-07-29 16:24:42 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Regression BackOffice/Login/PasswordBackOffice'
+
+2019-07-29 16:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Regression BackOffice/Login/LoginBackOffice")): Object: 'Object Repository/Regression BackOffice/Login/LoginBackOffice' is clicked on
+
+2019-07-29 16:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Regression BackOffice/Login/LoginBackOffice' is clicked on
+
+2019-07-29 16:24:51 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:24:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:24:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:24:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:24:54 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 5): null
+
+2019-07-29 16:24:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 60): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:24:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100): Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/Regression BackOffice/CLNK-23449/ClienIntakeICon' is present
+
+2019-07-29 16:24:54 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-07-29 16:24:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client' successfully
+
+2019-07-29 16:24:54 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:24:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:24:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-29 16:24:54 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-29 16:24:54 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-07-29 16:24:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:24:54 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-07-29 16:25:02 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-07-29 16:25:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/ClientPage/HomeLink"), 100): Object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink' is not present after 100 second(s)
+
+2019-07-29 16:26:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='nav']/ul/li/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:26:44 - [MESSAGE][WARNING] - Object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink' is not present after 100 second(s)
+
+2019-07-29 16:26:44 - [TEST_STEP][FAILED] - click(findTestObject("Regression Clinical Edge/ClientPage/HomeLink")): Unable to click on object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink'
+
+2019-07-29 16:27:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='nav']/ul/li/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:27:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink'
+[[ATTACHMENT|C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428435463.png]]
+
+2019-07-29 16:27:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:27:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:27:17 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-29 16:27:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:27:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/RequestTab"), 50): Object 'Object Repository/Regression Clinical Edge/HomePage/RequestTab' is not present after 50 second(s)
+
+2019-07-29 16:28:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //ul[@id='myPatientsTabs']/li[3]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:28:09 - [MESSAGE][WARNING] - Object 'Object Repository/Regression Clinical Edge/HomePage/RequestTab' is not present after 50 second(s)
+
+2019-07-29 16:28:09 - [TEST_STEP][FAILED] - click(findTestObject("Regression Clinical Edge/HomePage/RequestTab")): Unable to click on object 'Object Repository/Regression Clinical Edge/HomePage/RequestTab'
+
+2019-07-29 16:28:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //ul[@id='myPatientsTabs']/li[3]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:28:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Regression Clinical Edge/HomePage/RequestTab'
+[[ATTACHMENT|C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428519691.png]]
+
+2019-07-29 16:28:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-29 16:28:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-29 16:28:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/HomePage/SearchText"), 50): Object 'Object Repository/Regression Clinical Edge/HomePage/SearchText' is not present after 50 second(s)
+
+2019-07-29 16:29:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='txtPatientChartRequestFilter']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:29:33 - [MESSAGE][WARNING] - Object 'Object Repository/Regression Clinical Edge/HomePage/SearchText' is not present after 50 second(s)
+
+2019-07-29 16:29:33 - [TEST_STEP][FAILED] - setText(findTestObject("Regression Clinical Edge/HomePage/SearchText"), G_ClientLastName): Unable to set text 'Alcorta' of object 'Object Repository/Regression Clinical Edge/HomePage/SearchText'
+
+2019-07-29 16:30:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='txtPatientChartRequestFilter']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:30:04 - [MESSAGE][FAILED] - Unable to set text 'Alcorta' of object 'Object Repository/Regression Clinical Edge/HomePage/SearchText'
+[[ATTACHMENT|C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428603729.png]]
+
+2019-07-29 16:30:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 16:30:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 16:30:07 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)"), 60): Unable to scroll to object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'
+
+2019-07-29 16:30:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="patientChartContainer"]/div/div[2]/h3/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:30:38 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'
+[[ATTACHMENT|C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428637754.png]]
+
+2019-07-29 16:30:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)"), 60): Object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' is not present after 60 second(s)
+
+2019-07-29 16:31:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="patientChartContainer"]/div/div[2]/h3/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:31:39 - [MESSAGE][WARNING] - Object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)' is not present after 60 second(s)
+
+2019-07-29 16:31:39 - [TEST_STEP][FAILED] - click(findTestObject("Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)")): Unable to click on object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'
+
+2019-07-29 16:32:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="patientChartContainer"]/div/div[2]/h3/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:32:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'
+[[ATTACHMENT|C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428729964.png]]
+
+2019-07-29 16:32:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-29 16:32:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-29 16:32:15 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2019-07-29 16:32:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-29 16:32:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Regression Clinical Edge/CLINK-29104/Start-visit Button"), 50): Object 'Object Repository/Regression Clinical Edge/CLINK-29104/Start-visit Button' is not present after 50 second(s)
+
+2019-07-29 16:33:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='Start Visit']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:33:06 - [MESSAGE][WARNING] - Object 'Object Repository/Regression Clinical Edge/CLINK-29104/Start-visit Button' is not present after 50 second(s)
+
+2019-07-29 16:33:06 - [TEST_STEP][FAILED] - click(findTestObject("Regression Clinical Edge/CLINK-29104/Start-visit Button")): Unable to click on object 'Object Repository/Regression Clinical Edge/CLINK-29104/Start-visit Button'
+
+2019-07-29 16:33:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='Start Visit']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-29 16:33:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Regression Clinical Edge/CLINK-29104/Start-visit Button'
+[[ATTACHMENT|C:\\Users\\isaac\\Desktop\\Clientes\\ProcuraCanada\\Katalon Studio\\Continulink\\Reports\\Regression Clinical Edge\\BVT Automation\\20190729_161555\\1564428816998.png]]
+
+2019-07-29 16:33:37 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CLNK-29104 - CE - Start visit.run(CLNK-29104 - CE - Start visit:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)
+
+
+2019-07-29 16:33:38 - [MESSAGE][PASSED] - Browser is closed
+
+2019-07-29 16:33:38 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CLNK-29104 - CE - Start visit.run(CLNK-29104 - CE - Start visit:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 16:24:30 - [TEST_CASE][FAILED] - Test Cases/Regression Clinical Edge (All Browsers)/CLNK-29104 - CE - Start visit: Test Cases/Regression Clinical Edge (All Browsers)/CLNK-29104 - CE - Start visit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Regression Clinical Edge/ClientPage/HomeLink'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CLNK-29104 - CE - Start visit.run(CLNK-29104 - CE - Start visit:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-29 16:15:58 - [TEST_SUITE][FAILED] - BVT Automation: Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows.run(CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-29 16:15:58 - [TEST_SUITE][FAILED] - BVT Automation: Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Regression Clinical Edge/CLINK-23467/a_Scheduled' located by 'By.xpath: //a[@onclick='GoToVisit(42684043,287)']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows.run(CLNK-23467 - CE - Happy path - Add shedule - Chrome browser - Windows:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564427755916.run(TempTestSuite1564427755916.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

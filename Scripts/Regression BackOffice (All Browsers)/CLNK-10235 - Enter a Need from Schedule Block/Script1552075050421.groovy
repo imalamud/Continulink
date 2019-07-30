@@ -131,7 +131,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/Sta
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/StartTime'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/StartTime'), '1126')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/StartTime'), '1100')
 
 WebUI.delay(2)
 
@@ -139,7 +139,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/End
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/EndTime'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/EndTime'), '1136')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/EndTime'), '1600')
 
 WebUI.delay(2)
 
@@ -163,7 +163,9 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/Sav
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/SaveButton'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.waitForPageLoad(50)
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

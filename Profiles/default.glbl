@@ -21,12 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0150'</initValue>
+      <initValue>'1400'</initValue>
       <name>G_StartTime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0210'</initValue>
+      <initValue>'1500'</initValue>
       <name>G_EndTime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Jorge'</initValue>
+      <initValue>'Bruno'</initValue>
       <name>G_ClientFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Boruchovas'</initValue>
+      <initValue>'Alcorta'</initValue>
       <name>G_ClientLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -81,7 +81,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Dimitra, Natasha'</initValue>
+      <initValue>'Mobin, Nur'</initValue>
       <name>G_CaregiverName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

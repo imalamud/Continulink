@@ -1,0 +1,8 @@
+1
+00:00:00,240 --> 00:00:00,243
+1. callTestCase(findTestCase("Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,335 --> 00:00:00,336
+1. openBrowser(G_SiteBackOffice)
+
