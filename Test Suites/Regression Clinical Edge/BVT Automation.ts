@@ -4,7 +4,7 @@
    <name>BVT Automation</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>isaac.malamud@mqs.com.uy;</mailRecipient>
+   <mailRecipient>isaac.malamud@mqs.com.uy;nmasudi@compliahealth.com;smemon@compliahealth.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -13,8 +13,20 @@
    <testCaseLink>
       <guid>e11cd12f-73ca-44d1-ad15-0616c7254e1b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d39d92b7-992d-4123-89fb-d82cc17796ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cdce510b-8122-4a36-ac16-29c4d12337dc</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2e806328-16c7-4e6e-80b0-e273cf7c9650</guid>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression BackOffice,Chrome 75.0.3770.142,,2019-08-03 17:19:10,2019-08-03 17:19:52,"42,185s",PASSED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client,Chrome 75.0.3770.142,"Summary: Clink - Back office  Client 
+Description: ",2019-08-03 17:19:10,2019-08-03 17:19:51,"41,170s",PASSED
+openBrowser(G_SiteBackOffice),Chrome 75.0.3770.142,,2019-08-03 17:19:11,2019-08-03 17:19:23,"12,203s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.142,,2019-08-03 17:19:23,2019-08-03 17:19:23,"0,110s",PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-08-03 17:19:23,2019-08-03 17:19:27,"4,167s",PASSED
+"setText(findTestObject(""Regression BackOffice/Login/UserBackOffice""), G_UserBackOffice)",Chrome 75.0.3770.142,,2019-08-03 17:19:27,2019-08-03 17:19:27,"0,241s",PASSED
+"setText(findTestObject(""Regression BackOffice/Login/PasswordBackOffice""), G_PasswordBackOffice)",Chrome 75.0.3770.142,,2019-08-03 17:19:27,2019-08-03 17:19:27,"0,141s",PASSED
+"click(findTestObject(""Regression BackOffice/Login/LoginBackOffice""))",Chrome 75.0.3770.142,,2019-08-03 17:19:27,2019-08-03 17:19:46,"18,262s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.142,,2019-08-03 17:19:46,2019-08-03 17:19:46,"0,017s",PASSED
+delay(3),Chrome 75.0.3770.142,,2019-08-03 17:19:46,2019-08-03 17:19:49,"3,025s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 5)",Chrome 75.0.3770.142,,2019-08-03 17:19:49,2019-08-03 17:19:49,"0,073s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/ClienIntakeICon""), 60)",Chrome 75.0.3770.142,,2019-08-03 17:19:49,2019-08-03 17:19:49,"0,057s",PASSED
+"verifyElementPresent(findTestObject(""Regression BackOffice/CLNK-23449/ClienIntakeICon""), 100)",Chrome 75.0.3770.142,,2019-08-03 17:19:49,2019-08-03 17:19:49,"0,041s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.142,,2019-08-03 17:19:49,2019-08-03 17:19:49,"0,052s",PASSED

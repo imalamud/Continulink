@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression Caregiver,Chrome 75.0.3770.142,,2019-08-01 15:56:43,2019-08-01 15:57:38,"54,921s",PASSED
+,,,,,,
+Test Cases/Regression BackOffice (All Browsers)/CLNK-17788 - (Task A) New Clinical Manager Caregiver Property,Chrome 75.0.3770.142,"Summary: 7 (Task A) New Clinical Manager Caregiver Property & 8  (Task B) Update Care Manager Control in Admission Details >>Phase 1<<
+Description: {color:#205081}_*Requirement Coverage*_{color}Â Â 
+
+h3. {color:#205081}7Â  Â (Task A) New Clinical Manager Caregiver Property{color}
+
+
+
+*ContinuLink > Caregiver / HR Block > Caregiver Demo. > Other Information*
+
+
+
+Under the Caregiver / HR Block Tab in the Caregiver Demographics page we should add a new Radio Button â€œIs Clinical Manger?â€� This will identify a user as a clinical manger.
+
+
+
+The radio button must be defaulted to â€œNoâ€� on release.
+
+h3. {color:#205081}8Â  Â  Â (Task B) Update Care Manager Control in Admission Details{color}
+
+
+
+*ContinuLink > Client / Intake Block > Admission Details > Care Manager Panel*
+
+
+
+We should modify the Care Manager panel to allow for both care manager and Clinical manager entries. We should do this by demoting the content of the panel to a tab labeled â€œCare Managerâ€�, this tab should be the default position of the control. We should also create a new tab labeled â€œClinical Managerâ€�.",2019-08-01 15:56:43,2019-08-01 15:57:38,"54,518s",PASSED
+"callTestCase(findTestCase(""Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.142,,2019-08-01 15:56:44,2019-08-01 15:57:07,"23,328s",PASSED
+waitForPageLoad(60),Chrome 75.0.3770.142,,2019-08-01 15:57:07,2019-08-01 15:57:07,"0,018s",PASSED
+delay(3),Chrome 75.0.3770.142,,2019-08-01 15:57:07,2019-08-01 15:57:10,"3,001s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameLeft""), 30)",Chrome 75.0.3770.142,,2019-08-01 15:57:10,2019-08-01 15:57:10,"0,041s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/CaregiverHRLink""), 100)",Chrome 75.0.3770.142,,2019-08-01 15:57:10,2019-08-01 15:57:10,"0,034s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/CaregiverHRLink""))",Chrome 75.0.3770.142,,2019-08-01 15:57:10,2019-08-01 15:57:10,"0,122s",PASSED
+delay(2),Chrome 75.0.3770.142,,2019-08-01 15:57:10,2019-08-01 15:57:12,"2,005s",PASSED
+waitForPageLoad(50),Chrome 75.0.3770.142,,2019-08-01 15:57:12,2019-08-01 15:57:12,"0,022s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/CaregiverDemographics""), 50)",Chrome 75.0.3770.142,,2019-08-01 15:57:12,2019-08-01 15:57:12,"0,045s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/CaregiverDemographics""))",Chrome 75.0.3770.142,,2019-08-01 15:57:12,2019-08-01 15:57:13,"0,874s",PASSED
+delay(2),Chrome 75.0.3770.142,,2019-08-01 15:57:13,2019-08-01 15:57:15,"2,004s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.142,,2019-08-01 15:57:15,2019-08-01 15:57:15,"0,032s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLNK-23449/FrameMain""), 30)",Chrome 75.0.3770.142,,2019-08-01 15:57:15,2019-08-01 15:57:15,"0,050s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/LastNameSearch""), 50)",Chrome 75.0.3770.142,,2019-08-01 15:57:15,2019-08-01 15:57:15,"0,046s",PASSED
+"setText(findTestObject(""Regression BackOffice/CLINK-17788/LastNameSearch""), G_CareGiverLastName)",Chrome 75.0.3770.142,,2019-08-01 15:57:15,2019-08-01 15:57:16,"0,144s",PASSED
+delay(2),Chrome 75.0.3770.142,,2019-08-01 15:57:16,2019-08-01 15:57:18,"2,003s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/SearchButton""), 50)",Chrome 75.0.3770.142,,2019-08-01 15:57:18,2019-08-01 15:57:18,"0,050s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/SearchButton""), STOP_ON_FAILURE)",Chrome 75.0.3770.142,,2019-08-01 15:57:18,2019-08-01 15:57:18,"0,755s",PASSED
+delay(2),Chrome 75.0.3770.142,,2019-08-01 15:57:18,2019-08-01 15:57:20,"2,005s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/UserLink""), 50)",Chrome 75.0.3770.142,,2019-08-01 15:57:20,2019-08-01 15:57:20,"0,039s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/UserLink""), STOP_ON_FAILURE)",Chrome 75.0.3770.142,,2019-08-01 15:57:20,2019-08-01 15:57:23,"2,692s",PASSED
+delay(2),Chrome 75.0.3770.142,,2019-08-01 15:57:23,2019-08-01 15:57:25,"2,003s",PASSED
+"scrollToElement(findTestObject(""Regression BackOffice/CLINK-17788/OtherInformationSection""), 20)",Chrome 75.0.3770.142,,2019-08-01 15:57:25,2019-08-01 15:57:25,"0,061s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/YesCareManager""), 50)",Chrome 75.0.3770.142,,2019-08-01 15:57:25,2019-08-01 15:57:25,"0,035s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/YesCareManager""), STOP_ON_FAILURE)",Chrome 75.0.3770.142,,2019-08-01 15:57:25,2019-08-01 15:57:25,"0,155s",PASSED
+delay(2),Chrome 75.0.3770.142,,2019-08-01 15:57:25,2019-08-01 15:57:27,"2,003s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/NoClinicalManager""), 50)",Chrome 75.0.3770.142,,2019-08-01 15:57:27,2019-08-01 15:57:27,"0,031s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/NoClinicalManager""), STOP_ON_FAILURE)",Chrome 75.0.3770.142,,2019-08-01 15:57:27,2019-08-01 15:57:28,"0,107s",PASSED
+switchToDefaultContent(),Chrome 75.0.3770.142,,2019-08-01 15:57:28,2019-08-01 15:57:28,"0,014s",PASSED
+delay(2),Chrome 75.0.3770.142,,2019-08-01 15:57:28,2019-08-01 15:57:30,"2,006s",PASSED
+"switchToFrame(findTestObject(""Regression BackOffice/CLINK-17788/BannerFrame""), 30)",Chrome 75.0.3770.142,,2019-08-01 15:57:30,2019-08-01 15:57:30,"0,052s",PASSED
+"waitForElementPresent(findTestObject(""Regression BackOffice/CLINK-17788/SaveButton""), 50)",Chrome 75.0.3770.142,,2019-08-01 15:57:30,2019-08-01 15:57:30,"0,020s",PASSED
+"click(findTestObject(""Regression BackOffice/CLINK-17788/SaveButton""), STOP_ON_FAILURE)",Chrome 75.0.3770.142,,2019-08-01 15:57:30,2019-08-01 15:57:33,"3,082s",PASSED
+delay(2),Chrome 75.0.3770.142,,2019-08-01 15:57:33,2019-08-01 15:57:35,"2,006s",PASSED
+closeBrowser(),Chrome 75.0.3770.142,,2019-08-01 15:57:35,2019-08-01 15:57:35,"0,735s",PASSED

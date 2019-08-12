@@ -6,11 +6,6 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Mobinnur'</initValue>
-      <name>G_User</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'qwerty'</initValue>
       <name>G_Password</name>
    </GlobalVariableEntity>
@@ -36,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'demo'</initValue>
+      <initValue>'automation_admin'</initValue>
       <name>G_UserBackOffice</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,17 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bruno'</initValue>
+      <initValue>'Pico'</initValue>
       <name>G_ClientFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'M'</initValue>
+      <initValue>'L'</initValue>
       <name>G_ClientMiddleName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Alcorta'</initValue>
+      <initValue>'Monasky'</initValue>
       <name>G_ClientLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,37 +71,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Mobin'</initValue>
-      <name>G_SpecificUser</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Mobin, Nur'</initValue>
-      <name>G_CaregiverName</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'http://qanewpoc.continulink.com:81/backoffice/Client/ClientSearch.aspx?search=true'</initValue>
       <name>G_BackWindow</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Shaw'</initValue>
+      <initValue>'Carlos'</initValue>
       <name>G_CaregiverFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Yotun'</initValue>
+      <initValue>'Carsinnsy'</initValue>
       <name>G_CareGiverLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'535870093'</initValue>
+      <initValue>'535870111'</initValue>
       <name>G_CaregiverSSN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'syotun'</initValue>
+      <initValue>'carca'</initValue>
       <name>G_CaregiverUserName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

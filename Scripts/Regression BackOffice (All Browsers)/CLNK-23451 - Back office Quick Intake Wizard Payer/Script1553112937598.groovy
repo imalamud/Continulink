@@ -48,15 +48,15 @@ WebUI.waitForPageLoad(50)
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/ReferralType'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/ReferralType - Option2'), 50)
 
-WebUI.focus(findTestObject('Regression BackOffice/CLNK-23449/ReferralType'))
+WebUI.focus(findTestObject('Regression BackOffice/CLNK-23449/ReferralType - Option2'))
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/ReferralType'))
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/ReferralType - Option2'))
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-23449/ReferralType'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-23449/ReferralType - Option2'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(3)
 

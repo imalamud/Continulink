@@ -16,4 +16,18 @@ Description: </description>
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>06af708d-ba24-415c-898a-61627ed053a0</testCaseGuid>
+   <variable>
+      <defaultValue>'Referral'</defaultValue>
+      <description></description>
+      <id>d39d92b7-992d-4123-89fb-d82cc17796ac</id>
+      <masked>false</masked>
+      <name>ReferralType</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>cdce510b-8122-4a36-ac16-29c4d12337dc</id>
+      <masked>false</masked>
+      <name>FollowUpCallDays</name>
+   </variable>
 </TestCaseEntity>

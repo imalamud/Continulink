@@ -58,9 +58,9 @@ WebUI.delay(2)
 
 WebUI.waitForPageLoad(50)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/DemoDemoChk'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/AutoBUCheck'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/DemoDemoChk'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/AutoBUCheck'))
 
 WebUI.delay(2)
 
@@ -70,7 +70,7 @@ WebUI.focus(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'))
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'))
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'), GlobalVariable.G_SpecificUser)
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'), GlobalVariable.G_CareGiverLastName)
 
 WebUI.delay(2)
 
@@ -104,62 +104,54 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/ExportToFile'))
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/Demo_DemoObject'), 50)
-
-WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK-27759/Demo_DemoObject'), 30)
-
-WebUI.delay(2)
-
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/ResetLink'), 50)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/ResetLink'))
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/DemoDemoChk'), 50)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/AutoBUCheck'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/DemoDemoChk'))
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/AutoBUCheck'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'), 50)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'), 50)
 
-WebUI.focus(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'))
+not_run: WebUI.focus(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'))
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'))
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'))
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'), 'Test')
+not_run: WebUI.setText(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'), 'Test')
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-27759/SpecificUser'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
         Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/ShowReportLink'), 50)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/ShowReportLink'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/ShowReportLink'))
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/ShowReportLink'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/ExportToLink'), 50)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/ExportToLink'), 50)
 
-WebUI.focus(findTestObject('Regression BackOffice/CLINK-27759/ExportToLink'))
+not_run: WebUI.focus(findTestObject('Regression BackOffice/CLINK-27759/ExportToLink'))
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/ExportToLink'))
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/ExportToLink'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-27759/ExportToLink'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-27759/ExportToLink'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/ExportToFile'), 50)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/ExportToFile'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/ExportToFile'))
-
-WebUI.delay(2)
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/ExportToFile'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,48 @@
+1
+00:00:00,520 --> 00:00:00,525
+1. openBrowser(G_SiteBackOffice)
+
+2
+00:00:11,449 --> 00:00:11,451
+5. waitForPageLoad(60)
+
+3
+00:00:11,558 --> 00:00:11,562
+9. maximizeWindow()
+
+4
+00:00:15,720 --> 00:00:15,722
+13. setText(findTestObject("Regression BackOffice/Login/UserBackOffice"), G_UserBackOffice)
+
+5
+00:00:16,004 --> 00:00:16,005
+17. setText(findTestObject("Regression BackOffice/Login/PasswordBackOffice"), G_PasswordBackOffice)
+
+6
+00:00:16,152 --> 00:00:16,154
+21. click(findTestObject("Regression BackOffice/Login/LoginBackOffice"))
+
+7
+00:00:20,677 --> 00:00:20,679
+25. waitForPageLoad(60)
+
+8
+00:00:20,695 --> 00:00:20,696
+29. delay(3)
+
+9
+00:00:23,732 --> 00:00:23,734
+33. switchToFrame(findTestObject("Regression BackOffice/CLNK-23449/FrameLeft"), 5)
+
+10
+00:00:23,818 --> 00:00:23,820
+37. waitForElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 60)
+
+11
+00:00:23,868 --> 00:00:23,869
+41. verifyElementPresent(findTestObject("Regression BackOffice/CLNK-23449/ClienIntakeICon"), 100)
+
+12
+00:00:23,902 --> 00:00:23,903
+45. switchToDefaultContent()
+

@@ -13,13 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.deleteAllCookies()
+
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
 WebUI.waitForPageLoad(60)
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Regression Clinical Edge/CLNK-23349/User'), GlobalVariable.G_User)
+WebUI.setText(findTestObject('Regression Clinical Edge/CLNK-23349/User'), GlobalVariable.G_CaregiverUserName)
 
 WebUI.setText(findTestObject('Regression Clinical Edge/CLNK-23349/Password'), GlobalVariable.G_Password)
 

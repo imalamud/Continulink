@@ -348,13 +348,13 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Locations/ZoneNa
 WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Locations/ZoneNameType'), Keys.chord(Keys.ARROW_DOWN, 
-        Keys.ENTER))
+        Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Locations/Hawaii Facility'), 100)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Locations/City'), 100)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Locations/Hawaii Facility'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Locations/City'))
 
 WebUI.delay(5)
 
@@ -520,7 +520,7 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/Backgroun
 
 WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Active/Background Check Completed'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
 
-WebUI.delay(3)
+WebUI.delay(6)
 
 WebUI.switchToDefaultContent()
 
@@ -530,7 +530,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Active/bttnSaveActive'))
 
-WebUI.delay(3)
+WebUI.delay(6)
 
 WebUI.switchToDefaultContent()
 
@@ -631,4 +631,47 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/_b
 WebUI.delay(3)
 
 WebUI.closeBrowser()
+
+not_run: WebUI.callTestCase(findTestCase('Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.waitForPageLoad(60)
+
+not_run: WebUI.maximizeWindow()
+
+not_run: WebUI.waitForPageLoad(60)
+
+not_run: WebUI.delay(8)
+
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/HereLink'), 100)
+
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/HereLink'))
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.waitForPageLoad(50)
+
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/Current Password'), 
+    50)
+
+not_run: WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/Current Password'), GlobalVariable.G_Password)
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/New Password'), 
+    50)
+
+not_run: WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/New Password'), GlobalVariable.G_Password)
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/OKButton'), 100)
+
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/OKButton'))
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.acceptAlert()
+
+not_run: WebUI.closeBrowser()
 

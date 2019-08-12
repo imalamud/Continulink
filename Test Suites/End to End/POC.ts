@@ -4,7 +4,7 @@
    <name>POC</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>isaac.malamud@mqs.com.uy;smemon@compliahealth.com;</mailRecipient>
+   <mailRecipient>isaac.malamud@mqs.com.uy;smemon@compliahealth.com;nmasudi@compliahealth.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -15,6 +15,24 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d39d92b7-992d-4123-89fb-d82cc17796ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cdce510b-8122-4a36-ac16-29c4d12337dc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e1dc0e8-d86a-4d19-a903-a2a7560fd104</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-28718 - BO - Full Caregiver creation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>05f626f3-b5ee-4bcc-b532-ac096d9698ba</guid>
