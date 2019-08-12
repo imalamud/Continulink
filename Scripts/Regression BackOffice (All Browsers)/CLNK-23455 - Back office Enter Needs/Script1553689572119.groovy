@@ -87,7 +87,7 @@ WebUI.scrollToElement(findTestObject('Regression BackOffice/CLNK-10235/Caregiver
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/CaregiverName'), 100)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/CaregiverName'), GlobalVariable.G_CaregiverName)
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-10235/CaregiverName'), GlobalVariable.G_CareGiverLastName)
 
 WebUI.delay(2)
 

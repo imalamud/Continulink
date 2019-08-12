@@ -3,7 +3,7 @@
    <description></description>
    <name>ReferralType</name>
    <tag></tag>
-   <elementGuidId>50c5598b-22dd-4aa5-acbd-1842ef568de5</elementGuidId>
+   <elementGuidId>0c40d915-e3ab-47d9-af1c-14a2cfb0bd40</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

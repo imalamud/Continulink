@@ -54,7 +54,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/bt
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/btnSearch'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/DocumentLink'), 50)
 

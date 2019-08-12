@@ -27,7 +27,7 @@ WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/ClientPage/
 
 WebUI.click(findTestObject('Regression Clinical Edge/ClientPage/HomeLink'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.waitForPageLoad(50)
 
@@ -35,13 +35,13 @@ WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/HomePage/Re
 
 WebUI.click(findTestObject('Regression Clinical Edge/HomePage/RequestTab'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/HomePage/SearchText'), 50)
 
 WebUI.setText(findTestObject('Regression Clinical Edge/HomePage/SearchText'), GlobalVariable.G_ClientLastName)
 
-WebUI.delay(3)
+WebUI.delay(6)
 
 WebUI.scrollToElement(findTestObject('Regression Clinical Edge/CLINK-23314/a_Khur Heather (535592)'), 60)
 

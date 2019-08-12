@@ -11,7 +11,10 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+// import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+// import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory 
 import internal.GlobalVariable as GlobalVariable
+import org.junit.After as After
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -58,6 +61,10 @@ WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-23449/ReferralType'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
+ReferralType = WebUI.getText(findTestObject('Regression BackOffice/CLNK-23449/ReferralType - Option2'))
+
+println(ReferralType)
+
 WebUI.delay(3)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/ReferralSourcePerson'), 50)
@@ -86,11 +93,25 @@ WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/FollowUpCallBack'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/FollowUpCallBack'), '3')
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/FollowUpCallBack'), '1')
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/FUCDPlus'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/FUCDPlus'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+CallBack = WebUI.getText(findTestObject('Regression BackOffice/CLNK-23449/CallBack'))
+
+println(CallBack)
 
 WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/PhysicianName'), 50)
+
+PhysicianName = 'CYNTHIA ABBOTT-JONES'
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/PhysicianName'))
 
@@ -118,15 +139,23 @@ WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/btnNext'), FailureH
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/Demographics/DOB'), '05/23/1970')
+DOB = '05/23/1970'
+
+Sexo = 'M'
+
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/Demographics/DOB'), DOB)
 
 WebUI.delay(3)
+
+SSN1 = '436'
 
 WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/Demographics/SSN1'), '436120560')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/Demographics/Medicare ID'), '123456789a')
+MedId = '123456789a'
+
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/Demographics/Medicare ID'), MedId)
 
 WebUI.delay(3)
 
@@ -164,6 +193,10 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Demographics/PhoneType'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-23449/Demographics/PhoneType'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+
+CellType = WebUI.getText(findTestObject('Regression BackOffice/CLNK-23449/Validation/Phone/CellType - Option2'))
+
+println(CellType)
 
 WebUI.delay(3)
 
@@ -240,7 +273,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Dem
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Demographics/btnSaveDemo'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Demographics/btnNextDemo'), 50)
 
@@ -365,6 +398,182 @@ WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Admit/btnAdmit'), F
 WebUI.delay(2)
 
 WebUI.switchToDefaultContent()
+
+// Validation  Points
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Validation/Dots'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Validation/Dots'))
+
+WebUI.delay(2)
+
+WebUI.waitForPageLoad(50)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Validation/Client Inquiry DataLink'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Validation/Client Inquiry DataLink'))
+
+WebUI.delay(2)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.waitForPageLoad(50)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Validation/SearchClient'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Validation/SearchClient'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Validation/ReferralTypeValue'), 50)
+
+WebUI.delay(2)
+
+WebUI.waitForPageLoad(50)
+
+WebUI.verifyMatch(CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'(), WebUI.getAttribute(findTestObject(
+            'Regression BackOffice/CLNK-23449/Validation/DateValidation'), 'value'), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('Regression BackOffice/CLNK-23449/Validation/ReferralTypeValue'), ReferralType, 
+    false, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.verifyMatch(GlobalVariable.G_ReferralSourcePerson, WebUI.getAttribute(findTestObject('Regression BackOffice/CLNK-23449/Validation/ReferralSourcePerson'), 
+        'value'), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.verifyMatch(GlobalVariable.G_ClientFirstName, WebUI.getAttribute(findTestObject('Regression BackOffice/CLNK-23449/Validation/FirstNameValidation'), 
+        'value'), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.verifyMatch(GlobalVariable.G_ClientMiddleName, WebUI.getAttribute(findTestObject('Regression BackOffice/CLNK-23449/Validation/MiddleInitialValidation'), 
+        'value'), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.verifyMatch(GlobalVariable.G_ClientLastName, WebUI.getAttribute(findTestObject('Regression BackOffice/CLNK-23449/Validation/LastNameValidation'), 
+        'value'), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.verifyMatch(DOB, WebUI.getAttribute(findTestObject('Regression BackOffice/CLNK-23449/Validation/DOBValidation'), 'value'), 
+    false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.verifyMatch(Sexo, WebUI.getAttribute(findTestObject('Regression BackOffice/CLNK-23449/Validation/SexValidation'), 
+        'value'), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.verifyMatch(SSN1, WebUI.getAttribute(findTestObject('Regression BackOffice/CLNK-23449/Validation/SSN1Validation'), 
+        'value'), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Validation/Phone/PhoneSelected'), 50)
+
+WebUI.scrollToElement(findTestObject('Regression BackOffice/CLNK-23449/Validation/Phone/PhoneSelected'), 0)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Validation/Phone/PhoneSelected'))
+
+WebUI.delay(2)
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('Regression BackOffice/CLNK-23449/Validation/Phone/CellTypeValidation'), 
+    CellType, false, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+CallBack2 = WebUI.getText(findTestObject('Regression BackOffice/CLNK-23449/Validation/CallBackValidation'))
+
+WebUI.delay(5)
+
+WebUI.verifyMatch(CallBack, CallBack2, false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Validation/Dots'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Validation/Dots'))
+
+WebUI.delay(2)
+
+WebUI.waitForPageLoad(50)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Validation/Admision/AdmissionLink'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Validation/Admision/AdmissionLink'))
+
+WebUI.delay(5)
+
+WebUI.acceptAlert()
+
+WebUI.delay(2)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.waitForPageLoad(50)
+
+WebUI.delay(5)
+
+PNameValidation = WebUI.getText(findTestObject('Regression BackOffice/CLNK-23449/Validation/Admision/PhysicianNameValidation'))
+
+WebUI.verifyMatch(PhysicianName, PNameValidation, false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Validation/Dots'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Validation/Dots'))
+
+WebUI.delay(2)
+
+WebUI.waitForPageLoad(50)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Validation/Payer/PayerSourcesLink'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Validation/Payer/PayerSourcesLink'))
+
+WebUI.delay(2)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.waitForPageLoad(50)
+
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Validation/Payer/PayerSearched'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Validation/Payer/PayerSearched'))
+
+WebUI.delay(2)
+
+MediValidation = WebUI.getAttribute(findTestObject('Regression BackOffice/CLNK-23449/Validation/Payer/MediValidation'), 
+    'value')
+
+WebUI.verifyMatch(MedId, MediValidation, false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
