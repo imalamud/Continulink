@@ -111,11 +111,11 @@ WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/Client NameSearc
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/ScheduleAssessmentCode'), 100)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/ScheduleAssessmentCode'), 100)
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/ScheduleAssessmentCode'))
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/ScheduleAssessmentCode'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/ServiceTypeList'), 100)
 
@@ -131,7 +131,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/Sta
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/StartTime'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/StartTime'), '1100')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/StartTime'), GlobalVariable.G_StartTime)
 
 WebUI.delay(2)
 
@@ -139,7 +139,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/End
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/EndTime'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/EndTime'), '1600')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/EndTime'), GlobalVariable.G_EndTime)
 
 WebUI.delay(2)
 
@@ -155,6 +155,8 @@ WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/CaregiverName'))
 
 WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/CaregiverName'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
+WebUI.delay(3)
+
 WebUI.switchToDefaultContent()
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK-17788/BannerFrame'), 30)
@@ -162,6 +164,8 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK-17788/BannerFram
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/SaveButton'), 50)
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/SaveButton'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(10)
 
 WebUI.waitForPageLoad(50)
 

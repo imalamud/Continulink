@@ -385,6 +385,12 @@ WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/Admit/Effective B
 
 WebUI.delay(4)
 
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Admit/Admission Rules_chkNoPOC'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Admit/Admission Rules_chkNoPOC'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Admit/btnSaveAdmit'), 50)
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Admit/btnSaveAdmit'), FailureHandling.STOP_ON_FAILURE)

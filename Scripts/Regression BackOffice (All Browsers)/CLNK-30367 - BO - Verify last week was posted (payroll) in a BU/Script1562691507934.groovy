@@ -49,21 +49,24 @@ WebUI.switchToDefaultContent()
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30367/BUClick'), 50)
+if (WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLNK-30367/BUClick'), 10)) 
+{
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30367/BUClick'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-30367/BUClick'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.click(findTestObject('Regression BackOffice/CLNK-30367/BUClick'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+	WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30367/PostPayrollButton'), 50)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30367/PostPayrollButton'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-30367/PostPayrollButton'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.click(findTestObject('Regression BackOffice/CLNK-30367/PostPayrollButton'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+	WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30367/PostButton'), 50)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30367/PostButton'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-30367/PostButton'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.click(findTestObject('Regression BackOffice/CLNK-30367/PostButton'), FailureHandling.CONTINUE_ON_FAILURE)
 
+}
 WebUI.delay(30)
 

@@ -4,22 +4,16 @@
    <name>Regression BackOffice</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>isaac.malamud@mqs.com.uy;smemon@compliahealth.com;nmasudi@compliahealth.com;</mailRecipient>
+   <mailRecipient>isaac.malamud@mqs.com.uy;nmasudi@compliahealth.com;kspeller@compliahealth.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>568e5cdf-97ad-49cd-a8f1-4d04287b2363</testSuiteGuid>
+   <testSuiteGuid>df7580f5-8e9a-48bb-b7b3-aea1a18ebf86</testSuiteGuid>
    <testCaseLink>
-      <guid>2a432b1a-3f30-4c7b-94b1-e0325e331ca4</guid>
+      <guid>4ec0c922-cf2e-4753-8e95-a204c262ac74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4afff2da-62e9-4256-965a-e76ced8946c8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -35,51 +29,147 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>db7dd276-11d4-4374-af6a-4805a62233d3</guid>
+      <guid>9ca292ee-2da9-4783-a49f-3e0c3f5d9989</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23451 - Back office Quick Intake Wizard Payer</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-28718 - BO - Full Caregiver creation</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>afaba911-07d9-4119-9d85-c34900cdc0d3</guid>
+      <guid>fc6f01c8-273b-45be-a1a1-79bae23eb961</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23450 - Back office Quick Intake Wizard Demographics</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23441 - Back office Caregiver - Search criteria</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>197fe807-8ec4-43c2-a935-de585bb68777</guid>
+      <guid>08d0e039-4dde-4c0a-806f-0c28ce07ad21</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23455 - Back office Enter Needs</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23442 - Back office Caregiver Demographics</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>26f2590c-15b7-4b0d-a31d-07f48834baef</guid>
+      <guid>e91e5587-e150-4637-ae99-52062e8ed8e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23445 - Back office Caregiver HR Details</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d403ca3c-44d2-41ab-b002-7f5515feb8c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23446 - Back office Caregiver Locations</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c28f011e-6eeb-4c03-a598-192646dfdae8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23444 - Back office Caregiver Attributes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8acfc888-a44e-4b4c-8fbf-f6abeaaa02f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23447 - Back office Caregiver Demographics</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c9140034-7c0e-4777-b5ed-c8b8f381698f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-10235 - Enter a Need from Schedule Block</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>cdd6e921-276a-4bbf-9860-03e4befe866b</guid>
+      <guid>2d31a414-c39c-4208-9202-e0ff2237f8ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-17180 - Admission Authorization Changes Report</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>49d7eb5d-c4dc-4227-87a6-2a7eb13c1fe3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-10620 - BackOffice Medication Profile - Patient Information</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1a1cf78-031d-420b-862e-0e5cc4c5d8f2</guid>
+      <guid>adad626a-7891-45c4-9183-f89ddfaefbd0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-17180 - Admission Authorization Changes Report</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>73e147b7-5b49-4d23-946a-cdd6907ac572</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-17788 - (Task A) New Clinical Manager Caregiver Property</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>af91fda7-7276-460e-9bcf-78d50218ea95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-17788 - (Task A) New Clinical Manager Caregiver Property</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10a22c48-b8a1-42f3-a6af-aa704bf3ea4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23450 - Back office Quick Intake Wizard Demographics</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b1c36bbc-6961-4600-a6f7-5aadd5c210f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23451 - Back office Quick Intake Wizard Payer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1edc408e-92ff-44d6-b7a6-d51466fc9c5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23455 - Back office Enter Needs</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c5358c93-0ad8-40ec-8e0b-cde582e899b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-27759 - Security Roles - SOX Audit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b0115489-d480-49e6-8806-f4df32586888</guid>
+      <guid>37fb986b-cc55-454b-a554-1c9eb6bf2b8b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-27906 - (Task B) Update Care Manager Control in Admission Details</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>108d2e7b-8b4e-4820-b6e6-b7f97c367c4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30366 - BO - Verify the end week date value in a BU</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c999ca57-d84a-4366-a7ae-9649a8937c67</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30367 - BO - Verify last week was posted (payroll) in a BU</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3c9fcdd1-4ddc-4f8f-8d1b-302c2a09e087</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30368 - BO - Verify last week was posted (bill) in a BU</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e26092a-5430-4f4e-a69e-661055abf27f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23429 - BO - Process Payroll</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a222dee0-644e-4b14-ad9d-ca1d231d3fb9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-17593 -7231 Main Application - Clinical Block - View POC and RPOC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ce0c409f-41ad-423f-8933-22cfcb266ca9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-28578 - BO - Happy Path - Approving PoC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>880ec461-8d07-41df-a882-147e292ab64a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23448 - Back office Setup Caregiver Remote Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

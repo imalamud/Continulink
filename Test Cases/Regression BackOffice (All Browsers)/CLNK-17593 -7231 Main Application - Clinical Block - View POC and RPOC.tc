@@ -1,40 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Summary: 7.2.3.1 Main Application > Clinical Block > View POC &amp; RPOC 
-Description: *Use Case #1*
-
-Assumption: The Payer is the CMS payer that requires Condition of Participation compliance.
-
-Actors:
- * User
- * System
-
-Basic Flow:
- # User navigates to Clinical Block > View POC &amp; RPOC page
- # System displays a list of all POCs for a client in a grid
- # System displays a red exclamation button on one of the rows of the â€˜Statusâ€™ columns
- # User clicks the button on the row for which the exception is displayed
- # User records that all individuals received the POC, provides methods and dates, clicks save for all
- # System saves records
-
-System displays a green checkmark button in the â€˜Statusâ€™ column
-
-*Use Case #2*
-
-Assumption: The Payer is the CMS payer that requires Condition of Participation compliance.
-
-Actors:
- * User
- * System
-
-Basic Flow:
- # User navigates to Clinical Block > View POC &amp; RPOC page
- # System displays a list of all POCs for a client in a grid
- # System displays a red exclamation icon on one of the rows of the â€˜Statusâ€™ columns
- # User clicks the button on the row for which the exception is displayed
- # User selects some individuals that received the POC, provides methods and dates, clicks save
- # System saves records
-
+Description: *Use Case #1*
+
+
+
+Assumption: The Payer is the CMS payer that requires Condition of Participation compliance.
+
+
+
+Actors:
+
+ * User
+
+ * System
+
+
+
+Basic Flow:
+
+ # User navigates to Clinical Block > View POC &amp; RPOC page
+
+ # System displays a list of all POCs for a client in a grid
+
+ # System displays a red exclamation button on one of the rows of the â€˜Statusâ€™ columns
+
+ # User clicks the button on the row for which the exception is displayed
+
+ # User records that all individuals received the POC, provides methods and dates, clicks save for all
+
+ # System saves records
+
+
+
+System displays a green checkmark button in the â€˜Statusâ€™ column
+
+
+
+*Use Case #2*
+
+
+
+Assumption: The Payer is the CMS payer that requires Condition of Participation compliance.
+
+
+
+Actors:
+
+ * User
+
+ * System
+
+
+
+Basic Flow:
+
+ # User navigates to Clinical Block > View POC &amp; RPOC page
+
+ # System displays a list of all POCs for a client in a grid
+
+ # System displays a red exclamation icon on one of the rows of the â€˜Statusâ€™ columns
+
+ # User clicks the button on the row for which the exception is displayed
+
+ # User selects some individuals that received the POC, provides methods and dates, clicks save
+
+ # System saves records
+
+
+
 System displays a red â€˜Xâ€™ button in the â€˜Statusâ€™ column (for as long as there are individuals that have not been provided with a POC)</description>
    <name>CLNK-17593 -7231 Main Application - Clinical Block - View POC and RPOC</name>
    <tag></tag>

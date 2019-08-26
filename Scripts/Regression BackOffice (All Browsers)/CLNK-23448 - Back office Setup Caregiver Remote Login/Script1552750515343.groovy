@@ -42,43 +42,45 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain')
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/Caregiver Name II'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23448/Caregiver Name II'), GlobalVariable.G_CaregiverFirstName)
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-23448/Caregiver Name II'), GlobalVariable.G_CareGiverLastName)
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23448/Caregiver Name II'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+if (WebUI.verifyElementNotVisible(findTestObject('Regression BackOffice/CLINK-23448/DivNoMatch'))) {
+    WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23448/Caregiver Name II'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
-WebUI.delay(2)
+    WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/New Password'), 50)
+    WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/New Password'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23448/New Password'), 'qwerty')
+    WebUI.setText(findTestObject('Regression BackOffice/CLINK-23448/New Password'), 'qwerty')
 
-WebUI.delay(2)
+    WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/Confirm newPassword'), 50)
+    WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/Confirm newPassword'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23448/Confirm newPassword'), 'qwerty')
+    WebUI.setText(findTestObject('Regression BackOffice/CLINK-23448/Confirm newPassword'), 'qwerty')
 
-WebUI.delay(2)
+    WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/Email'), 50)
+    WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/Email'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23448/Email'), 'isaac@gmail.com')
+    WebUI.setText(findTestObject('Regression BackOffice/CLINK-23448/Email'), 'isaac@gmail.com')
 
-WebUI.delay(2)
+    WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/BUnit'), 50)
+    WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/BUnit'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-23448/BUnit'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Regression BackOffice/CLINK-23448/BUnit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+    WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/CreateUsrButton'), 50)
+    WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23448/CreateUsrButton'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-23448/CreateUsrButton'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Regression BackOffice/CLINK-23448/CreateUsrButton'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+    WebUI.delay(2)
+}
 
 WebUI.closeBrowser()
 

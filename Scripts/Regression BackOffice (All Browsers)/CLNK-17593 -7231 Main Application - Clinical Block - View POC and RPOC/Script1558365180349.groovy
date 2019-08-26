@@ -80,48 +80,54 @@ not_run: WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK-
 
 not_run: WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/Status'), 100)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/Status'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+if (WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK-17593/Status'), 10)) {
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/Distribution'), 100)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/Distribution'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/Status'), 100)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-17593/Distribution'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/Status'), FailureHandling.CONTINUE_ON_FAILURE)
+
+	WebUI.delay(2)
+
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/Distribution'), 100)
+
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/Distribution'), FailureHandling.CONTINUE_ON_FAILURE)
+
+	WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-17593/Distribution'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
         Keys.ENTER))
 
-WebUI.delay(4)
+	WebUI.delay(4)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/DateOfDistribution'), 100)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/DateOfDistribution'), 100)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/DateOfDistribution'))
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/DateOfDistribution'))
 
-WebUI.delay(2)
+	WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-17593/DateOfDistribution'), '05/20/2019')
+	WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-17593/DateOfDistribution'), '05/20/2019')
 
-WebUI.delay(2)
+	WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/isVerified'), 100)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/isVerified'), 100)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/isVerified'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/isVerified'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+	WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/SaveDistribution'), 100)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/SaveDistribution'), 100)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/SaveDistribution'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/SaveDistribution'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+	WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/span_Close'), 100)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-17593/span_Close'), 100)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/span_Close'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-17593/span_Close'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+	WebUI.delay(2)
+}
 
 WebUI.closeBrowser()
 

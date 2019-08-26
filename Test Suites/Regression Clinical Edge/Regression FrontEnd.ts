@@ -11,24 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>8a738b78-212a-486f-a3d1-b610e54bcabb</testSuiteGuid>
    <testCaseLink>
-      <guid>340b0637-a146-4fb5-b8ac-476137743cb9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d39d92b7-992d-4123-89fb-d82cc17796ac</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cdce510b-8122-4a36-ac16-29c4d12337dc</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ed7e54d4-22a3-4a6d-b43c-762244efc911</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -51,5 +33,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-13514 - CE - Medication Profile Widget - Adding elements</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3370d382-d3cf-4bd0-9a89-b934b99b03ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23502 - Clinical Edge - Create Revision to Plan of Care (RPOC)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

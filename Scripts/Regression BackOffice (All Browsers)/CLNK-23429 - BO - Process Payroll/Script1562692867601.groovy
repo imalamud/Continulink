@@ -49,9 +49,9 @@ WebUI.switchToDefaultContent()
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30366/Demo_Demo'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30366/Automation BU Check'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-30366/Demo_Demo'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Regression BackOffice/CLNK-30366/Automation BU Check'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//img[@id='i'])[7]</value>
+         <value>//*[@id=&quot;m7&quot;]/span[1]/table/tbody/tr/td[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -40,53 +40,11 @@
       <type>Main</type>
       <value>id(&quot;m7&quot;)/span[1]/table[@class=&quot;ActiveHeader&quot;]/tbody[1]/tr[1]/td[2]/img[@id=&quot;i&quot;]</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Regression BackOffice/CLNK-30368/frame_Capture object_FrameLeft</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//img[@id='i'])[7]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='m7']/span/table/tbody/tr/td[2]/img</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finance'])[1]/following::img[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payroll Reports'])[1]/following::img[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watch Video Tutorials'])[7]/preceding::img[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search for a Payer'])[1]/preceding::img[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <value>//div[7]/span/table/tbody/tr/td[2]/img</value>
+      <type>Main</type>
+      <value>//*[@id=&quot;m7&quot;]/span[1]/table/tbody/tr/td[1]</value>
    </webElementXpaths>
 </WebElementEntity>
