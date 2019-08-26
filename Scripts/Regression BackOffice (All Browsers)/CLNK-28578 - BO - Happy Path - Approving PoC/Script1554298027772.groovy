@@ -56,37 +56,40 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/btnSearch'), Failu
 
 WebUI.delay(5)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/DocumentLink'), 50)
+if (WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK-28578/DocumentLink'), 10)) 
+{
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/DocumentLink'), FailureHandling.STOP_ON_FAILURE)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/DocumentLink'), 50)
 
-WebUI.waitForPageLoad(50)
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/DocumentLink'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+	WebUI.waitForPageLoad(50)
 
-not_run: WebUI.switchToDefaultContent()
+	WebUI.delay(5)
 
-WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK-28578/iframe'), 30)
+	not_run: WebUI.switchToDefaultContent()
 
-WebUI.delay(10)
+	WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK-28578/iframe'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/ApproveLink'), 50)
+	WebUI.delay(10)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/ApproveLink'), FailureHandling.STOP_ON_FAILURE)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/ApproveLink'), 50)
 
-WebUI.delay(5)
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/ApproveLink'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/input_Confirm Password'), 50)
+	WebUI.delay(5)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-28578/input_Confirm Password'), GlobalVariable.G_Password)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/input_Confirm Password'), 50)
 
-WebUI.delay(2)
+	WebUI.setText(findTestObject('Regression BackOffice/CLINK-28578/input_Confirm Password'), GlobalVariable.G_Password)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/OkPOC'), 50)
+	WebUI.delay(2)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/OkPOC'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/OkPOC'), 50)
 
-WebUI.delay(2)
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/OkPOC'), FailureHandling.CONTINUE_ON_FAILURE)
 
+	WebUI.delay(2)
+}
 WebUI.closeBrowser()
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//frame[@id='FrameLeft']</value>
+         <value>//*[@id=&quot;FrameLeft&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -99,7 +99,8 @@
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//frame[@id='FrameLeft']</value>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;FrameLeft&quot;]</value>
    </webElementXpaths>
 </WebElementEntity>

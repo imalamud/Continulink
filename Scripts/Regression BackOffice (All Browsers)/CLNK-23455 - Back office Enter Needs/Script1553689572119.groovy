@@ -51,17 +51,18 @@ WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/Client NameSearc
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/ScheduleAssessmentCode'), 100)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/ScheduleAssessmentCode'), 100)
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/ScheduleAssessmentCode'))
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/ScheduleAssessmentCode'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/ServiceTypeList'), 100)
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/ServiceTypeList'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/ServiceTypeList'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/ServiceTypeList'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
+        Keys.ENTER))
 
 WebUI.delay(2)
 
@@ -71,7 +72,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/Sta
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/StartTime'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/StartTime'), '1126')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/StartTime'), '1800')
 
 WebUI.delay(2)
 
@@ -79,7 +80,7 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/End
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/EndTime'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/EndTime'), '1136')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-10235/EndTime'), '1820')
 
 WebUI.delay(2)
 

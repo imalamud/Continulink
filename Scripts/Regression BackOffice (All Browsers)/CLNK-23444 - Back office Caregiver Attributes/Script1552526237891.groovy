@@ -63,27 +63,45 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK-23442/ClientLink'), Fail
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23444/New Attribute'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/EditAttrbiute'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-23444/New Attribute'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23444/CheckedBy'), 50)
-
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23444/CheckedBy'), 'Isaac')
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/EditAttrbiute'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23444/Checked Date'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/LicenseNro'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23444/Checked Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/License/LicenseNro'), '14')
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/License Expiration Date'), 50)
+
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/License/License Expiration Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
 
 WebUI.delay(4)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23444/a_Add To List'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/State Issued'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-23444/a_Add To List'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/License/State Issued'), 'St')
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked'), 50)
+
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked'), 'Isaac')
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked Date'), 50)
+
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(4)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/Add To List License'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/Add To List License'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

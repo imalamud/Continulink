@@ -89,7 +89,7 @@ WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23442/PhoneNumber'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK-23442/PhoneNumber'), '1234567890')
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-23442/PhoneNumber'), '5896321472')
 
 WebUI.delay(2)
 
@@ -125,9 +125,39 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23442/Di
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK-23442/DisciplineList'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23442/DisciplineList'), Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23442/DisciplineList'), Keys.chord(Keys.PAGE_DOWN, Keys.ARROW_DOWN, 
         Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
-        Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER))
+        Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23442/Begin Date'), 50)
+
+WebUI.setText(findTestObject('Regression BackOffice/CLINK-23442/Begin Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23442/Add to List Discipline'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-23442/Add to List Discipline'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.acceptAlert()
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23442/Add Discipline'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-23442/Add Discipline'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-23442/DisciplineList'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-23442/DisciplineList'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-23442/DisciplineList'), Keys.chord(Keys.PAGE_DOWN, Keys.ARROW_DOWN, 
+        Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, 
+        Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(2)
 

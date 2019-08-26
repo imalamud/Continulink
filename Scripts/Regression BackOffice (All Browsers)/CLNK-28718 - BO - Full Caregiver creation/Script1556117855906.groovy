@@ -44,19 +44,19 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain')
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/CaregiverFirst Name'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/CaregiverFirst Name'), 'xxxxx')
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/CaregiverFirst Name'), GlobalVariable.G_CaregiverFirstName)
 
 WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/CaregiverLast Name'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/CaregiverLast Name'), 'xxxxx')
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/CaregiverLast Name'), GlobalVariable.G_CareGiverLastName)
 
 WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/SSN'), 50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/SSN'), '999999995')
+WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/SSN'), GlobalVariable.G_CaregiverSSN)
 
 WebUI.delay(2)
 
@@ -73,6 +73,14 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Add a new Caregi
 WebUI.delay(2)
 
 WebUI.waitForPageLoad(50)
+
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/a_Use This Caregiver'), 100)
+
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/a_Use This Caregiver'))
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.waitForPageLoad(50)
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/General Information/CaregiverType'), 100)
 
@@ -96,25 +104,26 @@ WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/General Infor
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/General Information/First Name Caregiver'), 
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/General Information/First Name Caregiver'), 
     50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/General Information/First Name Caregiver'), GlobalVariable.G_CaregiverFirstName)
+not_run: WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/General Information/First Name Caregiver'), GlobalVariable.G_CaregiverFirstName)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/General Information/Last Name Caregiver'), 
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/General Information/Last Name Caregiver'), 
     50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/General Information/Last Name Caregiver'), GlobalVariable.G_CareGiverLastName)
+not_run: WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/General Information/Last Name Caregiver'), GlobalVariable.G_CareGiverLastName)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/General Information/SSNCaregiver'), 50)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/General Information/SSNCaregiver'), 
+    50)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/General Information/SSNCaregiver'), GlobalVariable.G_CaregiverSSN)
+not_run: WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/General Information/SSNCaregiver'), GlobalVariable.G_CaregiverSSN)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/Address/Address'), '1628 NW 6 St')
 
@@ -176,7 +185,11 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Discipline/DisciplineType'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Discipline/DisciplineType'), Keys.chord(Keys.ARROW_DOWN, 
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Discipline/DisciplineType'), 'P')
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Discipline/DisciplineType'), Keys.chord(Keys.ENTER))
+
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Discipline/DisciplineType'), Keys.chord(Keys.ARROW_DOWN, 
         Keys.ENTER))
 
 WebUI.delay(3)
@@ -396,54 +409,150 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/EditAttr
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/LicenseNro'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificationType'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/LicenseNro'), '12')
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Expiration Date'))
-
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Expiration Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificationType'), 'Type')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Renewal Date'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateProfessional'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Renewal Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateProfessional'), 'Profesional')
 
 WebUI.delay(3)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/input_State Issued _txtStateIssued'), 
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateOrganization'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateOrganization'), 'Organization')
+
+WebUI.delay(3)
+
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Expiration Date'))
+
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Expiration Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+not_run: WebUI.delay(3)
+
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Renewal Date'))
+
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Renewal Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+not_run: WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateIssuedDate'), 
     50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/input_State Issued _txtStateIssued'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateIssuedDate'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateIssuedDate'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/input_State Issued _txtStateIssued'), 'AC')
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateExpirationDate'), 
+    50)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateExpirationDate'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateExpirationDate'), '12/05/2019')
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked'), 'Isaac')
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateCheckedDate'), 
+    50)
 
-WebUI.delay(3)
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateIssuedDate'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked Date'))
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateIssuedDate'), 
+    CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+not_run: WebUI.delay(2)
 
-WebUI.delay(3)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateCheckedBy'), 
+    50)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/Add To List License'), 100)
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateCheckedBy'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/Add To List License'))
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateCheckedBy'), 'Isaac')
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateCheckedDate'), 
+    50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateCheckedDate'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/CertificateCheckedDate'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/a_Add To List'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/Hoyer Lift/a_Add To List'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/HIPPA Signal'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/HIPPA Signal'))
 
 WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/Remarks'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/Remarks'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/Remarks'), 'Remark')
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/CheckedBy'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/CheckedBy'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/CheckedBy'), 'Isaac')
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/CheckedDate'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/CheckedDate'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/CheckedDate'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/a_Add To List'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Attributes/HIPAA/a_Add To List'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/input_State Issued _txtStateIssued'), 
+    'AC')
+
+not_run: WebUI.delay(3)
+
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked'), FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked'), 'Isaac')
+
+not_run: WebUI.delay(3)
+
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked Date'))
+
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/License/License Checked Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+
+not_run: WebUI.delay(3)
+
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/License/Add To List License'), 
+    100)
+
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/License/Add To List License'))
+
+not_run: WebUI.delay(5)
 
 WebUI.switchToDefaultContent()
 
@@ -632,46 +741,44 @@ WebUI.delay(3)
 
 WebUI.closeBrowser()
 
-not_run: WebUI.callTestCase(findTestCase('Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login'), [:], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.waitForPageLoad(60)
+WebUI.waitForPageLoad(60)
 
-not_run: WebUI.maximizeWindow()
+WebUI.maximizeWindow()
 
-not_run: WebUI.waitForPageLoad(60)
+WebUI.waitForPageLoad(60)
 
-not_run: WebUI.delay(8)
+WebUI.delay(8)
 
-not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/HereLink'), 100)
+if (WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/HereLink'), 10)) 
+{
 
-not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/HereLink'))
+	WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/HereLink'))
 
-not_run: WebUI.delay(2)
+	WebUI.delay(2)
 
-not_run: WebUI.waitForPageLoad(50)
+	WebUI.waitForPageLoad(50)
 
-not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/Current Password'), 
-    50)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/Current Password'), 50)
 
-not_run: WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/Current Password'), GlobalVariable.G_Password)
+	WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/Current Password'), GlobalVariable.G_Password)
 
-not_run: WebUI.delay(2)
+	WebUI.delay(2)
 
-not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/New Password'), 
-    50)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/New Password'), 50)
 
-not_run: WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/New Password'), GlobalVariable.G_Password)
+	WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/New Password'), GlobalVariable.G_Password)
 
-not_run: WebUI.delay(2)
+	WebUI.delay(2)
 
-not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/OKButton'), 100)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/OKButton'), 100)
 
-not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/OKButton'))
+	WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/OKButton'))
 
-not_run: WebUI.delay(2)
+	WebUI.delay(2)
 
-not_run: WebUI.acceptAlert()
-
-not_run: WebUI.closeBrowser()
+	WebUI.acceptAlert()
+}
+WebUI.closeBrowser()
 
