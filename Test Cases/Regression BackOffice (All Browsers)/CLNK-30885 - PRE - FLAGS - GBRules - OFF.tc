@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Summary: PRE - FLAGS - GBRules - OFF
-Description: This is a PRECONDITION test case to be called from other scripts (also can be used to test the correct functionality of some options in the GBRules page, in such case *PLEASE* clone this test case)
-
-Description: GBRules
-Hold invoices for late-time slips FALSE
-Release Out of Auth Services  FALSE
-Enable Hard Stops for Authorization FALSE
-
-Page.:
+Description: This is a PRECONDITION test case to be called from other scripts (also can be used to test the correct functionality of some options in the GBRules page, in such case *PLEASE* clone this test case)
+
+
+
+Description: GBRules
+
+Hold invoices for late-time slips FALSE
+
+Release Out of Auth Services  FALSE
+
+Enable Hard Stops for Authorization FALSE
+
+
+
+Page.:
+
 (Group Bill Rules page)</description>
    <name>CLNK-30885 - PRE - FLAGS - GBRules - OFF</name>
    <tag>jira-integration</tag>

@@ -94,4 +94,9 @@
       <initValue>'quince'</initValue>
       <name>G_CaregiverUserName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Data used in Test Case 30885</description>
+      <initValue>'05/03/2019'</initValue>
+      <name>G_Auth_Date</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
