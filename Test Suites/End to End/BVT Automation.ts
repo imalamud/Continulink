@@ -29,6 +29,12 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>d8894aa1-58b4-41bf-902b-65eba112349c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-31354 - Adding a New ServiceGroupSetup</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>f313477b-a118-4068-a30f-d914608b6bb3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>4ec0c922-cf2e-4753-8e95-a204c262ac74</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -90,12 +90,6 @@
    </testCaseLink>
    <testCaseLink>
       <guid>73e147b7-5b49-4d23-946a-cdd6907ac572</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-17788 - (Task A) New Clinical Manager Caregiver Property</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>af91fda7-7276-460e-9bcf-78d50218ea95</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-17788 - (Task A) New Clinical Manager Caregiver Property</testCaseId>
