@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Regression Clinical Edge (All Browsers)/CLNK-23349 - ContinuLink - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -103,6 +104,16 @@ WebUI.delay(5)
 
 WebUI.waitForPageLoad(30)
 
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23511/VisitBillingCode'), 50)
+
+WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23511/VisitBillingCode'))
+
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLNK-23511/VisitBillingCode'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+
+WebUI.delay(5)
+
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23511/Sections'), 50)
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23511/Sections'))
@@ -133,6 +144,14 @@ WebUI.delay(5)
 WebUI.scrollToElement(findTestObject('Regression Clinical Edge/CLNK-23511/Clear3'), 50)
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23511/Clear3'))
+
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23511/textarea_Clear'), 50)
+
+WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23511/textarea_Clear'))
+
+WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLNK-23511/textarea_Clear'), 'Clear Text')
 
 WebUI.delay(5)
 
@@ -168,9 +187,11 @@ WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23511/
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23511/Signature'))
 
-WebUI.setText(findTestObject('Regression Clinical Edge/CLNK-23511/Signature'), 'qwerty')
-
 WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLNK-23511/Signature'), 'qwerty')
+
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23511/OkSignature'), 50)
 
