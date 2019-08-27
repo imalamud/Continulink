@@ -33,6 +33,12 @@ public class DateUtilities {
 		newDate
 	}
 	@Keyword
+	def getDateYearNumber(){
+		def date = new Date()
+		String newDate = date.format( 'yyyy' )
+		newDate
+	}
+	@Keyword
 	def getDateDayMonthNumber(){
 		def date = new Date()
 		String newDate = date.format( 'ddMM' )
