@@ -4,7 +4,7 @@
    <name>POC</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>isaac.malamud@mqs.com.uy;smemon@compliahealth.com;nmasudi@compliahealth.com;</mailRecipient>
+   <mailRecipient>isaac.malamud@mqs.com.uy;nmasudi@compliahealth.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>ecaa646a-1d20-4dc7-910b-91bce2085749</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -31,13 +31,13 @@
    <testCaseLink>
       <guid>1e1dc0e8-d86a-4d19-a903-a2a7560fd104</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-28718 - BO - Full Caregiver creation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>05f626f3-b5ee-4bcc-b532-ac096d9698ba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-28946 - CE - Add diagnosis</testCaseId>
    </testCaseLink>
    <testCaseLink>

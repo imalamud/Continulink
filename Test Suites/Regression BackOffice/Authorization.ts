@@ -22,4 +22,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30885 - PRE - FLAGS - GBRules - OFF</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>be291d16-58f0-43e7-8858-5981cd8b6ec6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-10235 - Enter a Need from Schedule Block</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>904bb928-6cca-4968-9bcb-5a77a152ca31</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30887 - PRE - No authorization created</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>36034a4b-5f9d-47e8-abf1-71b165cc5e83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30888 - BO - Re-run Compliance Authorization</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d18dcbad-ec3c-41cf-a82b-a512008dbcdd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30380 - BO - Authorization - Schedule - Happy Path - UC0002</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
