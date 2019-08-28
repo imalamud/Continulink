@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Queso'</initValue>
+      <initValue>'Papo'</initValue>
       <name>G_ClientFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Quesisky'</initValue>
+      <initValue>'Papisky'</initValue>
       <name>G_ClientLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,27 +76,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Quince'</initValue>
+      <initValue>'Dieciseis'</initValue>
       <name>G_CaregiverFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Quincillo'</initValue>
+      <initValue>'Diecisillo'</initValue>
       <name>G_CareGiverLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'535870349'</initValue>
+      <initValue>'535870350'</initValue>
       <name>G_CaregiverSSN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'quince'</initValue>
+      <initValue>'dieciseis'</initValue>
       <name>G_CaregiverUserName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Data used in Test Case 30885</description>
-      <initValue>'05/03/2019'</initValue>
+      <initValue>'06/07/2019'</initValue>
       <name>G_Auth_Date</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
