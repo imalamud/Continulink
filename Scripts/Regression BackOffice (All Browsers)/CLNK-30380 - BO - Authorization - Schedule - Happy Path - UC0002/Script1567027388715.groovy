@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -41,7 +42,7 @@ WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain')
 
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/Last name'), 50)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30888/Last name'), 'Schroeder')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30888/Last name'), GlobalVariable.G_ClientLastName)
 
 WebUI.delay(2)
 

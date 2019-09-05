@@ -43,7 +43,7 @@
    <testCaseLink>
       <guid>d18dcbad-ec3c-41cf-a82b-a512008dbcdd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30380 - BO - Authorization - Schedule - Happy Path - UC0002</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

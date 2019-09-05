@@ -46,15 +46,15 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30891/Pa
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK-30891/PayerName'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30891/PayerName'), 'Medicaid')
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30891/PayerName'), 'AC')
 
 WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30891/PayerName'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30891/PlanName'), 50)
+not_run: WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30891/PlanName'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30891/PlanName'))
+not_run: WebUI.click(findTestObject('Regression BackOffice/CLINK-30891/PlanName'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30891/PlanName'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+not_run: WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30891/PlanName'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.waitForPageLoad(50)
 
@@ -66,23 +66,23 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK-30885/SearchButton'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30885/Medicaid - Group Searched'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30885/Payer Searched'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30885/Medicaid - Group Searched'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30885/Payer Searched'))
 
 WebUI.delay(3)
 
 WebUI.waitForPageLoad(50)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30891/a_HHA Hourly'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30891/a_PCA'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30891/a_HHA Hourly'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30891/a_PCA'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30891/a_01042019'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30891/a_Fecha'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30891/a_01042019'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30891/a_Fecha'))
 
 WebUI.delay(3)
 
@@ -99,8 +99,7 @@ if (WebUI.verifyElementChecked(findTestObject('Regression BackOffice/CLINK-30891
     WebUI.delay(5)
 }
 
-if (WebUI.verifyElementNotChecked(findTestObject('Regression BackOffice/CLINK-30891/Authorization Time Frame'), 10)) 
-{
+if (WebUI.verifyElementNotChecked(findTestObject('Regression BackOffice/CLINK-30891/Authorization Time Frame'), 10)) {
     WebUI.click(findTestObject('Regression BackOffice/CLINK-30891/Authorization Time Frame'))
 
     WebUI.delay(5)
@@ -119,6 +118,14 @@ WebUI.click(findTestObject('Regression BackOffice/CLNK-31354/SaveButton'))
 WebUI.delay(5)
 
 WebUI.waitForAlert(30)
+
+WebUI.acceptAlert()
+
+WebUI.delay(3)
+
+WebUI.acceptAlert()
+
+WebUI.delay(3)
 
 WebDriver driver = DriverFactory.getWebDriver()
 

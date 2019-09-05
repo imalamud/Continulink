@@ -4,7 +4,7 @@
    <name>Regression FrontEnd</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>isaac.malamud@mqs.com.uy;smemon@compliahealth.com;nmasudi@compliahealth.com;</mailRecipient>
+   <mailRecipient>isaac.malamud@mqs.com.uy;nmasudi@compliahealth.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

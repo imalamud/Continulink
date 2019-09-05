@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Summary: PRE - No authorization created
-Description: This is a PRECONDITION test case to be called from other scripts
-
-Description: Verify that no authorization was created in a service previously selected (in other script).
-
-Global variables: &lt;date>, &lt;client>, &lt;service>
-
-Page:
+Description: This is a PRECONDITION test case to be called from other scripts
+
+
+
+Description: Verify that no authorization was created in a service previously selected (in other script).
+
+
+
+Global variables: &lt;date>, &lt;client>, &lt;service>
+
+
+
+Page:
+
 (Service/Group Setup page)</description>
    <name>CLNK-30887 - PRE - No authorization created</name>
    <tag>jira-integration</tag>

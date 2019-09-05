@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Summary: BO - Re-run Compliance &amp; Authorization 
-Description: Description: Re-run Compliance &amp; Authorization 
+Description: Description: Re-run Compliance &amp; Authorization 
+
 </description>
    <name>CLNK-30888 - BO - Re-run Compliance Authorization</name>
    <tag>jira-integration</tag>
