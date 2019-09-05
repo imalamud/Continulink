@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Release All available</name>
+   <name>a_Fecha</name>
    <tag></tag>
-   <elementGuidId>d9e0f523-cad2-4eda-bf85-4ef145a645a8</elementGuidId>
+   <elementGuidId>50298294-d141-42ad-8add-e38fc3b19ccc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;chk_lateslip_2&quot;]</value>
+         <value>//*[@id=&quot;Service1030947&quot;]/table/tbody/tr[1]/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,62 +17,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>onmouseover</name>
       <type>Main</type>
-      <value>chk_lateslip_2</value>
+      <value>javascript:fnShowHistoryToolTip('New Admission Property Set created by automation_admin with effect from 08/28/2019.','Created On: 08/28/2019');</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>onmouseout</name>
       <type>Main</type>
-      <value>checkbox</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>chk_lateslip$2</value>
+      <value>javascript:fnShowHistoryToolTip('','');</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>javascript:checkForMonthCrossover();</value>
+      <value>javascript:fnProperties(38,30946,'');</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>text</name>
       <type>Main</type>
-      <value>25</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>3</value>
+      <value>   08/28/2019</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;chk_lateslip_2&quot;)</value>
+      <value>id(&quot;Service3830946&quot;)/table[1]/tbody[1]/tr[1]/td[1]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id=&quot;chk_lateslip_2&quot;]</value>
+      <value>//*[@id=&quot;Service1030947&quot;]/table/tbody/tr[1]/td/a</value>
    </webElementXpaths>
 </WebElementEntity>

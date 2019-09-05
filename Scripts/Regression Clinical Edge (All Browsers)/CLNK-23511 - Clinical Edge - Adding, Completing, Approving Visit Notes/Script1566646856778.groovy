@@ -187,7 +187,7 @@ WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23511/
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23511/Signature'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLNK-23511/Signature'), 'qwerty')
 
@@ -197,7 +197,7 @@ WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-23511/
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLNK-23511/OkSignature'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.waitForPageLoad(50)
 

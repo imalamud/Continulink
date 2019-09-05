@@ -69,15 +69,15 @@ WebUI.delay(2)
 
 WebUI.waitForPageLoad(50)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30887/a_RN Visit'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30887/a_PCA'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30887/a_RN Visit'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30887/a_PCA'))
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30887/a_08282019'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30887/a_Fecha'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30887/a_08282019'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30887/a_Fecha'))
 
 WebUI.delay(2)
 

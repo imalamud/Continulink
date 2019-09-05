@@ -37,7 +37,7 @@
    <testCaseLink>
       <guid>05f626f3-b5ee-4bcc-b532-ac096d9698ba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-28946 - CE - Add diagnosis</testCaseId>
    </testCaseLink>
    <testCaseLink>
