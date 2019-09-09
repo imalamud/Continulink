@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Fecha</name>
+   <name>a_UltimaFecha</name>
    <tag></tag>
-   <elementGuidId>50298294-d141-42ad-8add-e38fc3b19ccc</elementGuidId>
+   <elementGuidId>3d75526c-881e-42e8-91f3-30df3a8aedbf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;Service1030954&quot;]/table/tbody/tr[1]/td</value>
+         <value>//*[@id=&quot;GS742&quot;]/table/tbody/tr[2]/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,45 +20,38 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onmouseover</name>
+      <name>title</name>
       <type>Main</type>
-      <value>javascript:fnShowHistoryToolTip('New Admission Property Set created by automation_admin with effect from 08/28/2019.','Created On: 08/28/2019');</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onmouseout</name>
-      <type>Main</type>
-      <value>javascript:fnShowHistoryToolTip('','');</value>
+      <value>Active Service Type Property Set</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>javascript:fnProperties(38,30946,'');</value>
+      <value>javascript:fnProperties(688,204863,'');</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>   08/28/2019</value>
+      <value>   01/04/2019</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Service3830946&quot;)/table[1]/tbody[1]/tr[1]/td[1]/a[1]</value>
+      <value>id(&quot;GS688&quot;)/table[1]/tbody[1]/tr[2]/td[1]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Service1030954&quot;]/table/tbody/tr[1]/td</value>
+      <value>//*[@id=&quot;GS742&quot;]/table/tbody/tr[2]/td/a</value>
    </webElementXpaths>
 </WebElementEntity>

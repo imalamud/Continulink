@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Fecha</name>
+   <name>Day</name>
    <tag></tag>
-   <elementGuidId>50298294-d141-42ad-8add-e38fc3b19ccc</elementGuidId>
+   <elementGuidId>7fe767d8-1771-45e6-9dc4-c45b59ccd9e2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;Service1030954&quot;]/table/tbody/tr[1]/td</value>
+         <value>//*[@id=&quot;cboBusinessWeek&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,48 +17,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>font</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onmouseover</name>
       <type>Main</type>
-      <value>javascript:fnShowHistoryToolTip('New Admission Property Set created by automation_admin with effect from 08/28/2019.','Created On: 08/28/2019');</value>
+      <value>JavaScript:select(this);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onmouseout</name>
       <type>Main</type>
-      <value>javascript:fnShowHistoryToolTip('','');</value>
+      <value>JavaScript:deselect(this);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>color</name>
       <type>Main</type>
-      <value>javascript:fnProperties(38,30946,'');</value>
+      <value>blue</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>   08/28/2019</value>
+      <value>Group Bill Rules</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Service3830946&quot;)/table[1]/tbody[1]/tr[1]/td[1]/a[1]</value>
+      <value>id(&quot;Finance18&quot;)/font[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Service1030954&quot;]/table/tbody/tr[1]/td</value>
+      <value>//*[@id=&quot;cboBusinessWeek&quot;]</value>
    </webElementXpaths>
 </WebElementEntity>
