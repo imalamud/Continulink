@@ -74,6 +74,18 @@ WebUI.delay(2)
 
 WebUI.waitForPageLoad(50)
 
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30885/Day'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30885/Day'))
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30885/Day'), 'Fr')
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30885/Day'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
+
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30885/Frequency'), 50)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK-30885/Frequency'))
@@ -152,11 +164,11 @@ WebUI.acceptAlert()
 
 WebUI.delay(3)
 
-WebUI.acceptAlert()
+not_run: WebUI.acceptAlert()
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.acceptAlert()
+not_run: WebUI.acceptAlert()
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 

@@ -1,64 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Fecha</name>
+   <name>ReferralDate</name>
    <tag></tag>
-   <elementGuidId>50298294-d141-42ad-8add-e38fc3b19ccc</elementGuidId>
+   <elementGuidId>e4949387-7faa-4b93-ad15-34d359459894</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;Service1030954&quot;]/table/tbody/tr[1]/td</value>
+         <value>//*[@id=&quot;txtDateOfReferral&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ddClientReferralType</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ddClientReferralType</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onmouseover</name>
+      <name>class</name>
       <type>Main</type>
-      <value>javascript:fnShowHistoryToolTip('New Admission Property Set created by automation_admin with effect from 08/28/2019.','Created On: 08/28/2019');</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onmouseout</name>
-      <type>Main</type>
-      <value>javascript:fnShowHistoryToolTip('','');</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>javascript:fnProperties(38,30946,'');</value>
+      <value>txtSearch</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>   08/28/2019</value>
+      <value>
+	
+
+--Select--Case Manager -MedicaidDischarge PlannerFormer ClientTrust OfficerWaiver Coordinator</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Service3830946&quot;)/table[1]/tbody[1]/tr[1]/td[1]/a[1]</value>
+      <value>id(&quot;ddClientReferralType&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Service1030954&quot;]/table/tbody/tr[1]/td</value>
+      <value>//*[@id=&quot;txtDateOfReferral&quot;]</value>
    </webElementXpaths>
 </WebElementEntity>

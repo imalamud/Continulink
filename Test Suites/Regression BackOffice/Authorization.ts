@@ -4,17 +4,47 @@
    <name>Authorization</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>isaac.malamud@mqs.com.uy;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>ba493604-f111-41f1-ad7a-2bfedf796ec9</testSuiteGuid>
    <testCaseLink>
+      <guid>cb6a15c9-371e-4d3a-8d39-1987859b5652</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d39d92b7-992d-4123-89fb-d82cc17796ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cdce510b-8122-4a36-ac16-29c4d12337dc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b534ea19-9da7-46a3-be08-f95508a407a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-28718 - BO - Full Caregiver creation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>505bb01b-8ca6-4847-ad6a-cd10bceb1e0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30891 - PRE - Pick up - Service - No Authorization Required - FALSE</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>168dfd5b-5bac-4bf7-b0b5-1566e0fb5a95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-31481 - PRE - Matching First Day of Business Week</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e94ebb54-92a8-442c-8e00-99342c0238a8</guid>

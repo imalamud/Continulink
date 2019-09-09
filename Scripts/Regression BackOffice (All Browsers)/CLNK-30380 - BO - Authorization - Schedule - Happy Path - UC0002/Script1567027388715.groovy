@@ -30,9 +30,9 @@ WebUI.delay(2)
 
 WebUI.waitForPageLoad(50)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/Re-run Compliance  Authorization Link'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30380/Schedule Calendar Link'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/Re-run Compliance  Authorization Link'))
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30380/Schedule Calendar Link'))
 
 WebUI.delay(2)
 
@@ -40,45 +40,109 @@ WebUI.switchToDefaultContent()
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/Last name'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30380/Schedule Search Link'), 50)
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30888/Last name'), GlobalVariable.G_ClientLastName)
-
-WebUI.delay(2)
-
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30888/Last name'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30380/Schedule Search Link'))
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/GetClientButton'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30380/Client LastName'), 50)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/GetClientButton'), FailureHandling.OPTIONAL)
-
-WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/ClientSelected'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/ClientSelected'))
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30380/Client LastName'), GlobalVariable.G_ClientLastName)
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/StartAutorization'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/StartAutorization'))
-
-WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/span_Select all'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/span_Select all'))
-
-WebUI.delay(2)
-
-WebUI.scrollToElement(findTestObject('Regression BackOffice/CLINK-30888/StartButton'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/StartButton'))
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30380/Client LastName'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(10)
 
-WebUI.closeBrowser()
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-31354/frame_Capture object_BannerFrame'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30380/input_Logout_btnSearch'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30380/input_Logout_btnSearch'))
+
+WebUI.delay(45)
+
+WebUI.waitForPageLoad(0)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.verifyElementVisible(findTestObject('Regression BackOffice/CLINK-30380/YellowCruz'))
+
+WebUI.delay(10)
+
+WebUI.callTestCase(findTestCase('Regression BackOffice (All Browsers)/CLNK-30886 - PRE - Pick up - Service - No Authorization Required - TRUE'), 
+    [:], FailureHandling.OPTIONAL)
+
+WebUI.delay(10)
+
+WebUI.callTestCase(findTestCase('Regression BackOffice (All Browsers)/CLNK-30888 - BO - Re-run Compliance Authorization'), 
+    [:], FailureHandling.OPTIONAL)
+
+WebUI.callTestCase(findTestCase('Regression BackOffice (All Browsers)/CLNK-23439 - Clink - Back office Client'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(60)
+
+WebUI.delay(3)
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/ScheduleLink'), 100)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/ScheduleLink'))
+
+WebUI.delay(2)
+
+WebUI.waitForPageLoad(50)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30380/Schedule Calendar Link'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30380/Schedule Calendar Link'))
+
+WebUI.delay(2)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30380/Schedule Search Link'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30380/Schedule Search Link'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30380/Client LastName'), 50)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30380/Client LastName'), GlobalVariable.G_ClientLastName)
+
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK-30380/Client LastName'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+
+WebUI.delay(10)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-31354/frame_Capture object_BannerFrame'), 30)
+
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30380/input_Logout_btnSearch'), 50)
+
+WebUI.click(findTestObject('Regression BackOffice/CLINK-30380/input_Logout_btnSearch'))
+
+WebUI.delay(45)
+
+WebUI.waitForPageLoad(0)
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+
+WebUI.verifyElementVisible(findTestObject('Regression BackOffice/CLINK-30380/YellowCruz'))
+
+WebUI.delay(10)
 

@@ -51,6 +51,12 @@ WebUI.waitForPageLoad(50)
 
 WebUI.delay(2)
 
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/ReferralDate'), 50)
+
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/ReferralDate'), GlobalVariable.G_Date)
+
+WebUI.delay(2)
+
 WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/ReferralType'), 50)
 
 WebUI.focus(findTestObject('Regression BackOffice/CLNK-23449/ReferralType'))
@@ -344,7 +350,7 @@ WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/btnNextServices'), 
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/Admit/SOCDate'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/Admit/SOCDate'), GlobalVariable.G_Date)
 
 WebUI.delay(4)
 
@@ -381,7 +387,7 @@ WebUI.sendKeys(findTestObject('Regression BackOffice/CLNK-23449/Admit/QCode'), K
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/Admit/Effective Begin Date'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'())
+WebUI.setText(findTestObject('Regression BackOffice/CLNK-23449/Admit/Effective Begin Date'), GlobalVariable.G_Date)
 
 WebUI.delay(4)
 
@@ -440,8 +446,8 @@ WebUI.delay(2)
 
 WebUI.waitForPageLoad(50)
 
-WebUI.verifyMatch(CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumberwithSlash'(), WebUI.getAttribute(findTestObject(
-            'Regression BackOffice/CLNK-23449/Validation/DateValidation'), 'value'), false, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch(GlobalVariable.G_Date, WebUI.getAttribute(findTestObject('Regression BackOffice/CLNK-23449/Validation/DateValidation'), 
+        'value'), false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -558,11 +564,11 @@ WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23449/Val
 
 WebUI.click(findTestObject('Regression BackOffice/CLNK-23449/Validation/Payer/PayerSourcesLink'))
 
-WebUI.delay(2)
+WebUI.delay(10)
 
 WebUI.switchToDefaultContent()
 
-WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 30)
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameMain'), 60)
 
 WebUI.waitForPageLoad(50)
 

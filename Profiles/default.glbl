@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://qanewpoc.continulink.com:81/backoffice/Login.aspx'</initValue>
+      <initValue>'https://qanewpoc.continulink.com:8443/Backoffice/'</initValue>
       <name>G_SiteBackOffice</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Maria'</initValue>
+      <initValue>'Gaston'</initValue>
       <name>G_ClientFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Macinsky'</initValue>
+      <initValue>'Gusisky'</initValue>
       <name>G_ClientLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,27 +76,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Veinte'</initValue>
+      <initValue>'Cincuenta'</initValue>
       <name>G_CaregiverFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Veintillo'</initValue>
+      <initValue>'Cincuentilla'</initValue>
       <name>G_CareGiverLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'535870351'</initValue>
+      <initValue>'535870356'</initValue>
       <name>G_CaregiverSSN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'veinte'</initValue>
+      <initValue>'cincuenta'</initValue>
       <name>G_CaregiverUserName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Data used in Test Case 30885</description>
-      <initValue>'08/02/2019'</initValue>
+      <initValue>'09/06/2019'</initValue>
       <name>G_Auth_Date</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Data used in Test Case 23449</description>
+      <initValue>'06/01/2019'</initValue>
+      <name>G_Date</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
