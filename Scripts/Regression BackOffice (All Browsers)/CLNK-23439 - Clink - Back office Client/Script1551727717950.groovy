@@ -13,12 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.By as By
 
-//import org.openqa.selenium.WebDriver as WebDriver
-//import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
-//import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-//import org.openqa.selenium.WebElement as WebElement
-//import org.openqa.selenium.By as By
 WebUI.deleteAllCookies()
 
 WebUI.openBrowser(GlobalVariable.G_SiteBackOffice)
@@ -37,18 +37,18 @@ WebUI.waitForPageLoad(60)
 
 WebUI.delay(2)
 
-WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK-Frames/FrameFrameLeft'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK-Frames/FrameFrameLeft'), 5, FailureHandling.OPTIONAL)
 
-//WebDriver driver = DriverFactory.getWebDriver()
-//WebElement Frame = driver.findElement(By.xpath('//*[@id="FrameLeft"]'))
-//driver.switchTo().frame(Frame)
-//WebElement Intake = driver.findElement(By.xpath('//div[2]/span/table/tbody/tr/td'))
-//WebDriverWait wait = new WebDriverWait(driver, long time = 10)
-WebUI.delay(2)
+// WebDriver driver = DriverFactory.getWebDriver()
+// WebElement Frame = driver.findElement(By.xpath('//*[@id="FrameLeft"]'))
+// driver.switchTo().frame(Frame)
+// WebElement Intake = driver.findElement(By.xpath('//div[2]/span/table/tbody/tr/td'))
+// WebDriverWait wait = new WebDriverWait(driver, long time = 10)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-Frames/ClientIntake'), 50)
+WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK-Frames/ClientIntake'), 100, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-Frames/ClientIntake'), 50, FailureHandling.OPTIONAL)
+WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK-Frames/ClientIntake'), 100, FailureHandling.OPTIONAL)
 
 WebUI.switchToDefaultContent()
 

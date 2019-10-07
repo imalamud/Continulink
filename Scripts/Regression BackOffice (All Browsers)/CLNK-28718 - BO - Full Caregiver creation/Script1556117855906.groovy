@@ -705,13 +705,13 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Password'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Password'), GlobalVariable.G_PasswordBackOffice)
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Password'), '"password"')
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Confirm newPassword'))
 
-WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Confirm newPassword'), GlobalVariable.G_PasswordBackOffice)
+WebUI.sendKeys(findTestObject('Regression BackOffice/CLINK - 28718/Administrator/Confirm newPassword'), 'password')
 
 WebUI.delay(3)
 
@@ -751,34 +751,33 @@ WebUI.waitForPageLoad(60)
 
 WebUI.delay(8)
 
-if (WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/HereLink'), 10)) 
-{
+if (WebUI.verifyElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/HereLink'), 10)) {
+    WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/HereLink'))
 
-	WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/HereLink'))
+    WebUI.delay(2)
 
-	WebUI.delay(2)
+    WebUI.waitForPageLoad(50)
 
-	WebUI.waitForPageLoad(50)
+    WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/Current Password'), 50)
 
-	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/Current Password'), 50)
+    WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/Current Password'), 'password')
 
-	WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/Current Password'), GlobalVariable.G_Password)
+    WebUI.delay(2)
 
-	WebUI.delay(2)
+    WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/New Password'), 50)
 
-	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/New Password'), 50)
+    WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/New Password'), GlobalVariable.G_Password)
 
-	WebUI.setText(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/New Password'), GlobalVariable.G_Password)
+    WebUI.delay(2)
 
-	WebUI.delay(2)
+    WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/OKButton'), 100)
 
-	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/OKButton'), 100)
+    WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/OKButton'))
 
-	WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/ChangePassword/OKButton'))
+    WebUI.delay(2)
 
-	WebUI.delay(2)
-
-	WebUI.acceptAlert()
+    WebUI.acceptAlert()
 }
+
 WebUI.closeBrowser()
 

@@ -169,25 +169,43 @@
    <testCaseLink>
       <guid>9d275119-86f7-43b0-995d-86f22f1f8df4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30885 - PRE - FLAGS - GBRules - OFF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ae169d38-59af-42db-95fc-58233c61cd0e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30891 - PRE - Pick up - Service - No Authorization Required - FALSE</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4d651b77-b028-4fe5-aea1-cee57d6da63c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-31481 - PRE - Matching First Day of Business Week</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7a757f05-e36e-4cf3-95a6-c45394e69622</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30887 - PRE - No authorization created</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>87c6c0af-3ea7-4a57-bf67-08861af3518b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30888 - BO - Re-run Compliance Authorization</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>953d0f57-8e02-4f17-ba59-4c6a7cc8452d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23448 - Back office Setup Caregiver Remote Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b61cee0-de91-43ec-9079-b917e8b88e17</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-30380 - BO - Authorization - Schedule - Happy Path - UC0002</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>e11cd12f-73ca-44d1-ad15-0616c7254e1b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23449 - Quick Intake Wizard</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -37,25 +37,25 @@
    <testCaseLink>
       <guid>f313477b-a118-4068-a30f-d914608b6bb3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-28718 - BO - Full Caregiver creation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2d5c2f4a-0bb9-41d8-95e6-032a39707efe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23442 - Back office Caregiver Demographics</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4c859da0-82d9-41dd-9434-173e6abb7d45</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-23444 - Back office Caregiver Attributes</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1cb4110c-1cbf-4c14-9a4c-ce3d9fcabdbb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-10235 - Enter a Need from Schedule Block</testCaseId>
    </testCaseLink>
    <testCaseLink>

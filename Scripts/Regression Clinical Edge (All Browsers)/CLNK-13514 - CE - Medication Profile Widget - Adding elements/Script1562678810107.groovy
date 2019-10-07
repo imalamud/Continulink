@@ -85,13 +85,13 @@ WebUI.delay(2)
 WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLNK-13514/Medication/MedicationName'), Keys.chord(Keys.ARROW_DOWN, 
         Keys.ENTER))
 
-WebUI.delay(3)
+WebUI.delay(6)
 
 WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLNK-13514/Medication/MedicationStarted'), 50)
 
 WebUI.click(findTestObject('Regression Clinical Edge/CLNK-13514/Medication/MedicationStarted'))
 
-WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLNK-13514/Medication/MedicationStarted'), CustomKeywords.'getDate.DateUtilities.getDateMonthDayYearNumber'())
+WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLNK-13514/Medication/MedicationStarted'), GlobalVariable.G_Date)
 
 WebUI.delay(4)
 
