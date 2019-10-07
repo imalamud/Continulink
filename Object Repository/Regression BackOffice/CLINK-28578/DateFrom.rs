@@ -1,75 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ClientIntake</name>
+   <name>DateFrom</name>
    <tag></tag>
-   <elementGuidId>2283b2e7-36e9-4159-898f-a72220367f06</elementGuidId>
+   <elementGuidId>717695ad-3e8b-4d44-bab7-9f22f898500c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@id='m2']/span/table/tbody/tr/td[2][count(. | //*[(text() = 'Client / Intake' or . = 'Client / Intake') and @ref_element = 'Object Repository/Regression BackOffice/CLINK-Frames/FrameFrameLeft']) = count(//*[(text() = 'Client / Intake' or . = 'Client / Intake') and @ref_element = 'Object Repository/Regression BackOffice/CLINK-Frames/FrameFrameLeft'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//td[contains(text(),&quot;Client / Intake&quot;)]</value>
+         <value>//*[@id=&quot;txtDateFrom&quot;]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>JavaScript:fnToggleBoxForProcessBlock(this);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>width</name>
-      <type>Main</type>
-      <value>95%</value>
+      <value>font</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onmouseover</name>
       <type>Main</type>
-      <value>JavaScript:Sel(this);</value>
+      <value>JavaScript:select(this);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onmouseout</name>
       <type>Main</type>
-      <value>JavaScript:Desel(this);</value>
+      <value>JavaScript:deselect(this);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>blue</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Client / Intake</value>
+      <value>Notes QA</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='m2']/span/table/tbody/tr/td[2]</value>
+      <value>id(&quot;Clinical10000&quot;)/font[1]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//td[contains(text(),&quot;Client / Intake&quot;)]</value>
+      <value>//*[@id=&quot;txtDateFrom&quot;]</value>
    </webElementXpaths>
 </WebElementEntity>

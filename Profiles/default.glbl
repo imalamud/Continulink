@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qwerty'</initValue>
+      <initValue>'qwerty1'</initValue>
       <name>G_PasswordBackOffice</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Gaston'</initValue>
+      <initValue>'Yayo'</initValue>
       <name>G_ClientFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Gusisky'</initValue>
+      <initValue>'Yayisky'</initValue>
       <name>G_ClientLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,22 +76,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Cincuenta'</initValue>
+      <initValue>'ciento60'</initValue>
       <name>G_CaregiverFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Cincuentilla'</initValue>
+      <initValue>'Ciento60illa'</initValue>
       <name>G_CareGiverLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'535870356'</initValue>
+      <initValue>'535870460'</initValue>
       <name>G_CaregiverSSN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'cincuenta'</initValue>
+      <initValue>'ciento60'</initValue>
       <name>G_CaregiverUserName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -101,7 +101,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Data used in Test Case 23449</description>
-      <initValue>'06/01/2019'</initValue>
+      <initValue>'07/01/2019'</initValue>
       <name>G_Date</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

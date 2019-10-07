@@ -67,41 +67,49 @@ WebUI.delay(2)
 
 WebUI.waitForPageLoad(50)
 
-WebUI.scrollToElement(findTestObject('Regression Clinical Edge/CLINK - 23504/Plan of Care Section'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-25103/a_Revision to Plan of Care'), 100)
+
+WebUI.click(findTestObject('Regression Clinical Edge/CLINK-25103/a_Revision to Plan of Care'))
+
+WebUI.delay(5)
+
+WebUI.waitForPageLoad(30)
+
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-25103/SectionLink'), 100)
+
+WebUI.click(findTestObject('Regression Clinical Edge/CLINK-25103/SectionLink'))
 
 WebUI.delay(2)
 
-if (WebUI.verifyElementPresent(findTestObject('Regression Clinical Edge/CLINK-23502/AddPOC'), 10)) {
-    WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23502/AddPOC'), 50)
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-25103/Problems  Interventions  Goals'), 100)
 
-    WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23502/AddPOC'))
+WebUI.click(findTestObject('Regression Clinical Edge/CLINK-25103/Problems  Interventions  Goals'))
 
-    WebUI.delay(3)
+WebUI.delay(2)
 
-    WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23502/Revision to POC'), 50)
+WebUI.waitForPageLoad(30)
 
-    WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23502/Revision to POC'))
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-25103/AddProblems'), 100)
 
-    WebUI.delay(3)
+WebUI.click(findTestObject('Regression Clinical Edge/CLINK-25103/AddProblems'))
 
-    WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23502/Date'), 50)
+WebUI.delay(5)
 
-    WebUI.sendKeys(findTestObject('Regression Clinical Edge/CLINK-23502/Date'), GlobalVariable.G_Date)
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-25103/Frequency'), 100)
 
-    WebUI.delay(3)
+WebUI.click(findTestObject('Regression Clinical Edge/CLINK-25103/Frequency'))
 
-    WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23502/Ok'), 50)
+WebUI.delay(2)
 
-    WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23502/Ok'))
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-25103/SaveButton'), 100)
 
-    WebUI.delay(3)
+WebUI.click(findTestObject('Regression Clinical Edge/CLINK-25103/SaveButton'))
 
-    WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-23502/Save'), 50)
+WebUI.delay(2)
 
-    WebUI.click(findTestObject('Regression Clinical Edge/CLINK-23502/Save'))
+WebUI.waitForElementPresent(findTestObject('Regression Clinical Edge/CLINK-25103/SaveAndSubmit'), 100)
 
-    WebUI.delay(3)
+WebUI.click(findTestObject('Regression Clinical Edge/CLINK-25103/SaveAndSubmit'))
 
-    WebUI.waitForPageLoad(0)
-}
+WebUI.delay(2)
 

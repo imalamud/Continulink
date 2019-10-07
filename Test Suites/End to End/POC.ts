@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>1e1dc0e8-d86a-4d19-a903-a2a7560fd104</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-28718 - BO - Full Caregiver creation</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -69,5 +69,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression BackOffice (All Browsers)/CLNK-17593 -7231 Main Application - Clinical Block - View POC and RPOC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c364e645-2f42-4e7b-bd46-f3c85afdbea8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression Clinical Edge (All Browsers)/CLNK-23502 - Clinical Edge - Create Revision to Plan of Care (RPOC)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
