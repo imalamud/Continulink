@@ -31,19 +31,27 @@ WebUI.delay(3)
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLINK-Frames/FrameFrameLeft'), 5)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30368/FinanceLink'), 60)
+if (WebUI.verifyElementVisible(findTestObject('Regression BackOffice/CLNK-30368/Post Billing Link'))== true)
+{
+	WebUI.click(findTestObject('Regression BackOffice/CLNK-30368/Post Billing Link'))
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-30368/FinanceLink'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.delay(2)
+}else
+{
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30368/FinanceLink'), 60)
 
-WebUI.delay(2)
+	WebUI.click(findTestObject('Regression BackOffice/CLNK-30368/FinanceLink'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30368/Post Billing Link'), 60)
+	WebUI.delay(2)
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-30368/Post Billing Link'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30368/Post Billing Link'), 60)
 
-WebUI.delay(2)
+	WebUI.click(findTestObject('Regression BackOffice/CLNK-30368/Post Billing Link'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForPageLoad(60)
+	WebUI.delay(2)
+}
+
+WebUI.waitForPageLoad(50)
 
 WebUI.switchToDefaultContent()
 

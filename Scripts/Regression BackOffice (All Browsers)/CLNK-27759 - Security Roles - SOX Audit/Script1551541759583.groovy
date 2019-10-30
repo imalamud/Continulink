@@ -28,21 +28,29 @@ WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/AdministratorsTab'
 
 WebUI.delay(2)
 
+if (WebUI.verifyElementVisible(findTestObject('Regression BackOffice/CLINK-27759/AdministratorReportsLink'))== true)
+{
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/AdministratorReportsLink'))
+
+	WebUI.delay(2)
+}else
+{
+			WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/AdminSystemSettingsLink'), 50)
+
+			WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/AdminSystemSettingsLink'))
+
+			WebUI.delay(2)
+
+			WebUI.scrollToElement(findTestObject('Regression BackOffice/CLINK-27759/AdministratorReportsLink'), 50)
+
+			WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/AdministratorReportsLink'), 50)
+
+			WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/AdministratorReportsLink'))
+
+			WebUI.delay(2)
+}
+
 WebUI.waitForPageLoad(50)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/AdminSystemSettingsLink'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/AdminSystemSettingsLink'))
-
-WebUI.delay(2)
-
-WebUI.scrollToElement(findTestObject('Regression BackOffice/CLINK-27759/AdministratorReportsLink'), 50)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-27759/AdministratorReportsLink'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLINK-27759/AdministratorReportsLink'))
-
-WebUI.delay(2)
 
 WebUI.switchToDefaultContent()
 

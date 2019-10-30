@@ -22,17 +22,27 @@ WebUI.delay(3)
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/ScheduleIcon'), 100)
+if (WebUI.verifyElementVisible(findTestObject('Regression BackOffice/CLNK-10235/EnterNeeds'))== true)
+{
+	WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/EnterNeeds'))
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/ScheduleIcon'))
+	WebUI.delay(2)
+}else
+{
+			WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/ScheduleIcon'), 100)
 
-WebUI.delay(2)
+			WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/ScheduleIcon'))
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/EnterNeeds'), 100)
+			WebUI.delay(2)
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/EnterNeeds'))
+			WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-10235/EnterNeeds'), 100)
 
-WebUI.delay(2)
+			WebUI.click(findTestObject('Regression BackOffice/CLNK-10235/EnterNeeds'))
+
+			WebUI.delay(2)
+}
+
+WebUI.waitForPageLoad(50)
 
 WebUI.switchToDefaultContent()
 
