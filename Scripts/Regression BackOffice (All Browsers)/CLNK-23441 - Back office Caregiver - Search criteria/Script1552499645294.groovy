@@ -21,19 +21,25 @@ WebUI.delay(3)
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23441/Caregiver  HRLink'), 100)
+if (WebUI.verifyElementVisible(findTestObject('Regression BackOffice/CLINK - 28718/Caregiver Search')) == true) {
+    WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Caregiver Search'))
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-23441/Caregiver  HRLink'))
+    WebUI.delay(2)
+} else {
+    WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23441/Caregiver  HRLink'), 100)
 
-WebUI.delay(2)
+    WebUI.click(findTestObject('Regression BackOffice/CLNK-23441/Caregiver  HRLink'))
+
+    WebUI.delay(2)
+
+    WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK - 28718/Caregiver Search'), 100)
+
+    WebUI.click(findTestObject('Regression BackOffice/CLINK - 28718/Caregiver Search'))
+
+    WebUI.delay(2)
+}
 
 WebUI.waitForPageLoad(50)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-23441/Caregiver Search'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLNK-23441/Caregiver Search'))
-
-WebUI.delay(2)
 
 WebUI.switchToDefaultContent()
 

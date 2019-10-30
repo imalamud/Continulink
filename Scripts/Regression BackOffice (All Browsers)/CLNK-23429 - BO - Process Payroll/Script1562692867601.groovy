@@ -31,17 +31,25 @@ WebUI.delay(3)
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 5)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30366/PayrollLink'), 60)
+if (WebUI.verifyElementVisible(findTestObject('Regression BackOffice/CLNK-30366/Process Payroll'))== true)
+{
+	WebUI.click(findTestObject('Regression BackOffice/CLNK-30366/Process Payroll'))
 
-WebUI.click(findTestObject('Regression BackOffice/CLNK-30366/PayrollLink'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30366/Process Payroll'), 60)
-
-WebUI.click(findTestObject('Regression BackOffice/CLNK-30366/Process Payroll'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(2)
+	WebUI.delay(2)
+}else
+{
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30366/PayrollLink'), 60)
+	
+	WebUI.click(findTestObject('Regression BackOffice/CLNK-30366/PayrollLink'), FailureHandling.CONTINUE_ON_FAILURE)
+	
+	WebUI.delay(2)
+	
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLNK-30366/Process Payroll'), 60)
+	
+	WebUI.click(findTestObject('Regression BackOffice/CLNK-30366/Process Payroll'), FailureHandling.CONTINUE_ON_FAILURE)
+	
+	WebUI.delay(2)
+}
 
 WebUI.waitForPageLoad(60)
 

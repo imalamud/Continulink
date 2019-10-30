@@ -22,19 +22,28 @@ WebUI.delay(3)
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/ScheduleLink'), 100)
+if (WebUI.verifyElementVisible(findTestObject('Regression BackOffice/CLINK-30888/Re-run Compliance  Authorization Link'))== true)
+{
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/Re-run Compliance  Authorization Link'))
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/ScheduleLink'))
+	WebUI.delay(2)
+}else
+{
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/ScheduleLink'), 100)
 
-WebUI.delay(2)
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/ScheduleLink'))
+
+	WebUI.delay(2)
+
+	WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/Re-run Compliance  Authorization Link'), 50)
+
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/Re-run Compliance  Authorization Link'))
+
+	WebUI.delay(2)
+
+}
 
 WebUI.waitForPageLoad(50)
-
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-30888/Re-run Compliance  Authorization Link'), 50)
-
-WebUI.click(findTestObject('Regression BackOffice/CLINK-30888/Re-run Compliance  Authorization Link'))
-
-WebUI.delay(2)
 
 WebUI.switchToDefaultContent()
 

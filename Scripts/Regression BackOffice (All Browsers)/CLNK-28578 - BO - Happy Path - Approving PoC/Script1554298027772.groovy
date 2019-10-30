@@ -22,17 +22,27 @@ WebUI.delay(3)
 
 WebUI.switchToFrame(findTestObject('Regression BackOffice/CLNK-23449/FrameLeft'), 30)
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/ClinicalLink'), 100)
+if (WebUI.verifyElementVisible(findTestObject('Regression BackOffice/CLINK-28578/Notes QA'))== true)
+{
+	WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/Notes QA'))
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/ClinicalLink'))
+	WebUI.delay(2)
+}else
+{
+			WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/ClinicalLink'), 100)
 
-WebUI.delay(2)
+			WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/ClinicalLink'))
 
-WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/Notes QA'), 50)
+			WebUI.delay(2)
 
-WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/Notes QA'))
+			WebUI.waitForElementPresent(findTestObject('Regression BackOffice/CLINK-28578/Notes QA'), 50)
 
-WebUI.delay(2)
+			WebUI.click(findTestObject('Regression BackOffice/CLINK-28578/Notes QA'))
+
+			WebUI.delay(2)
+}
+
+WebUI.waitForPageLoad(50)
 
 WebUI.switchToDefaultContent()
 
